@@ -5,20 +5,20 @@ from classes.geography import *
 
 
 class Olfen(Stadt):
-	einwohner 				= 12674 # Wikipedia
+	einwohner 			= 12674 # Wikipedia
 
-	flaeche_sqm				= 52.43 # Wikipedia
+	flaeche_sqm			= 52.43 # Wikipedia
 	location_altitude	= 48 # Wikipedia
 
 	
 class Germany(Country):
-	einwohner 								= 83000000 # Wikipedia
-	haushalte_einzel					= 17263000 # Statista
+	einwohner 				= 83000000 # Wikipedia
+	haushalte_einzel		= 17263000 # Statista
 
-	flaeche_sqm								= 357578.17 # Wikipedia
+	flaeche_sqm				= 357578.17 # Wikipedia
 
-	wind_nennleistung_kw 			= 53000000
-	solar_nennleistung_kw 		= 46000000
+	wind_nennleistung_kw 	= 53000000
+	solar_nennleistung_kw	= 46000000
 
 
 

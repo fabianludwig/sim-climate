@@ -6,9 +6,9 @@ from functions.print import *
 
 class EnergySource:
 	erzeugung_twh_2018 	= 0
-	co2_intensity				= 0 # g CO2 per kWh
-	co2_initial					= 0 # kWh (int or object of ints)
-	lifespan						= 0 # in years
+	co2_intensity		= 0 # g CO2 per kWh
+	co2_initial			= 0 # kWh (int or object of ints)
+	lifespan			= 0 # in years
 
 	def total_emissions_in_g(self):
 		return self.erzeugung_twh_2018 * 1000 * 1000 * self.co2_intensity
@@ -40,30 +40,30 @@ class EnergySource:
 
 class Braunkohle(EnergySource):
 	erzeugung_twh_2018 	= 146
-	co2_intensity				= 1000 # 729-1230 (001_Bundestag_Bilanzen)
+	co2_intensity		= 1000 # 729-1230 (001_Bundestag_Bilanzen)
 
 class Kernenergie(EnergySource):
 	erzeugung_twh_2018 	= 76
-	co2_intensity				= 32 # (001_Bundestag_Bilanzen)
+	co2_intensity		= 32 # (001_Bundestag_Bilanzen)
 
 class Steinkohle(EnergySource):
 	erzeugung_twh_2018 	= 83
-	co2_intensity				= 850 # 622-1080 (001_Bundestag_Bilanzen)
+	co2_intensity		= 850 # 622-1080 (001_Bundestag_Bilanzen)
 
 class Erdgas(EnergySource):
 	erzeugung_twh_2018 	= 83
-	co2_intensity				= 54 # 428,148,49,-409 (001_Bundestag_Bilanzen)
+	co2_intensity		= 54 # 428,148,49,-409 (001_Bundestag_Bilanzen)
 
 class Mineraloele(EnergySource):
 	erzeugung_twh_2018 	= 5
-	co2_intensity				= 890
+	co2_intensity		= 890
 
 # -------------------- Erneuerbare Energieträger -------------
 
 class Photovoltaik(EnergySource):
 	erzeugung_twh_2018 	= 46.2
-	co2_intensity				= 120 # 80-160 (001_Bundestag_Bilanzen)
-	lifespan						= 20 # (001_Bundestag_Bilanzen)
+	co2_intensity		= 120 # 80-160 (001_Bundestag_Bilanzen)
+	lifespan			= 20 # (001_Bundestag_Bilanzen)
 
 	def energy_payback_time(self):
 		# Abhängig von Sonneneinstrahlung am Standort (001_Bundestag_Bilanzen)
@@ -73,8 +73,8 @@ class Photovoltaik(EnergySource):
 
 class Windenergie(EnergySource):
 	erzeugung_twh_2018 	= 111.6
-	co2_intensity				= 12 # 8-16
-	co2_initial					= {
+	co2_intensity		= 12 # 8-16
+	co2_initial			= {
 		"3_rotorblaetter": 318000,
 		"generator": 799000,
 		"gondel": 504000,
@@ -90,12 +90,12 @@ class Windenergie(EnergySource):
 
 class Biomasse(EnergySource):
 	erzeugung_twh_2018 	= 51.3
-	co2_intensity				= 0
+	co2_intensity		= 0
 
 class Wasserkraft(EnergySource):
 	erzeugung_twh_2018 	= 16.5
-	co2_intensity				= 22 # 4-40 (001_Bundestag_Bilanzen)
-	lifespan						= 100 # (001_Bundestag_Bilanzen)
+	co2_intensity		= 22 # 4-40 (001_Bundestag_Bilanzen)
+	lifespan			= 100 # (001_Bundestag_Bilanzen)
 
 
 
@@ -105,12 +105,12 @@ class Wasserkraft(EnergySource):
 
 class EnergieForm:
 	nennleistung_kwh 			= 1
-	kosten_co2 						= None
-	kosten_geld 					= 1
+	kosten_co2 					= None
+	kosten_geld 				= 1
 	platzbedarf_sqm				= 1
 
 	location_latitude			= 0
-	location_longitude		= 0
+	location_longitude			= 0
 	location_altitude			= 0
 
 	einspeiseverguetung_cent 	= 10

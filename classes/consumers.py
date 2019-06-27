@@ -6,15 +6,15 @@ from .energy import *
 
 class Person:
 	verbrauch_jahr_kwh 	= 1554
-	age									= 32
-	gender							= 'm' #(m/f)
+	age					= 32
+	gender				= 'm' #(m/f)
 
 
 class Haushalt:
-	persons 						= 2
+	persons 	= 2
 
-	solaranlage 				= Solaranlage()
-	person							= Person()
+	solaranlage = Solaranlage()
+	person		= Person()
 
 	def jahreskosten_in_eur(self):
 		return self.verbrauch_jahr_kwh() * EURO_PRO_KWH
@@ -27,11 +27,11 @@ class Haushalt:
 
 
 class EinPersonenHaushalt(Haushalt):
-	persons 						= 1
+	persons 	= 1
 
 
 class MehrPersonenHaushalt(Haushalt):
-	persons 						= 2.734
+	persons 	= 2.734
 
 
 class Industry:

@@ -13,26 +13,26 @@ from .consumers import *
 
 
 class Geography:
-	einwohner 								= 10000
-	haushalte_einzel					= 5000
+	einwohner 				= 10000
+	haushalte_einzel		= 5000
 
-	flaeche_sqm								= 50
-	location_latitude					= 0
-	location_longitude				= 0
-	location_altitude					= 0
+	flaeche_sqm				= 50
+	location_latitude		= 0
+	location_longitude		= 0
+	location_altitude		= 0
 
-	wind_nennleistung_kw 			= 0
-	solar_nennleistung_kw 		= 0
+	wind_nennleistung_kw 	= 0
+	solar_nennleistung_kw 	= 0
 
 	def __init__(self):
-		self.haushalt								= Haushalt()
-		self.haushalt_einzel				= EinPersonenHaushalt()
+		self.haushalt				= Haushalt()
+		self.haushalt_einzel		= EinPersonenHaushalt()
 		self.haushalt_mehrpersonen	= MehrPersonenHaushalt()
-		self.industrie							= Industry()
-		self.gewerbe								= Gewerbe()
+		self.industrie				= Industry()
+		self.gewerbe				= Gewerbe()
 
-		self.windrad								= Windrad()
-		self.solaranlage						= Solaranlage()
+		self.windrad				= Windrad()
+		self.solaranlage			= Solaranlage()
 
 	def print_results(self):
 		print("\
@@ -150,29 +150,29 @@ class Geography:
 
 
 class Stadt(Geography):
-	einwohner 					= 10000
-	flaeche_sqm					= 50
+	einwohner 			= 10000
+	flaeche_sqm			= 50
 
-	location_latitude		= 0
+	location_latitude	= 0
 	location_longitude	= 0
-	location_altitude		= 0
+	location_altitude	= 0
 
 
 
 class Bundesland(Geography):
-	einwohner 					= 10000000
-	flaeche_sqm					= 50000
+	einwohner 			= 10000000
+	flaeche_sqm			= 50000
 
-	location_latitude		= 0
+	location_latitude	= 0
 	location_longitude	= 0
-	location_altitude		= 0
+	location_altitude	= 0
 
 
 
 class Country(Geography):
-	einwohner 					= 10000000
-	flaeche_sqm					= 50000
+	einwohner 			= 10000000
+	flaeche_sqm			= 50000
 
-	location_latitude		= 0
+	location_latitude	= 0
 	location_longitude	= 0
-	location_altitude		= 0
+	location_altitude	= 0
