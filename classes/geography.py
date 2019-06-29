@@ -6,9 +6,8 @@ locale.setlocale( locale.LC_ALL, 'de_DE' )
 from globals import *
 from functions.print import *
 
-from .energy import *
+from .energy.energysources import *
 from .consumers import *
-
 
 
 
@@ -31,8 +30,8 @@ class Geography:
 		self.industrie				= Industry()
 		self.gewerbe				= Gewerbe()
 
-		self.windrad				= Windrad()
-		self.solaranlage			= Solaranlage()
+		self.windenergie			= Windenergie()
+		self.photovoltaik			= Photovoltaik()
 
 	def print_results(self):
 		print("\
@@ -76,13 +75,13 @@ class Geography:
 		return self.wind_nennleistung_kw * 24 * 365.25
 	
 	def wind_leistung_jahr_kw(self):
-		return self.wind_nennleistung_jahr_kw() * self.windrad.jahresmittel()
+		return self.wind_nennleistung_jahr_kw() * self.windenergie.get_efficiency()
 	
 	def solar_nennleistung_jahr_kw(self):
 		return self.solar_nennleistung_kw * 24 * 365.25
 	
 	def solar_leistung_jahr_kw(self):
-		return self.solar_nennleistung_jahr_kw() * self.solaranlage.jahresmittel()
+		return self.solar_nennleistung_jahr_kw() * self.photovoltaik.get_efficiency()
 	
 	# -------------- Energie --------------
 
@@ -121,26 +120,23 @@ class Geography:
 
 	def windraeder_benoetigt(self):
 		return math.ceil(
-			self.verbrauch_jahr_kwh() / self.windrad.ertrag_jahr_kwh()
+			self.verbrauch_jahr_kwh() / self.windenergie.yearly_return()
 		)
 		
 	def windraeder_noch_zu_bauen(self):
 		return math.ceil(
-			(self.verbrauch_jahr_kwh() - self.ertrag_erneuerbare_jahr_kw()) / self.windrad.ertrag_jahr_kwh()
+			(self.verbrauch_jahr_kwh() - self.ertrag_erneuerbare_jahr_kw()) / self.windenergie.yearly_return()
 		)
 
 	def windraeder_kosten(self):
-		return self.windraeder_noch_zu_bauen() * self.windrad.kosten_geld
-	
-	def windraeder_ertrag_jahr_eur(self):
-		return self.windraeder_benoetigt() * self.windrad.ertrag_jahr_eur()
-	
+		return self.windraeder_noch_zu_bauen() * self.windenergie.expense
+		
 	def windraeder_ertrag_jahr_kwh(self):
-		return self.windraeder_benoetigt() * self.windrad.ertrag_jahr_kwh()
+		return self.windraeder_benoetigt() * self.windenergie.yearly_return()
 
 	def windraeder_amortisiert_nach(self):
 		ueberschuss_pro_jahr = self.windraeder_ertrag_jahr_kwh() - self.verbrauch_jahr_kwh()
-		einspeiseverguetung_pro_jahr = (ueberschuss_pro_jahr * self.windrad.einspeiseverguetung_cent) / 100
+		einspeiseverguetung_pro_jahr = (ueberschuss_pro_jahr * self.windenergie.einspeiseverguetung_cent) / 100
 		return self.windraeder_kosten() / (self.jahreskosten_in_eur()+einspeiseverguetung_pro_jahr)
 	
 	def windraeder_kosten_pro_haushalt(self):
@@ -176,3 +172,6 @@ class Country(Geography):
 	location_latitude	= 0
 	location_longitude	= 0
 	location_altitude	= 0
+
+	einspeiseverguetung_cent_windenergie	= 4.38
+	einspeiseverguetung_cent_solarenergie	= 10.64

@@ -1,20 +1,20 @@
 def print_watt(menge_in_kw):
 	if menge_in_kw > (1000*1000*1000):
-		return "{} TW".format(
+		return "{} tWh".format(
 			round(menge_in_kw/(1000*1000*1000), 2)
 		)
 	
 	if menge_in_kw > (1000*1000):
-		return "{} GW".format(
+		return "{} gWh".format(
 			round(menge_in_kw/(1000*1000), 2)
 		)
 
 	if menge_in_kw > 1000:
-		return "{} MW".format(
+		return "{} mWh".format(
 			round(menge_in_kw/1000, 2)
 		)
 	
-	return "{} KW".format(
+	return "{} kWh".format(
 		round(menge_in_kw, 2)
 	)
 
@@ -59,3 +59,22 @@ def print_weight(gramm):
 	return "{} g".format(
 		round(gramm, 2)
 	)
+
+
+def print_months(months):
+	years 	= int(months/12)
+	months 	= months%12
+
+	string = ''
+
+	if years > 0:
+		string += str(years)+' Jahre'
+		if months > 0:
+			string += ', '
+	
+	if months > 1:
+		string += str(round(months))+' Monate'
+	else:
+		string += str(round(months))+' Monat'
+
+	return string

@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from globals import *
 
-from .energy import *
+from .energy.energysources import *
+from .energy.solarenergy import *
+from .energy.windenergy import *
 
 
 class Person:
@@ -13,7 +15,7 @@ class Person:
 class Haushalt:
 	persons 	= 2
 
-	solaranlage = Solaranlage()
+	photovoltaik= Photovoltaik()
 	person		= Person()
 
 	def jahreskosten_in_eur(self):

@@ -1,24 +1,39 @@
 # -*- coding: utf-8 -*-
 
-from classes.energy import *
+from classes.energy.energysources import *
+from classes.energy.solarenergy import *
+from classes.energy.windenergy import *
 from classes.geography import *
+from classes.energy.energystorage import *
 
 
 class Olfen(Stadt):
 	einwohner 			= 12674 # Wikipedia
 
 	flaeche_sqm			= 52.43 # Wikipedia
-	location_altitude	= 48 # Wikipedia
+	location_altitude	= 48 	# Wikipedia
 
 	
 class Germany(Country):
-	einwohner 				= 83000000 # Wikipedia
-	haushalte_einzel		= 17263000 # Statista
+	einwohner 				= 83000000 	# Wikipedia
+	haushalte_einzel		= 17263000 	# Statista
 
 	flaeche_sqm				= 357578.17 # Wikipedia
 
 	wind_nennleistung_kw 	= 53000000
 	solar_nennleistung_kw	= 46000000
+
+	erzeugung_twh_2018		= {
+		'Braunkohle': 146,		# (001_Umweltbundesamt_Stromerzeugung)
+		'Kernenergie': 76,		# (001_Umweltbundesamt_Stromerzeugung)
+		'Steinkohle': 83,		# (001_Umweltbundesamt_Stromerzeugung)
+		'Erdgas': 83,			# (001_Umweltbundesamt_Stromerzeugung)
+		'Mineraloele': 5,		# (001_Umweltbundesamt_Stromerzeugung)
+		'Photovoltaik': 46.2,	
+		'Windenergie': 111.6,
+		'Biomasse': 51.3,
+		'Wasserkraft': 16.5,
+	}
 
 
 
@@ -28,39 +43,44 @@ to_check = Germany()
 to_check.print_results()
 """
 
-braunkohle = Braunkohle()
-print(braunkohle.print_total_emissions()+" Braunkohle")
-print(braunkohle.print_co2_initial())
 
-kernenergie = Kernenergie()
-print(kernenergie.print_total_emissions()+" Kernenergie")
-print(kernenergie.print_co2_initial())
+energysources = [
+	'Braunkohle',
+	'Kernenergie',
+	'Steinkohle',
+	'Erdgas',
+	'Mineraloele',
+	'Photovoltaik',
+	'Windenergie',
+	'Biomasse',
+	'Wasserkraft',
+]
 
-steinkohle = Steinkohle()
-print(steinkohle.print_total_emissions()+" Steinkohle")
-print(steinkohle.print_co2_initial())
+energystorages = [
+	'Pumpspeicherkraftwerke',
+	'PowerToGas',
+	'Batteriespeicher',
+]
 
-erdgas = Erdgas()
-print(erdgas.print_total_emissions()+" Erdgas")
-print(erdgas.print_co2_initial())
+for energysource in energysources:
+	nennleistung = 3050
+	instance = globals()[energysource](nominal_power=nennleistung)
+	print(energysource + ' (' + str(nennleistung) + ' kW Nennleistung)')
+	print(instance.print_expense() + ' Kosten')
+	print(instance.print_energy_construction() + ' bei Errichtung')
+	print(instance.print_yearly_energy_return() + ' erzeugter Strom')
+	print(instance.print_yearly_co2_intensity() + ' im Betrieb')
+	print(str(round(instance.get_efficiency(), 2))+" % Effizienz")
+	print('Energie-Rücklaufzeit: ' + instance.print_energy_payback_time())
+	print('')
 
-mineraloele = Mineraloele()
-print(mineraloele.print_total_emissions()+" Mineralöle")
-print(mineraloele.print_co2_initial())
+for energystorage in energystorages:
+	instance = globals()[energystorage]()
 
 
-photovoltaik = Photovoltaik()
-print(photovoltaik.print_total_emissions()+" Photovoltaik")
-print(photovoltaik.print_co2_initial())
 
-windenergie = Windenergie()
-print(windenergie.print_total_emissions()+" Windenergie")
-print(windenergie.print_co2_initial())
+"""
+Quellen:
+001_Umweltbundesamt_Stromerzeugung: https://www.umweltbundesamt.de/sites/default/files/medien/384/bilder/dateien/3_datentabelle-zur-abb_bruttostromerzeugung-et_2019-02-26.pdf
 
-biomasse = Biomasse()
-print(biomasse.print_total_emissions()+" Biomasse")
-print(biomasse.print_co2_initial())
-
-wasserkraft = Wasserkraft()
-print(wasserkraft.print_total_emissions()+" Wasserkraft")
-print(wasserkraft.print_co2_initial())
+"""
