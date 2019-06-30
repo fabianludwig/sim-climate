@@ -2,16 +2,16 @@
 
 from globals import *
 from functions.print import *
-from classes.location import Location, Buildable
+
+from helpers.location import Location
+from helpers.abstract import Producible
 
 
-class EnergySource(Location, Buildable):
+class EnergySource(Location, Producible):
 	co2_intensity				= 0 	# in g CO2 per kWh
-	energy_construction			= 0 	# in kWh (int or object of ints)
 
 	nominal_power				= 1		# (Nennleistung in kWh)
 	efficiency					= 100	# in % (Wirkungsgrad)
-	lifespan					= 20 	# in years
 
 	def __init__(self, **kwargs):
 		if 'nominal_power' in kwargs and 'energy_construction' not in kwargs:
@@ -27,18 +27,6 @@ class EnergySource(Location, Buildable):
 	
 	def get_co2_intensity(self):
 		return self.co2_intensity
-
-	def get_energy_construction(self):
-		"""
-		Kumulierter Energieaufwand für die Errichtung in kWh/kW
-		"""
-		if type(self.energy_construction) is dict:
-			sum = 0
-			for key, value in self.energy_construction.items():
-				sum += value
-			return sum
-		else:
-			return self.energy_construction
 	
 	def energy_payback_time(self):
 		"""
@@ -58,11 +46,6 @@ class EnergySource(Location, Buildable):
 		return self.nominal_power * (self.get_efficiency()/100) * 24 * 365.25
 
 	# ------------- Prints -------------
-
-	def print_energy_construction(self):
-		return print_watt(
-			self.get_energy_construction()
-		)
 	
 	def print_yearly_co2_intensity(self):
 		return print_weight(

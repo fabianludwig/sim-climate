@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-from classes.location import Location, Buildable
+from helpers.location import Location
+from helpers.abstract import Producible
 
-class EnergyStorage(Location, Buildable):
+class EnergyStorage(Location, Producible):
 	efficiency 				= 0 # in % (Wirkungsgrad)
 	capacity				= 0 # in kWh
-	expense					= 0	
-	energy_construction		= 0 # in kWh (int or object of ints)
 
 
 class Pumpspeicherkraftwerke(EnergyStorage):
