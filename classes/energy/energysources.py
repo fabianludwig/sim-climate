@@ -13,6 +13,8 @@ class EnergySource(Location, Producible):
 	nominal_power				= 1		# (Nennleistung in kWh)
 	efficiency					= 100	# in % (Wirkungsgrad)
 
+	price_per_kwh				= 25	# in cents
+
 	def __init__(self, **kwargs):
 		if 'nominal_power' in kwargs and 'energy_construction' not in kwargs:
 			multiplicator = kwargs.get("nominal_power") / self.nominal_power
@@ -38,6 +40,18 @@ class EnergySource(Location, Producible):
 			return self.get_energy_construction() / self.get_yearly_energy_return() * 12
 		else:
 			return None
+	
+	def expense_payback_time(self):
+		if self.get_yearly_return() > 0:
+			return self.get_expense() / (self.get_yearly_return()-self.get_expense_operation()) * 12
+		else:
+			return None
+
+	def get_yearly_return(self):
+		"""
+		Einnahmen für Strom pro Jahr
+		"""
+		return self.get_yearly_energy_return()*self.price_per_kwh/100
 
 	def get_yearly_energy_return(self):
 		"""
@@ -64,6 +78,14 @@ class EnergySource(Location, Producible):
 			)
 		else:
 			return 'Nie'
+	
+	def print_expense_payback_time(self):
+		if self.expense_payback_time():
+			return print_months(
+				self.expense_payback_time()
+			)
+		else:
+			return 'Nie'
 
 
 
@@ -76,6 +98,7 @@ class Braunkohle(EnergySource):
 
 
 class Kernenergie(EnergySource):
+	# https://de.wikipedia.org/wiki/Liste_der_Kernreaktoren_in_Deutschland
 	co2_intensity				= 32 	# (001_Bundestag_Bilanzen)
 
 
@@ -92,10 +115,12 @@ class Mineraloele(EnergySource):
 	
 
 class Biomasse(EnergySource):
+	# https://de.wikipedia.org/wiki/Liste_von_Biomassekraftwerken_in_Deutschland
 	co2_intensity				= 0
 
 
 class Wasserkraft(EnergySource):
+	# https://de.wikipedia.org/wiki/Liste_von_Wasserkraftwerken_in_Deutschland
 	co2_intensity				= 22 	# 4-40 (001_Bundestag_Bilanzen)
 	lifespan					= 100 	# (001_Bundestag_Bilanzen)
 
@@ -107,4 +132,5 @@ Quellen:
 001_Bundestag_Bilanzen: https://www.bundestag.de/resource/blob/406432/70f77c4c170d9048d88dcc3071b7721c/wd-8-056-07-pdf-data.pdf
 002_Umweltbundesamt_Emissionsbilanz_EE: https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-10-22_climate-change_23-2018_emissionsbilanz_erneuerbarer_energien_2017_fin.pdf
 
+https://de.wikipedia.org/wiki/Liste_von_fossil-thermischen_Kraftwerken_in_Deutschland
 """

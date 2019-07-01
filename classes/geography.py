@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import math, locale
-locale.setlocale( locale.LC_ALL, 'de_DE' )
+import math
 
 from globals import *
 from functions.print import *
@@ -9,6 +8,21 @@ from functions.print import *
 from .energy.energysources import *
 from .consumers import *
 
+
+
+class Area(Location):
+	einwohner				= 10000
+	energysources			= []
+
+	price_per_kwh_wind		= 5.2925	# in cents (006_SWEWindenergie)
+	price_per_kwh_solar		= 11.47		# in cents
+
+	def __init__(self, *args, **kwargs):
+		self.set_energysources()
+		super().__init__(*args, **kwargs)
+	
+	def set_energysources(self, *args, **kwargs):
+		pass
 
 
 class Geography:

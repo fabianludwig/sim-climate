@@ -6,6 +6,7 @@ from classes.energy.windenergy import *
 from classes.geography import *
 from classes.energy.energystorage import *
 
+from crawler.windenergy import WindenergyCrawler
 
 class Olfen(Stadt):
 	einwohner 			= 12674 # Wikipedia
@@ -43,7 +44,7 @@ to_check = Germany()
 to_check.print_results()
 """
 
-
+"""
 energysources = [
 	'Braunkohle',
 	'Kernenergie',
@@ -63,20 +64,25 @@ energystorages = [
 ]
 
 for energysource in energysources:
-	nennleistung = 3050
+	nennleistung = 3000
 	instance = globals()[energysource](nominal_power=nennleistung)
 	print(energysource + ' (' + str(nennleistung) + ' kW Nennleistung)')
-	print(instance.print_expense() + ' Kosten')
+	print(instance.print_expense() + ' Anschaffungskosten')
+	print(instance.print_expense_operation() + ' jährliche Kosten')
 	print(instance.print_energy_construction() + ' bei Errichtung')
 	print(instance.print_yearly_energy_return() + ' erzeugter Strom')
 	print(instance.print_yearly_co2_intensity() + ' im Betrieb')
 	print(str(round(instance.get_efficiency(), 2))+" % Effizienz")
 	print('Energie-Rücklaufzeit: ' + instance.print_energy_payback_time())
+	print('Kosten-Rücklaufzeit: ' + instance.print_expense_payback_time())
 	print('')
 
 for energystorage in energystorages:
 	instance = globals()[energystorage]()
+"""
 
+crawler = WindenergyCrawler()
+crawler.crawl_items()
 
 
 """

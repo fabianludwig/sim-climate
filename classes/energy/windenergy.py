@@ -35,17 +35,22 @@ class Windenergie(EnergySource):
 	nabenhoehe					= 99		# in m (002_Enercon_Datenblatt_E-101)
 	rotordurchmesser			= 101		# in m (002_Enercon_Datenblatt_E-101)
 	abschaltgeschwindigkeit		= 34		# in m/s (002_Enercon_Datenblatt_E-101)
+	blattzahl					= 3
 
-	components					= [
-		Rotorblatt(), 
-		Rotorblatt(), 
-		Rotorblatt(), 
-		Generator(),
-		Gondel(),
-		Stahlturm(),
-		KontrollsystemUndNetzanschluss(),
-		Fundament(),
-	]
+	price_per_kwh				= 5.2925	# in cents (006_SWEWindenergie)
+
+	def set_components(self):
+		for i in range(self.blattzahl):
+			self.components.append(
+				Rotorblatt(),
+			)
+		self.components.append(
+			Generator(),
+			Gondel(),
+			Stahlturm(),
+			KontrollsystemUndNetzanschluss(),
+			Fundament(),
+		)
 
 	def get_energy_construction(self):
 		return 6500*self.nominal_power 	# (005_Quaschning)
@@ -56,10 +61,12 @@ class Windenergie(EnergySource):
 		Verallgemeinerung
 		Unterscheidet sich eigentlich noch nach individuellen Faktoren
 		"""
-		auslastung 	= 	(7/6)*self.get_windgeschwindigkeit()*self.get_windgeschwindigkeit() \
-						- (25/6)*self.get_windgeschwindigkeit()
+		windgeschwindigkeit = self.get_windgeschwindigkeit()
 
-		if self.get_windgeschwindigkeit() > self.abschaltgeschwindigkeit:
+		auslastung 	= 	(7/6)*windgeschwindigkeit*windgeschwindigkeit \
+						- (25/6)*windgeschwindigkeit
+
+		if windgeschwindigkeit > self.abschaltgeschwindigkeit:
 			return 0
 		elif auslastung < 0:
 			return 0
@@ -87,4 +94,10 @@ Quellen:
 003_EEWindenergie: http://www.erneuerbare-energie-windenergie.de/windenergie-kosten
 004_WindTurbine_Leistungskurven: https://www.wind-turbine-models.com/powercurves
 005_Quaschning (Statisiken -> Energieaufwand zur Herstellung regenerativer Anlagen) https://www.volker-quaschning.de/datserv/kev/index.php
+006_SWEWindenergie: https://www.swe-windenergie.de/unternehmen/vergutungssatze-windkraftanlagen.html
+
+
+https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_deutschen_Onshore-Windparks
+https://de.wikipedia.org/wiki/Liste_der_Offshore-Windparks
+https://de.wikipedia.org/wiki/Liste_der_deutschen_Offshore-Windparks
 """

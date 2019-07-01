@@ -43,4 +43,5 @@ Quellen:
 001_Quaschning: https://www.youtube.com/watch?v=CE-6jsWCATk
 002_PV-Magazin: https://www.pv-magazine.de/2017/11/21/antworten-zum-webinar-effizienz-bei-batteriespeichern-ist-mehr-als-der-wirkungsgrad/
 
+https://de.wikipedia.org/wiki/Liste_von_Pumpspeicherkraftwerken
 """

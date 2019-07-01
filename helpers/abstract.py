@@ -3,12 +3,21 @@ from functions.print import *
 
 
 class Producible:
+	name 				= ''
+	manufacturer		= ''
+	
 	lifespan			= 0		# in years
-	expense				= 0		# (Produktionskosten)
+	expense				= 0		# (Produktionskosten exkl. Komponenten)
 	energy_construction	= 0		# in kWh (int or object of ints)
 
 	components			= []	# List of classes (must be of type Producible)
 	used_resources		= {}	# Dict of resources in g, key: named by class of type Resource (excluding components)
+
+	def __init__(self, *args, **kwargs):
+		self.set_components()
+
+	def set_components(self):
+		pass
 
 	def get_expense(self):
 		"""
@@ -18,6 +27,12 @@ class Producible:
 		for component in self.components:
 			expense += component.get_expense(component)
 		return expense
+	
+	def get_expense_operation(self):
+		"""
+		Jährliche Wartungskosten
+		"""
+		return 0
 
 	def get_used_resources(self):
 		"""
@@ -52,6 +67,9 @@ class Producible:
 
 	def print_expense(self):
 		return print_money(self.get_expense())
+	
+	def print_expense_operation(self):
+		return print_money(self.get_expense_operation())
 	
 	def print_energy_construction(self):
 		return print_watt(
