@@ -41,7 +41,7 @@ class ModelCrawler():
 		for item in items:
 			item_urls.append(item.get_attribute('href'))
 		
-		print("{} items to scrape!".format(len(item_urls)))
+		print("{} items to scrape! ({} already done!)".format(len(item_urls), len(crawled_urls)))
 
 		counter = 0
 		for item_url in item_urls:
@@ -62,7 +62,7 @@ class ModelCrawler():
 					print("({}/{}) {}".format(counter, len(item_urls), item))
 				except:
 					self._errors.append(item_url)
-					print("{} resulted in an error!".format(item_url))
+					print("{} resulted in an error!".format(item_url), sys.exc_info()[1])
 		
 		self.clean_up()
 	

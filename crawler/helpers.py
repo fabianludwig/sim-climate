@@ -14,7 +14,7 @@ def save_classname(string):
 	return string[0].upper() + string[1:]
 
 def clean_number_and_get_avg(string):
-	numbers = [float(s) for s in re.findall(r"[+-]? *(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", string)]
+	numbers = [float("".join([c for c in s if c.isdecimal() or c=='.'])) for s in re.findall(r"[+-]? *(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", string)]
 	if len(numbers) > 0:
 		return float(sum(numbers))/len(numbers)
 	else:

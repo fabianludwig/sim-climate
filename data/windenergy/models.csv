@@ -432,3 +432,1542 @@ Enercon,Enercon E-58/10.58,EnerconE581058,1000.0,2.5,12.0,34.0,71.375,58.6,2697.
 Enercon,Enercon E-66,EnerconE66,1500.0,3.0,12.5,25.0,82.8,66.0,3421.2,3.0
 Enercon,Enercon E-66/15.66,EnerconE661566,1500.0,2.5,13.0,25.0,83.5,66.0,3421.2,3.0
 Enercon,Enercon E-66/15.70,EnerconE661570,1500.0,2.5,13.0,25.0,88.6,70.0,3848.0,3.0
+Enercon,Enercon E-66/18.66,EnerconE661866,1800.0,2.5,12.5,34.0,81.66666666666667,66.0,3421.0,3.0
+Enercon,Enercon E-66/18.70,EnerconE661870,1800.0,2.5,12.5,34.0,88.6,70.0,3848.0,3.0
+Enercon,Enercon E-66/20.70,EnerconE662070,2000.0,2.5,14.0,34.0,86.0,70.4,3893.0,3.0
+Enercon,Enercon E-70 E4 2.000,EnerconE70E42000,2000.0,2.5,13.5,34.0,91.8,71.0,3959.0,3.0
+Enercon,Enercon E-70 E4 2.300,EnerconE70E42300,2300.0,2.5,15.0,34.0,83.85714285714286,71.0,3959.0,3.0
+Enercon,Enercon E-82,EnerconE82,2300.0,,,34.0,108.0,82.0,5281.0,3.0
+Enercon,Enercon E-82 E2 2.300,EnerconE82E22300,2300.0,3.0,12.0,34.0,101.4,82.0,5281.0,3.0
+Enercon,Enercon E-82 E2 2.000,EnerconE82E22000,2000.0,2.0,12.5,34.0,101.4,82.0,5281.0,3.0
+Enercon,Enercon E-82 E3 3.000,EnerconE82E33000,3000.0,3.0,16.0,34.0,101.4,82.0,5281.0,3.0
+Enercon,Enercon E-82 E4 3.000,EnerconE82E43000,3000.0,3.0,16.0,34.0,72.5,82.0,5281.0,3.0
+Enercon,Enercon E-82 E4 2.350,EnerconE82E42350,2350.0,2.0,14.0,34.0,72.5,82.0,5281.0,3.0
+Enercon,Enercon E-82 E5 2.350,EnerconE82E52350,2350.0,2.0,14.0,34.0,81.0,82.0,5281.0,3.0
+Enercon,Enercon E-92,EnerconE92,2350.0,2.0,14.0,25.0,99.28571428571429,92.0,6648.0,3.0
+Enercon,Enercon E-101,EnerconE101,3050.0,2.0,13.0,25.0,376.75,101.0,8012.0,3.0
+Enercon,Enercon E-101 E2 3.500,EnerconE101E23500,3500.0,2.0,15.0,25.0,74.0,101.0,8012.0,3.0
+Enercon,Enercon E-101 E2 3.050,EnerconE101E23050,3050.0,2.0,13.0,34.0,74.0,101.0,8012.0,3.0
+Enercon,Enercon E-103 EP2,EnerconE103EP2,2350.0,3.0,12.0,34.0,118.0,103.0,8332.0,3.0
+Enercon,Enercon E-112/45.114,EnerconE11245114,4500.0,2.5,13.0,34.0,124.0,114.0,10207.0,3.0
+Enercon,Enercon E-112/60.114,EnerconE11260114,6000.0,2.5,13.0,34.0,124.0,114.0,10207.0,3.0
+Enercon,Enercon E-115 EP2 3.200,EnerconE115EP23200,3200.0,2.5,,34.0,124.5,115.7,10515.5,3.0
+Enercon,Enercon E-115 2.500,EnerconE1152500,2500.0,3.0,12.0,34.0,120.75,115.0,10387.0,3.0
+Enercon,Enercon E-115 EP3 3.000,EnerconE115EP33000,3000.0,2.5,12.8,34.0,108.66666666666667,115.7,10516.0,3.0
+Enercon,Enercon E-115 3.000,EnerconE1153000,3000.0,2.0,11.5,25.0,125.33333333333333,115.7,10515.5,3.0
+Enercon,Enercon E-115 EP3 4.000,EnerconE115EP34000,4000.0,2.5,13.2,34.0,108.66666666666667,115.7,10516.0,3.0
+Enercon,Enercon E-126 EP3 3.5MW,EnerconE126EP335MW,3500.0,2.0,14.0,30.0,112.33333333333333,127.0,12667.0,3.0
+Enercon,Enercon E-126 EP3 3.0MW,EnerconE126EP330MW,3000.0,,,,109.0,127.0,12667.0,3.0
+Enercon,Enercon E-126 EP3 4.0MW,EnerconE126EP340MW,4000.0,,,,109.0,127.0,12667.0,3.0
+Enercon,Enercon E-126 EP4,EnerconE126EP4,4200.0,3.0,13.5,34.0,126.0,127.0,12688.0,3.0
+Enercon,Enercon E-126 6.000,EnerconE1266000,6000.0,3.0,16.5,34.0,135.0,126.0,12667.0,3.0
+Enercon,Enercon E-126 7.580,EnerconE1267580,7580.0,3.0,16.5,34.0,135.0,127.0,12668.0,3.0
+Enercon,Enercon E-136 EP5,EnerconE136EP5,4650.0,2.5,,25.0,120.33333333333333,136.0,14584.0,3.0
+Enercon,Enercon E-138 EP3 E2,EnerconE138EP3E2,4200.0,2.5,10.8,34.0,120.75,138.6,15085.0,3.0
+Enercon,Enercon E-138 EP3,EnerconE138EP3,3500.0,2.0,13.0,28.0,120.75,138.0,14957.0,3.0
+Enercon,Enercon E-141 EP4,EnerconE141EP4,4200.0,3.0,14.0,34.0,144.0,141.0,15614.5,3.0
+Enercon,Enercon E-147 EP5 E2,EnerconE147EP5E2,5000.0,2.5,,25.0,139.0,147.0,16972.0,3.0
+Enercon,Enercon E-160 EP5,EnerconE160EP5,4600.0,2.5,,22.0,143.0,160.0,20106.0,3.0
+Energovars,Energovars EWT315,EnergovarsEWT315,315.0,3.5,,24.0,35.0,30.0,706.9,3.0
+Enertech,Enertech E 44A,EnertechE44A,40.0,5.4,13.4,22.4,33.75,13.0,133.0,3.0
+Enertech,Enertech E 1500,EnertechE1500,1.5,4.0,10.0,20.0,,4.0,12.6,3.0
+Enertech,Enertech Thunderbird 4000,EnertechThunderbird4000,4.0,3.6,,,18.0,5.5,23.8,3.0
+ENESSERE S.r.l.,ENESSERE S.r.l. Hercules,ENESSERESrlHercules,3.4,2.5,,20.0,8.89,3.8,9.3,3.0
+ENESSERE S.r.l.,ENESSERE S.r.l. Pegasus,ENESSERESrlPegasus,3.4,2.5,,20.0,8.89,3.8,9.3,3.0
+Ennera Energy,Ennera Energy windera s,EnneraEnergywinderas,3.2,3.0,11.0,25.0,12.0,4.4,14.9,3.0
+eno energy,eno energy eno 82 2.0,Enoenergyeno8220,2050.0,3.0,13.0,25.0,86.9,82.4,5333.0,3.0
+eno energy,eno energy eno 82 1.5,Enoenergyeno8215,1500.0,3.0,12.0,25.0,72.3,82.4,5333.0,3.0
+eno energy,eno energy eno 92,Enoenergyeno92,2200.0,3.0,13.0,25.0,113.0,92.8,6764.0,3.0
+eno energy,eno energy eno 100,Enoenergyeno100,2200.0,3.0,12.0,25.0,99.0,100.5,7926.0,3.0
+eno energy,eno energy eno 114 3.5,Enoenergyeno11435,3500.0,3.0,13.0,25.0,120.66666666666667,114.9,10369.0,3.0
+eno energy,eno energy eno 114 4.0,Enoenergyeno11440,4000.0,3.0,13.5,25.0,120.5,114.9,10369.0,3.0
+eno energy,eno energy eno 126 3.5,Enoenergyeno12635,3500.0,3.0,13.0,25.0,127.0,126.0,12468.0,3.0
+eno energy,eno energy eno 126 4.0,Enoenergyeno12640,4000.0,3.0,13.0,25.0,117.0,126.0,12468.0,3.0
+Enron,Enron 1.5 s,Enron15s,1500.0,3.0,12.0,25.0,82.5,70.5,3902.0,3.0
+Enron,Enron 1.5 s offshore,Enron15soffshore,1500.0,3.0,12.0,25.0,65.0,70.5,3902.0,3.0
+Enron,Enron 1.5 sl,Enron15sl,1500.0,3.0,11.8,25.0,81.5,77.0,4657.0,3.0
+Enron,Enron 750i,Enron750i,750.0,4.0,11.3,29.0,55.0,50.0,1963.0,3.0
+Enron,Enron 900s,Enron900s,900.0,4.0,11.6,25.0,60.0,55.0,2206.0,3.0
+Envision,Envision EN70-1.5,EnvisionEN7015,1500.0,4.0,11.6,25.0,65.0,70.6,3915.0,3.0
+Envision,Envision EN77-1.5,EnvisionEN7715,1500.0,3.5,11.5,25.0,72.5,77.5,4718.0,3.0
+Envision,Envision EN82-1.5,EnvisionEN8215,1500.0,3.0,10.5,25.0,72.5,82.5,5346.0,3.0
+Envision,Envision EN87-1.5,EnvisionEN8715,1500.0,3.0,10.0,25.0,70.0,87.0,5945.0,3.0
+Envision,Envision EN93-1.5,EnvisionEN9315,1500.0,3.0,9.5,20.0,90.0,93.0,6793.0,3.0
+Envision,Envision EN106-1.8,EnvisionEN10618,1800.0,3.0,9.5,20.0,90.0,106.0,8825.0,3.0
+Envision,Envision EN110-2.1,EnvisionEN11021,2100.0,3.0,9.5,20.0,90.0,110.0,9503.0,3.0
+Envision,Envision EN110-2.2,EnvisionEN11022,2200.0,3.0,9.5,20.0,98.75,110.0,9503.0,3.0
+Envision,Envision EN100-2.3,EnvisionEN10023,2300.0,4.0,10.3,20.0,101.66666666666667,99.7,7807.0,3.0
+Envision,Envision EN103-2.3,EnvisionEN10323,2300.0,4.0,10.5,25.0,97.5,103.0,8332.0,3.0
+Envision,Envision EN110-2.3,EnvisionEN11023,2300.0,3.0,10.0,25.0,90.0,110.0,9503.0,3.0
+Envision,Envision EN115-2.3,EnvisionEN11523,2300.0,3.0,9.4,20.0,96.66666666666667,115.0,10387.0,3.0
+Envision,Envision EN128-2.3,EnvisionEN12823,2300.0,2.8,9.0,20.0,96.66666666666667,128.0,12868.0,3.0
+Envision,Envision EN110-2.5,EnvisionEN11025,2500.0,3.0,10.0,25.0,96.66666666666667,110.0,9503.0,3.0
+Envision,Envision EN128-2.5,EnvisionEN12825,2500.0,3.0,9.5,25.0,96.66666666666667,128.0,12868.0,3.0
+Envision,Envision EN131-2.5,EnvisionEN13125,2500.0,3.0,,20.0,122.13333333333333,131.0,13519.0,3.0
+Envision,Envision EN132-2.8,EnvisionEN13228,2800.0,3.0,11.0,20.0,96.66666666666667,132.0,13685.0,3.0
+Envision,Envision EN120-3.0,EnvisionEN12030,3000.0,3.0,11.0,25.0,90.0,120.0,11310.0,3.0
+Envision,Envision EN140-3.0,EnvisionEN14030,3000.0,3.0,,20.0,116.25,140.0,15386.0,3.0
+Envision,Envision EN130-4.0,EnvisionEN13040,4000.0,3.0,12.0,25.0,80.0,130.0,13273.0,3.0
+Envision,Envision EN136-4.0,EnvisionEN13640,4000.0,3.0,10.0,25.0,80.0,136.0,14527.0,3.0
+Envision,Envision EN130-4.2,EnvisionEN13042,4200.0,3.0,12.0,25.0,93.33333333333333,130.0,13273.0,3.0
+Envision,Envision EN136-4.2,EnvisionEN13642,4200.0,3.0,10.5,25.0,93.33333333333333,136.0,14527.0,3.0
+Envision,Envision EN148-4.5,EnvisionEN14845,4500.0,3.0,,25.0,116.0,148.0,17087.0,3.0
+Envision,Envision EN121-3.4,EnvisionEN12134,3400.0,3.0,,25.0,96.66666666666667,121.0,11499.0,3.0
+Envision,Envision E128-3.6MW PP 2B,EnvisionE12836MWPP2B,3600.0,3.0,11.5,25.0,88.0,128.0,12868.0,2.0
+Envision,Envision EN141-2.5,EnvisionEN14125,2500.0,3.0,,20.0,110.0,141.0,15614.0,3.0
+Envision,Envision EN141-3.0,EnvisionEN14130,3000.0,3.0,,20.0,122.13333333333333,141.0,15164.0,3.0
+Eocycle,Eocycle EO20,EocycleEO20,20.0,2.8,7.5,20.0,26.75,15.8,196.3,3.0
+Eocycle,Eocycle EO25,EocycleEO25,25.0,3.2,11.0,25.0,27.0,12.6,125.1,3.0
+EolArt,EolArt EOL-CK-60,EolArtEOLCK60,60.0,2.0,10.0,25.0,30.0,17.8,249.0,3.0
+Eolica,Eolica 2kW,Eolica2kW,2.0,,,,,,,3.0
+EOLYS,EOLYS METRONOME 12 KW,EOLYSMETRONOME12KW,10.0,3.0,11.5,20.0,14.5,9.0,63.0,3.0
+EOLYS,EOLYS METRONOME 55,EOLYSMETRONOME55,52.0,,,,24.0,16.4,199.0,3.0
+Eovent,Eovent EVA120 H-Darrieus,EoventEVA120HDarrieus,20.0,2.5,9.3,16.0,23.5,10.0,120.0,3.0
+Eozen,Eozen EOZEN 1500/70,EozenEOZEN150070,1500.0,3.0,13.5,25.0,75.0,70.0,3850.0,3.0
+Eozen,Eozen EOZEN 1500/77,EozenEOZEN150077,1500.0,3.0,13.0,22.0,82.16666666666667,77.0,4857.0,3.0
+Eozen,Eozen EOZEN 1500/78,EozenEOZEN150078,1500.0,3.0,10.9,22.0,73.25,78.0,4820.0,3.0
+Eozen,Eozen EOZEN 1500/82,EozenEOZEN150082,1500.0,3.0,10.1,22.0,92.5,82.0,5281.0,3.0
+Ergowind,Ergowind EW 20,ErgowindEW20,20.0,3.0,10.0,25.0,20.0,10.8,92.0,3.0
+Ergowind,Ergowind KGE 20 KT1,ErgowindKGE20KT1,20.0,3.0,11.0,20.0,16.5,10.8,91.0,3.0
+Ergowind,Ergowind EW 50,ErgowindEW50,50.0,3.0,10.5,25.0,25.5,16.0,200.0,3.0
+Ergowind,Ergowind KGE 55 KT1v2,ErgowindKGE55KT1v2,55.0,3.0,11.0,25.0,24.666666666666668,16.0,201.0,3.0
+Ergowind,Ergowind EW 60,ErgowindEW60,60.0,3.0,12.0,25.0,25.5,16.0,200.0,3.0
+Energy Sciences,Energy Sciences ESI-54-S,EnergySciencesESI54S,85.0,4.0,16.5,20.0,24.0,16.5,214.0,2.0
+Energy Sciences,Energy Sciences ESI-80/200,EnergySciencesESI80200,200.0,,,,33.5,24.3,468.0,2.0
+ESPE,ESPE FX EVO-32,ESPEFXEVO32,60.0,2.0,7.0,18.0,33.5,32.0,803.0,3.0
+eviag,eviag ev2.93,Eviagev293,2050.0,3.5,11.5,25.0,108.33333333333333,93.2,6822.0,
+Evoco,Evoco 10kW,Evoco10kW,9.6,2.5,11.0,59.5,13.5,9.7,74.0,3.0
+Extol Wind,Extol Wind EX-55,ExtolWindEX55,1000.0,3.0,12.0,24.0,87.0,55.0,2375.8,3.0
+Extol Wind,Extol Wind EX-100,ExtolWindEX100,2500.0,3.0,11.5,24.0,100.0,100.0,7857.0,3.0
+F.L.Smidth,F.L.Smidth 2 vingers,FLSmidth2vingers,60.0,,,,,,,
+F.L.Smidth,F.L.Smidth 3 vingers,FLSmidth3vingers,60.0,,,,,24.0,,
+Fayette,Fayette Windway 34-75 IIS,FayetteWindway3475IIS,75.0,,,,,10.3,83.0,3.0
+FH Wiesbaden / ÜWG,FH Wiesbaden / ÜWG Trebur,FHWiesbadenÜWGTrebur,0.3,,5.0,,12.0,3.6,10.2,24.0
+Floda,Floda Floda 500,FlodaFloda500,500.0,,,,,36.0,1017.9,3.0
+Floda,Floda Floda 600,FlodaFloda600,600.0,3.0,11.5,35.0,50.5,45.8,1647.0,3.0
+FloWind,FloWind FloWind 17,FloWindFloWind17,142.0,,19.6,,,17.0,260.0,2.0
+FloWind,FloWind FloWind 19,FloWindFloWind19,250.0,,17.0,,,19.0,340.0,2.0
+Fly-Tech ветротурбин,Fly-Tech ветротурбин 56-100,FlyTechветротурбин56100,107.5,5.0,13.0,22.0,18.0,17.0,,
+Fortis,Fortis Alize 10 kW,FortisAlize10kW,10.0,4.0,12.0,25.0,30.5,7.0,39.0,3.0
+Fr. Dahlgaard,Fr. Dahlgaard Vindrosemotorer,FrDahlgaardVindrosemotorer,,,,,,7.0,38.5,24.0
+Frisia,Frisia F45/750kW,FrisiaF45750kW,750.0,,13.0,,63.0,45.0,1590.4,3.0
+Frisia,Frisia F48/750,FrisiaF48750,750.0,3.0,13.0,20.0,70.0,48.0,1810.0,3.0
+Frisia,Frisia F56/850,FrisiaF56850,850.0,2.0,12.0,20.0,70.0,56.0,2463.0,3.0
+Fuerteventura,Fuerteventura Unknown prototype,FuerteventuraUnknownprototype,,,,,,,,2.0
+Fuhrländer,Fuhrländer FL 20,FuhrländerFL20,20.0,3.0,12.0,25.0,24.0,12.8,130.0,3.0
+Fuhrländer,Fuhrländer FL 30,FuhrländerFL30,30.0,2.5,12.0,25.0,23.0,12.8,130.0,3.0
+Fuhrländer,Fuhrländer FL MD 70,FuhrländerFLMD70,1500.0,3.0,11.6,25.0,91.0,70.0,3848.0,3.0
+Fuhrländer,Fuhrländer FL MD 77,FuhrländerFLMD77,1500.0,3.0,11.1,20.0,90.25,77.0,4657.0,3.0
+Fuhrländer,Fuhrländer FL 100 astOs,FuhrländerFL100astOs,100.0,2.5,13.0,25.0,36.5,21.0,346.0,3.0
+Fuhrländer,Fuhrländer FL 250,FuhrländerFL250,250.0,2.5,15.0,25.0,46.0,29.5,683.0,3.0
+Fuhrländer,Fuhrländer FL 800,FuhrländerFL800,800.0,2.5,14.0,25.0,65.0,52.7,2181.0,3.0
+Fuhrländer,Fuhrländer FL 1000,FuhrländerFL1000,1000.0,3.0,12.0,25.0,76.0,54.0,2290.0,3.0
+Fuhrländer,Fuhrländer FL 1000 plus,FuhrländerFL1000plus,1000.0,3.0,11.5,20.0,-15.0,54.0,2290.0,3.0
+Fuhrländer,Fuhrländer FL 2500/90,FuhrländerFL250090,2500.0,4.0,12.5,25.0,120.6,90.0,6362.0,3.0
+Fuhrländer,Fuhrländer FL 2500/100,FuhrländerFL2500100,2500.0,3.5,12.0,25.0,121.5,100.0,7854.0,3.0
+Fuhrländer,Fuhrländer FL 2500/104,FuhrländerFL2500104,2500.0,3.5,13.0,25.0,120.6,104.0,8495.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU2.0-93,FuhrländerLLCWTU2093,2050.0,3.0,12.0,25.0,102.6,93.0,6822.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU2.0-100,FuhrländerLLCWTU20100,2050.0,3.0,11.5,25.0,102.6,100.0,7854.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU2.5-90,FuhrländerLLCWTU2590,2500.0,3.5,13.5,25.0,118.0,90.0,6352.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU2.5-100,FuhrländerLLCWTU25100,2500.0,3.0,13.0,25.0,118.0,100.0,7854.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU2.5-103,FuhrländerLLCWTU25103,2500.0,3.5,12.5,25.0,118.0,103.0,8332.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU3.0-120,FuhrländerLLCWTU30120,3000.0,3.0,12.0,25.0,121.66666666666667,120.0,11390.0,3.0
+Fuhrländer LLC,Fuhrländer LLC WTU3.0-132,FuhrländerLLCWTU30132,3000.0,3.0,12.0,25.0,121.66666666666667,132.0,13685.0,3.0
+Fuji - Subaru,Fuji - Subaru Subaru 15/40,FujiSubaruSubaru1540,40.0,2.0,11.0,25.0,21.0,15.0,177.0,3.0
+Fuji - Subaru,Fuji - Subaru Subaru 22/100,FujiSubaruSubaru22100,100.0,2.5,13.0,25.0,30.0,22.0,380.0,2.0
+Fuji - Subaru,Fuji - Subaru Subaru 80/2.0,FujiSubaruSubaru8020,2000.0,3.0,13.0,25.0,70.0,80.0,5026.0,3.0
+FuturEnergy,FuturEnergy AirForce 10,FuturEnergyAirForce10,10.0,,,,16.25,8.0,50.3,3.0
+FWT,FWT 90/2500,FWT902500,2500.0,3.5,13.5,25.0,121.5,90.0,6352.0,3.0
+FWT,FWT 93/2000,FWT932000,2050.0,3.0,11.5,25.0,110.75,93.0,6822.0,3.0
+FWT,FWT 100/2000,FWT1002000,2050.0,3.0,11.5,25.0,110.75,100.0,7854.0,3.0
+FWT,FWT 100/2500,FWT1002500,2500.0,3.5,13.0,25.0,121.5,100.0,7854.0,3.0
+FWT,FWT 104/2500,FWT1042500,2500.0,3.5,12.0,25.0,121.5,104.0,8495.0,3.0
+FWT,FWT 120/3000,FWT1203000,3000.0,3.0,12.0,25.0,110.0,120.6,11423.0,3.0
+Gaia,Gaia 133-11kW lattice tower,Gaia13311kWlatticetower,11.0,3.5,7.5,25.0,16.5,13.0,133.0,2.0
+Gaia,Gaia 133-11kW tubular tower,Gaia13311kWtubulartower,11.0,3.5,7.5,25.0,22.5,13.0,133.0,2.0
+Gamesa,Gamesa G39,GamesaG39,500.0,4.0,15.0,25.0,46.75,39.0,1195.0,3.0
+Gamesa,Gamesa G42,GamesaG42,600.0,4.0,16.0,25.0,46.75,42.0,1357.0,3.0
+Gamesa,Gamesa G44,GamesaG44,600.0,4.0,16.0,20.0,52.166666666666664,44.0,1521.0,3.0
+Gamesa,Gamesa G47,GamesaG47,660.0,4.0,15.0,25.0,46.666666666666664,47.0,1735.0,3.0
+Gamesa,Gamesa G52,GamesaG52,850.0,4.0,13.0,25.0,54.666666666666664,52.0,2124.0,3.0
+Gamesa,Gamesa G58,GamesaG58,850.0,3.0,12.5,20.0,59.5,58.0,2642.0,3.0
+Gamesa,Gamesa G66,GamesaG66,1650.0,4.0,15.0,25.0,69.0,66.0,3421.0,3.0
+Gamesa,Gamesa G80,GamesaG80,2000.0,3.5,12.0,25.0,76.25,80.0,5027.0,3.0
+Gamesa,Gamesa G83,GamesaG83,2000.0,4.0,13.5,25.0,72.5,83.0,5411.0,3.0
+Gamesa,Gamesa G87,GamesaG87,2000.0,4.0,13.0,25.0,81.66666666666667,87.0,5945.0,3.0
+Gamesa,Gamesa G90,GamesaG90,2000.0,3.0,11.0,21.0,83.75,90.0,6362.0,3.0
+Gamesa,Gamesa G97,GamesaG97,2000.0,3.0,11.0,25.0,97.0,97.0,7390.0,3.0
+Gamesa,Gamesa G106-2.5MW,GamesaG10625MW,2500.0,2.0,12.0,25.0,81.66666666666667,106.0,8825.0,3.0
+Gamesa,Gamesa G114-2.0MW,GamesaG11420MW,2000.0,2.5,10.0,25.0,117.66666666666667,114.0,10207.0,3.0
+Gamesa,Gamesa G114-2.1MW,GamesaG11421MW,2100.0,1.0,11.5,25.0,101.0,114.0,10207.0,3.0
+Gamesa,Gamesa G114-2.5MW,GamesaG11425MW,2500.0,2.0,10.0,25.0,99.4,114.0,10207.0,3.0
+Gamesa,Gamesa G114-2.625MW,GamesaG1142625MW,2625.0,2.0,11.0,25.0,91.5,114.0,10207.0,3.0
+Gamesa,Gamesa G126-2.5MW,GamesaG12625MW,2500.0,2.0,10.0,21.0,105.0,126.0,12469.0,3.0
+Gamesa,Gamesa G126-2.625MW,GamesaG1262625MW,2625.0,1.0,11.0,25.0,105.0,126.0,12469.0,3.0
+Gamesa,Gamesa G128-4.5MW,GamesaG12845MW,4500.0,1.0,12.0,27.0,113.66666666666667,128.0,12868.0,3.0
+Gamesa,Gamesa G128-5.0MW,GamesaG12850MW,5000.0,2.0,14.0,27.0,109.0,128.0,12868.0,3.0
+Gamesa,Gamesa G128-5.0MW Offshore,GamesaG12850MWOffshore,5000.0,2.0,14.0,27.0,109.0,128.0,12868.0,3.0
+Gamesa,Gamesa G132-3.3MW,GamesaG13233MW,3300.0,2.0,10.0,25.0,107.25,132.0,13685.0,3.0
+Gamesa,Gamesa G132-3.465MW,GamesaG1323465MW,3465.0,3.0,11.0,25.0,107.25,132.0,13685.0,3.0
+Gamesa,Gamesa G132-5.0MW,GamesaG13250MW,5000.0,1.5,13.0,27.0,118.33333333333333,132.0,13685.0,3.0
+Garuda,Garuda G 700.54,GarudaG70054,700.0,3.5,11.0,24.0,73.0,54.0,2290.0,3.0
+Garuda,Garuda G 1700.84,GarudaG170084,1700.0,3.5,10.8,24.0,91.5,84.0,5537.0,3.0
+GC China,GC China GC54,GCChinaGC54,1000.0,4.0,15.0,25.0,65.0,54.0,2291.0,2.0
+GC China,GC China GC57,GCChinaGC57,1000.0,4.0,15.0,23.0,65.0,57.0,2552.0,2.0
+GC China,GC China GC59,GCChinaGC59,1000.0,4.0,15.0,21.0,65.0,59.0,2734.0,2.0
+Neyrpic,Neyrpic Saint-Rémy-des-Landes 1000kW,NeyrpicSaintRémydesLandes1000kW,1000.0,5.5,17.0,15.0,61.0,35.0,962.0,3.0
+General Electric,General Electric Haliade-X,GeneralElectricHaliadeX,12000.0,,,,150.0,220.0,38000.0,3.0
+General Electric,General Electric GE 1.5s,GeneralElectricGE15s,1500.0,4.0,13.0,25.0,82.425,70.5,3904.0,3.0
+General Electric,General Electric GE 1.5se,GeneralElectricGE15se,1500.0,4.0,12.0,25.0,57.333333333333336,70.5,3904.0,3.0
+General Electric,General Electric GE 1.5sl,GeneralElectricGE15sl,1500.0,3.5,12.0,25.0,78.22,77.0,4657.0,3.0
+General Electric,General Electric GE 1.5sle,GeneralElectricGE15sle,1500.0,3.5,12.0,25.0,72.775,77.0,4657.0,3.0
+General Electric,General Electric GE 1.5xle,GeneralElectricGE15xle,1500.0,3.5,11.5,20.0,69.35,82.5,5346.0,3.0
+General Electric,General Electric GE 1.6-82.5,GeneralElectricGE16825,1600.0,3.5,10.0,25.0,81.66666666666667,82.5,5345.6,3.0
+General Electric,General Electric GE 1.6 - 100,GeneralElectricGE16100,1600.0,3.5,11.0,25.0,90.0,100.0,7854.0,3.0
+General Electric,General Electric GE 1.7 - 100,GeneralElectricGE17100,1700.0,3.0,10.0,23.0,88.0,100.0,7854.0,3.0
+General Electric,General Electric GE 1.7 - 103,GeneralElectricGE17103,1700.0,3.0,10.0,23.0,88.0,103.0,8332.0,3.0
+General Electric,General Electric GE 1.85 - 82.5,GeneralElectricGE185825,1850.0,3.0,13.0,25.0,81.66666666666667,82.5,5346.0,3.0
+General Electric,General Electric GE 1.85 - 87,GeneralElectricGE18587,1850.0,3.0,12.5,25.0,80.0,87.0,5945.0,3.0
+General Electric,General Electric GE 2.0-2.7 - 116,GeneralElectricGE2027116,2700.0,3.0,,,88.0,116.0,10660.0,3.0
+General Electric,General Electric GE 2.2-2.5 - 127,GeneralElectricGE2225127,2500.0,3.0,,,89.0,127.0,12667.0,3.0
+General Electric,General Electric GE 2.3 -107,GeneralElectricGE23107,2300.0,,,,80.0,107.0,8992.0,3.0
+General Electric,General Electric GE 2.5 - 88,GeneralElectricGE2588,2500.0,3.0,14.0,25.0,85.0,88.0,6082.0,3.0
+General Electric,General Electric GE 2.5 - 100,GeneralElectricGE25100,2500.0,3.0,13.0,25.0,80.0,100.0,7854.0,3.0
+General Electric,General Electric GE 2.5-103,GeneralElectricGE25103,2500.0,3.0,12.0,25.0,92.5,103.0,8332.0,3.0
+General Electric,General Electric GE 2.5 - 120,GeneralElectricGE25120,2500.0,3.0,,25.0,124.5,120.0,11309.7,3.0
+General Electric,General Electric GE 2.75 - 100,GeneralElectricGE275100,2750.0,3.0,12.0,25.0,95.45,100.0,7854.0,3.0
+General Electric,General Electric GE 2.75 - 103,GeneralElectricGE275103,2750.0,3.0,13.0,25.0,95.45,103.0,8332.0,3.0
+General Electric,General Electric GE 2.75 - 120,GeneralElectricGE275120,2750.0,,,,111.33333333333333,120.0,11309.7,3.0
+General Electric,General Electric GE 2.85 - 100,GeneralElectricGE285100,2850.0,3.0,13.0,25.0,86.10000000000001,100.0,7854.0,3.0
+General Electric,General Electric GE 2.85 - 103,GeneralElectricGE285103,2850.0,3.0,12.5,25.0,86.10000000000001,103.0,8332.0,3.0
+General Electric,General Electric GE 3.2 -103,GeneralElectricGE32103,3200.0,,,,84.0,103.0,8332.0,3.0
+General Electric,General Electric GE 3.2-130,GeneralElectricGE32130,3200.0,2.0,12.0,25.0,121.0,130.0,13273.0,3.0
+General Electric,General Electric GE 3.4-130,GeneralElectricGE34130,3400.0,,,,123.0,130.0,13273.0,3.0
+General Electric,General Electric GE 3.4-137,GeneralElectricGE34137,3400.0,,,,123.0,137.0,14741.0,3.0
+General Electric,General Electric GE 3.6s,GeneralElectricGE36s,3600.0,3.5,15.0,25.0,,104.0,8495.0,3.0
+General Electric,General Electric GE 3.6-137,GeneralElectricGE36137,3600.0,,,,122.725,137.0,14741.0,3.0
+General Electric,General Electric GE 3.8-130,GeneralElectricGE38130,3800.0,,,,122.725,130.0,13273.0,3.0
+General Electric,General Electric GE 4.1-113,GeneralElectricGE41113,4100.0,3.5,14.0,25.0,85.0,113.0,9940.0,3.0
+General Electric,General Electric GE 4.8-158,GeneralElectricGE48158,4800.0,,,,134.975,158.0,19600.0,3.0
+General Electric,General Electric GE 5.3-158,GeneralElectricGE53158,5300.0,,,,132.975,158.0,19607.0,3.0
+General Electric,General Electric Haliade 150-6MW,GeneralElectricHaliade1506MW,6000.0,3.0,,25.0,100.0,151.0,17860.0,3.0
+GenesYs mbH,GenesYs mbH GenesYs 600,GenesYsmbHGenesYs600,600.0,3.0,11.5,25.0,62.0,45.9,1654.0,3.0
+Genvind,Genvind GV20,GenvindGV20,20.0,,,,20.0,12.6,125.0,3.0
+Genvind,Genvind GV20-2,GenvindGV202,15.0,,,,18.2,12.6,125.0,3.0
+GET Danwin,GET Danwin 225/27,GETDanwin22527,225.0,4.0,14.0,25.0,34.5,27.0,573.0,3.0
+GET Danwin,GET Danwin 225/29,GETDanwin22529,225.0,4.0,16.0,25.0,35.0,29.0,661.0,3.0
+GET Danwin,GET Danwin 600/41,GETDanwin60041,600.0,3.5,14.0,25.0,60.0,41.0,1320.0,3.0
+GGS,GGS Falcon 1250,GGSFalcon1250,1250.0,3.0,13.0,25.0,68.0,64.0,3217.0,3.0
+Ghodawat,Ghodawat G 1650/82,GhodawatG165082,1650.0,3.5,11.5,20.0,73.0,82.0,5278.0,3.0
+Global Wind Power Lt,Global Wind Power Lt GWP47-750kW,GlobalWindPowerLtGWP47750kW,750.0,3.5,14.5,25.0,55.0,47.0,1735.0,3.0
+Global Wind Power Lt,Global Wind Power Lt GWP82-2000kW,GlobalWindPowerLtGWP822000kW,2000.0,2.7,12.5,28.0,101.66666666666667,82.5,5350.0,3.0
+Global Wind Power Lt,Global Wind Power Lt GWP 100 - 2500,GlobalWindPowerLtGWP1002500,2500.0,3.5,12.0,25.0,120.6,100.0,7854.0,3.0
+Global Wind Power Lt,Global Wind Power Lt GWP MY - 1500,GlobalWindPowerLtGWPMY1500,1500.0,3.0,11.3,25.0,72.5,77.1,4669.0,3.0
+Gödecke,Gödecke AeroCraft 1002H,GödeckeAeroCraft1002H,1.0,3.0,9.0,40.0,1.75,2.4,4.5,3.0
+Goslich,Goslich GT 10,GoslichGT10,10.0,3.0,8.0,25.0,9.0,10.5,86.0,2.0
+Green Power sarl,Green Power sarl Yonval GP40 - old model,GreenPowersarlYonvalGP40oldmodel,36.0,3.4,12.0,25.0,30.0,11.5,104.0,3.0
+Green Power sarl,Green Power sarl GP Yonval 40-16,GreenPowersarlGPYonval4016,40.0,3.5,11.0,24.0,24.666666666666668,16.0,200.0,3.0
+Greenstorm,Greenstorm GS 21 S,GreenstormGS21S,60.0,3.0,8.8,25.0,33.0,22.3,386.7,3.0
+Grumman,Grumman Windstream 33,GrummanWindstream33,15.0,,,,,10.0,79.0,3.0
+WEG,WEG AGW 100,WEGAGW100,95.0,3.0,12.0,25.0,37.0,24.4,467.6,3.0
+WEG,WEG AGW 110 / 2.1,WEGAGW11021,2100.0,3.0,11.0,20.0,100.0,110.0,9503.0,3.0
+MingYang,MingYang MY1.5Sh 82.6,MingYangMY15Sh826,1500.0,3.0,14.0,25.0,72.5,82.6,5320.0,3.0
+MingYang,MingYang MY1.5Su 77.1,MingYangMY15Su771,1500.0,3.0,11.3,25.0,72.5,77.1,4369.0,3.0
+MingYang,MingYang MY1.5Su 82.6,MingYangMY15Su826,1500.0,3.0,10.8,25.0,72.5,82.6,5320.0,3.0
+MingYang,MingYang MY2.5-92 SCD,MingYangMY2592SCD,2500.0,3.0,11.0,25.0,87.5,92.0,6644.0,2.0
+MingYang,MingYang MY2.5-100 SCD,MingYangMY25100SCD,2500.0,3.0,11.0,25.0,87.5,100.0,7850.0,2.0
+MingYang,MingYang MY2.5-108 SCD,MingYangMY25108SCD,2500.0,3.0,11.0,25.0,87.5,108.0,9160.0,2.0
+MingYang,MingYang MySE2.5-121,MingYangMySE25121,2500.0,3.0,9.5,25.0,107.0,121.0,11499.0,3.0
+MingYang,MingYang MY3.0-108 SCD,MingYangMY30108SCD,3000.0,3.0,13.0,25.0,87.5,108.0,9160.0,2.0
+MingYang,MingYang MY3.0-92 SCD,MingYangMY3092SCD,3000.0,3.0,13.0,25.0,87.5,92.0,6644.0,2.0
+MingYang,MingYang MY3.0-100 SCD,MingYangMY30100SCD,3000.0,3.0,13.0,25.0,87.5,100.0,7850.0,2.0
+MingYang,MingYang MySE3.0-121,MingYangMySE30121,3000.0,3.0,10.0,25.0,110.83333333333333,121.0,11499.0,3.0
+MingYang,MingYang MySE3.0-112,MingYangMySE30112,3000.0,3.0,10.0,25.0,110.83333333333333,112.0,9852.0,3.0
+MingYang,MingYang MySE3.0-135,MingYangMySE30135,3000.0,3.0,9.3,20.0,110.83333333333333,135.0,14314.0,3.0
+MingYang,MingYang MySE3.2-145,MingYangMySE32145,3200.0,2.5,9.2,20.0,110.83333333333333,145.0,16513.0,3.0
+MingYang,MingYang MySE3.6-135,MingYangMySE36135,3600.0,3.0,9.8,20.0,110.83333333333333,135.0,14314.0,3.0
+MingYang,MingYang MySE5.5-18X,MingYangMySE5518X,5500.0,3.0,9.2,22.0,115.0,180.0,25447.0,3.0
+MingYang,MingYang MySE5.5-155,MingYangMySE55155,5500.0,3.0,10.1,30.0,100.0,155.0,18869.0,3.0
+MingYang,MingYang MY6.0-140 SCD,MingYangMY60140SCD,6000.0,3.0,,22.0,100.0,140.0,15394.0,2.0
+MingYang,MingYang MySE7.0-158,MingYangMySE70158,7000.0,3.0,11.1,30.0,100.0,158.0,19607.0,3.0
+United Power,United Power UP1500-86,UnitedPowerUP150086,1500.0,3.0,10.0,25.0,72.5,86.0,5809.0,
+United Power,United Power UP2000-97,UnitedPowerUP200097,2000.0,3.0,10.1,25.0,80.0,97.0,7390.0,
+United Power,United Power UP3000-120,UnitedPowerUP3000120,3000.0,3.5,10.2,25.0,90.0,120.0,11310.0,
+United Power,United Power UP6000-136,UnitedPowerUP6000136,6000.0,3.5,12.0,25.0,95.0,136.0,14527.0,
+Hanjin,Hanjin HJWT100,HanjinHJWT100,100.0,,,,,,,
+Hanjin,Hanjin HJWT1500/77,HanjinHJWT150077,1500.0,3.5,13.0,25.0,75.0,77.0,4657.0,3.0
+Hanjin,Hanjin HJWT2000/87,HanjinHJWT200087,2000.0,3.5,12.0,25.0,85.0,87.0,5945.0,3.0
+Hanjin,Hanjin HJWT2000/93,HanjinHJWT200093,2000.0,3.5,12.0,25.0,85.0,93.0,6735.0,3.0
+Hanjin,Hanjin HJWT2500/103,HanjinHJWT2500103,2500.0,3.5,11.4,25.0,90.0,103.0,8332.0,3.0
+Hannevind Vindkraft,Hannevind Vindkraft 11kW,HannevindVindkraft11kW,11.0,3.0,9.0,25.0,27.0,10.0,78.5,3.0
+Hannevind Vindkraft,Hannevind Vindkraft 15kW,HannevindVindkraft15kW,15.0,3.0,9.0,25.0,27.0,11.0,95.0,3.0
+Hannevind Vindkraft,Hannevind Vindkraft 22kW,HannevindVindkraft22kW,22.0,3.0,9.0,25.0,30.0,14.0,153.9,3.0
+Hannevind Vindkraft,Hannevind Vindkraft 30kW,HannevindVindkraft30kW,30.0,3.0,9.0,25.0,30.0,14.0,153.9,3.0
+Hannevind Vindkraft,Hannevind Vindkraft 5.5kW,HannevindVindkraft55kW,5.5,3.0,9.0,25.0,-9.0,6.0,28.3,3.0
+Svaneborg,Svaneborg Stand Alone,SvaneborgStandAlone,7.5,,,,,,,3.0
+HAG,HAG ET500/37,HAGET50037,500.0,3.5,16.0,20.0,32.0,37.0,1075.2,3.0
+HAG,HAG ET550/41,HAGET55041,550.0,3.5,14.0,25.0,48.0,41.5,1353.0,3.0
+Harakosan,Harakosan STX 82,HarakosanSTX82,2000.0,3.0,12.0,25.0,80.0,82.7,5372.0,
+Harlingen ;-),Harlingen ;-) Prototype,HarlingenPrototype,,,,,,,,
+Haue,Haue Eco Sign / Vertical Axis Wind Turbine Generator,HaueEcoSignVerticalAxisWindTurbineGenerator,,,,,,,,
+HEAG,HEAG HW1-780,HEAGHW1780,780.0,3.5,14.5,25.0,55.0,50.0,1962.0,3.0
+HEAG,HEAG HW2/S1500(77),HEAGHW2S150077,1500.0,3.0,12.0,25.0,65.7,77.1,4672.4,3.0
+HEAG,HEAG HW2/S1500(82),HEAGHW2S150082,1500.0,3.0,11.3,25.0,75.0,82.0,5281.0,3.0
+HEAG,HEAG HW2/S1500(87),HEAGHW2S150087,1500.0,3.5,11.4,22.0,75.0,87.0,5945.0,3.0
+HEAG,HEAG HW2/S1500(92),HEAGHW2S150092,1500.0,3.0,9.6,25.0,85.0,92.0,6647.0,3.0
+HEAG,HEAG HW2/S2000(110),HEAGHW2S2000110,2000.0,3.0,9.6,25.0,100.0,110.0,9503.0,3.0
+HEAG,HEAG HW3/S2500(90),HEAGHW3S250090,2500.0,3.0,12.5,25.0,85.0,90.0,6361.7,3.0
+HEAG,HEAG HW3/S2500(97),HEAGHW3S250097,2500.0,3.0,12.0,25.0,75.0,97.0,7389.8,3.0
+HEAG,HEAG HW3/S2500(103),HEAGHW3S2500103,2500.0,3.0,11.7,25.0,85.0,103.0,8332.3,3.0
+HEAG,HEAG HW3/S2500(110),HEAGHW3S2500110,2500.0,3.0,10.5,22.0,85.0,110.0,9503.3,3.0
+Hedan,Hedan Model XS,HedanModelXS,20.0,,,,,11.0,95.0,3.0
+Hedan,Hedan Model XT,HedanModelXT,25.0,,,,,13.4,141.0,3.0
+Heidelberg Motor GmbH,Heidelberg Motor GmbH HM20,HeidelbergMotorGmbHHM20,20.0,,,,,,,
+Heidelberg Motor GmbH,Heidelberg Motor GmbH HM300,HeidelbergMotorGmbHHM300,300.0,,,,50.0,32.0,,2.0
+Heidelberg Motor GmbH,Heidelberg Motor GmbH HM1000,HeidelbergMotorGmbHHM1000,1000.0,,,,,,,
+Dove,Dove DOBA 4,DoveDOBA4,70.0,,,,22.0,20.0,,
+Laverenz,Laverenz WKA,LaverenzWKA,,,,,,,,5.0
+Henning Friis Jensen,Henning Friis Jensen Mølle,HenningFriisJensenMølle,4.0,,,,,,,
+Henrik Stiesdal,Henrik Stiesdal prototype,HenrikStiesdalprototype,15.0,,,,,,,
+Brümmer,Brümmer BW 100,BrümmerBW100,8.5,,,,9.0,11.0,95.0,3.0
+Brümmer,Brümmer BW 120,BrümmerBW120,11.0,,8.0,,9.0,13.0,132.7,3.0
+Brümmer,Brümmer BW 160,BrümmerBW160,20.0,,,,12.0,17.0,227.0,3.0
+Brümmer,Brümmer BW 200,BrümmerBW200,30.0,,,,15.0,22.0,380.0,3.0
+Hermann Claußen,Hermann Claußen Tornado,HermannClaußenTornado,,,,,25.0,16.0,201.0,3.0
+Honnef,Honnef Turbine 1,HonnefTurbine1,15.0,,,,36.0,9.0,63.6,12.0
+Heyde Windtechnik,Heyde Windtechnik Heywind 2.5,HeydeWindtechnikHeywind25,2.5,2.5,11.0,,,3.0,7.1,3.0
+Heyde Windtechnik,Heyde Windtechnik Heywind 3.5,HeydeWindtechnikHeywind35,3.5,2.5,11.0,,,3.5,9.6,3.0
+Heyde Windtechnik,Heyde Windtechnik Heywind 5.0,HeydeWindtechnikHeywind50,5.0,2.5,11.0,,,4.4,15.2,3.0
+Hi-VAWT,Hi-VAWT DS-3000W,HiVAWTDS3000W,3.0,3.0,12.0,15.0,4.2,4.0,,3.0
+Hibbeln,Hibbeln Eigenbau,HibbelnEigenbau,30.0,,,,18.0,,,
+HIDROTIM,HIDROTIM EOLTIM 3/1 model,HIDROTIMEOLTIM31model,300.0,3.5,10.0,25.0,35.0,30.0,707.0,3.0
+HIDROTIM,HIDROTIM EOLTIM 3/3 variant I,HIDROTIMEOLTIM33variantI,300.0,3.5,10.0,25.0,35.0,30.0,707.0,3.0
+HIDROTIM,HIDROTIM EOLTIM 3/5 variant II,HIDROTIMEOLTIM35variantII,300.0,3.5,10.0,25.0,35.0,30.0,707.0,3.0
+"Hitachi, Ltd.","Hitachi, Ltd. HWT2.0-80",HitachiLtdHWT2080,2000.0,4.0,,25.0,71.5,80.0,4978.0,3.0
+"Hitachi, Ltd.","Hitachi, Ltd. HWT5.2-127",HitachiLtdHWT52127,5200.0,3.0,10.0,25.0,90.0,127.0,12668.0,3.0
+"Hitachi, Ltd.","Hitachi, Ltd. HWT5.2-136",HitachiLtdHWT52136,5200.0,3.0,7.5,25.0,90.0,136.0,14527.0,3.0
+HOLEC,HOLEC WPS-30/3,HOLECWPS303,310.0,5.0,14.0,20.0,35.0,30.1,712.0,3.0
+HOLEC,HOLEC WPS-35-550,HOLECWPS35550,550.0,,,,40.0,35.0,962.0,2.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 30,HSWHusumerSchiffsHSW30,30.0,4.5,15.0,22.0,18.0,12.4,113.0,2.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 250,HSWHusumerSchiffsHSW250,250.0,4.0,13.0,23.0,28.0,25.0,490.9,3.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 250 T,HSWHusumerSchiffsHSW250T,250.0,3.7,14.0,24.0,39.25,28.5,638.0,3.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 750,HSWHusumerSchiffsHSW750,750.0,,,,50.0,46.0,1661.9,3.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 750/48,HSWHusumerSchiffsHSW75048,750.0,3.0,14.0,20.0,65.0,48.4,1840.0,3.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 1000/54,HSWHusumerSchiffsHSW100054,1000.0,5.0,13.2,28.0,53.7,54.0,2300.0,3.0
+HSW Husumer Schiffs.,HSW Husumer Schiffs. HSW 1000/57,HSWHusumerSchiffsHSW100057,1050.0,3.0,13.0,25.0,61.666666666666664,57.0,2552.0,3.0
+HSWind,HSWind Viking 25,HSWindViking25,25.0,4.0,12.0,25.0,18.0,13.0,133.0,3.0
+HVK Herborg,HVK Herborg HVK 5,HVKHerborgHVK5,5.0,,,,,,,3.0
+HVK Herborg,HVK Herborg HVK 5,HVKHerborgHVK5,5.0,,,,,,,
+HVK Herborg,HVK Herborg HVK 15,HVKHerborgHVK15,15.0,,,,,,,3.0
+HVK Herborg,HVK Herborg HVK 30,HVKHerborgHVK30,30.0,,,,,,,3.0
+HVK Herborg,HVK Herborg Vestas HVK 30,HVKHerborgVestasHVK30,30.0,,,,18.0,10.0,78.5,3.0
+HVK Herborg,HVK Herborg Vestas HVK 30,HVKHerborgVestasHVK30,30.0,,,,,10.0,78.5,3.0
+HVK Herborg,HVK Herborg HVK 37,HVKHerborgHVK37,37.0,4.0,16.0,25.0,18.0,13.0,132.7,3.0
+HVK Herborg,HVK Herborg Vestas HVK 55,HVKHerborgVestasHVK55,55.0,,,,24.5,15.6,,3.0
+HVK Herborg,HVK Herborg HVK 55,HVKHerborgHVK55,55.0,,,,20.0,15.0,177.0,3.0
+HVK Herborg,HVK Herborg HVK 120,HVKHerborgHVK120,22.0,,,,15.0,12.0,113.0,3.0
+Hyosung,Hyosung HS50,HyosungHS50,750.0,4.0,12.5,25.0,50.0,50.0,1964.0,3.0
+Hyosung,Hyosung HS90,HyosungHS90,2000.0,3.5,12.0,25.0,80.0,90.6,6447.0,3.0
+Hyosung,Hyosung HS139,HyosungHS139,5000.0,3.4,11.0,25.0,100.0,139.0,15175.0,3.0
+Hyundai,Hyundai HQ1650/77,HyundaiHQ165077,1650.0,3.5,12.0,20.0,75.0,77.0,4657.0,3.0
+Hyundai,Hyundai HQ2000/86,HyundaiHQ200086,2000.0,3.5,12.5,25.0,80.0,86.0,5809.0,3.0
+Hyundai,Hyundai HQ2000/93,HyundaiHQ200093,2000.0,3.0,11.5,20.0,90.0,93.0,6793.0,3.0
+Hyundai,Hyundai HQ5500/140,HyundaiHQ5500140,5500.0,3.5,13.0,25.0,100.0,140.0,15393.8,3.0
+IMPEC,IMPEC 60kW,IMPEC60kW,60.0,,,,,,,3.0
+IMPSA,IMPSA IV 70,IMPSAIV70,1500.0,3.5,15.0,25.0,75.0,70.0,3886.0,3.0
+IMPSA,IMPSA IWP 70-1.5,IMPSAIWP7015,1500.0,3.0,12.0,25.0,85.83333333333333,70.0,3848.0,3.0
+IMPSA,IMPSA IWP 70-1.8,IMPSAIWP7018,1800.0,3.0,13.0,25.0,85.83333333333333,70.0,3848.0,3.0
+IMPSA,IMPSA IV 77,IMPSAIV77,1500.0,3.0,13.0,22.0,82.16666666666667,77.0,4637.0,3.0
+IMPSA,IMPSA IV 82,IMPSAIV82,1500.0,3.0,12.5,22.0,92.5,82.0,5325.0,3.0
+IMPSA,IMPSA IWP 83,IMPSAIWP83,2100.0,3.0,12.5,25.0,85.66666666666667,83.0,5410.0,3.0
+IMPSA,IMPSA IWP 85,IMPSAIWP85,2000.0,3.0,12.0,25.0,66.25,85.0,5674.5,3.0
+IMPSA,IMPSA IV 87,IMPSAIV87,1500.0,3.0,12.0,22.0,92.5,87.0,5890.0,3.0
+IMPSA,IMPSA IWP 93,IMPSAIWP93,2100.0,3.0,12.5,22.0,85.66666666666667,93.0,6793.0,3.0
+IMPSA,IMPSA IWP 100,IMPSAIWP100,2000.0,3.0,11.0,22.0,92.5,100.0,7853.0,3.0
+IMPSA,IMPSA IWP 103,IMPSAIWP103,2000.0,3.0,11.0,22.0,101.66666666666667,103.0,8332.0,3.0
+India Wind Power,India Wind Power IWPL-29/250,IndiaWindPowerIWPL29250,250.0,3.0,15.0,25.0,50.0,29.7,693.0,3.0
+Ingetur,Ingetur IT-60/1300,IngeturIT601300,1300.0,,,,,60.0,2827.0,3.0
+Ingetur,Ingetur IT-70/1300,IngeturIT701300,1300.0,,,,,70.0,3849.0,3.0
+Ingetur,Ingetur IT-70/1500,IngeturIT701500,1500.0,4.0,11.6,25.0,70.0,70.0,3849.0,3.0
+Ingetur,Ingetur IT-77/1500,IngeturIT771500,1500.0,3.0,11.8,18.0,77.0,77.0,4657.0,3.0
+Inox,Inox DF 93,InoxDF93,2000.0,3.0,11.5,20.0,80.0,93.0,6795.0,3.0
+Inox,Inox DF 100,InoxDF100,2000.0,3.0,11.0,20.0,86.0,100.0,7894.0,3.0
+Inox,Inox DF 113,InoxDF113,2000.0,3.0,10.5,20.0,106.0,113.0,10029.0,3.0
+Inox,Inox WT 2000 DF,InoxWT2000DF,2000.0,3.0,11.5,20.0,78.0,93.0,6785.0,3.0
+I.R.D.,I.R.D. 15kW,IRD15kW,15.0,4.0,11.5,30.0,12.5,7.9,49.0,3.0
+I.R.D.,I.R.D. 22kW,IRD22kW,22.0,4.5,12.0,25.0,18.5,10.2,81.7,3.0
+I.R.D.,I.R.D. 55kW,IRD55kW,55.0,4.5,15.0,25.0,15.0,14.5,165.0,3.0
+Iskra,Iskra AT5-1,IskraAT51,5.0,2.5,12.0,60.0,12.0,5.4,22.9,3.0
+ITALIA,ITALIA HAWT Prototype,ITALIAHAWTPrototype,10.0,,,,30.0,15.0,177.0,2.0
+ITALIA,ITALIA VAWT Prototype,ITALIAVAWTPrototype,15.0,,,,25.0,12.0,113.0,3.0
+IWT,IWT V42,IWTV42,600.0,4.0,16.0,25.0,46.75,42.0,1357.0,3.0
+IWT,IWT V47,IWTV47,660.0,4.0,15.0,25.0,52.5,47.0,1735.0,3.0
+IWT,IWT V52,IWTV52,850.0,4.0,16.0,25.0,55.285714285714285,52.0,2124.0,3.0
+IZAR TURBINAS,IZAR TURBINAS 44/600,IZARTURBINAS44600,600.0,3.0,15.0,25.0,47.5,44.0,1520.0,3.0
+IZAR TURBINAS,IZAR TURBINAS 55/1300,IZARTURBINAS551300,1300.0,3.0,16.0,25.0,79.33333333333333,55.0,2375.8,3.0
+IZAR TURBINAS,IZAR TURBINAS 62/1300,IZARTURBINAS621300,1300.0,3.0,15.0,25.0,59.0,62.0,3000.0,3.0
+Jacobs,Jacobs 41/500,Jacobs41500,500.0,4.0,15.0,25.0,50.0,41.0,1320.0,3.0
+Jacobs,Jacobs 43/600,Jacobs43600,600.0,3.0,14.0,25.0,50.0,43.0,1452.0,3.0
+Jacobs,Jacobs 48/600,Jacobs48600,600.0,2.5,13.0,20.0,63.333333333333336,48.4,1840.0,3.0
+Jacobs,Jacobs 48/750,Jacobs48750,750.0,3.0,14.0,20.0,63.333333333333336,48.4,1840.0,3.0
+Jacobs,Jacobs 57/1000,Jacobs571000,1050.0,3.0,13.0,25.0,61.666666666666664,57.0,2552.0,3.0
+Jacobs,Jacobs MD 70,JacobsMD70,1500.0,2.5,13.0,25.0,76.66666666666667,70.0,3850.0,3.0
+Jacobs,Jacobs MD 77,JacobsMD77,1500.0,2.5,12.0,20.0,84.25,77.0,4656.0,3.0
+Jacobs PowerTec,Jacobs PowerTec JPT 3-120,JacobsPowerTecJPT3120,3000.0,3.0,10.1,25.0,126.0,120.0,11310.0,3.0
+Jacobs Wind Electric,Jacobs Wind Electric 31-20,JacobsWindElectric3120,20.0,3.5,,,36.5,9.5,230.0,3.0
+James Howden,James Howden HWP-60,JamesHowdenHWP60,60.0,4.5,17.0,29.0,20.0,15.0,176.7,3.0
+James Howden,James Howden HWP-200,JamesHowdenHWP200,200.0,5.0,13.5,25.0,22.0,22.0,380.0,3.0
+James Howden,James Howden HWP-300,JamesHowdenHWP300,300.0,5.0,16.0,25.0,22.0,22.0,380.0,3.0
+James Howden,James Howden HWP-330,JamesHowdenHWP330,330.0,5.0,13.5,25.0,25.0,31.0,754.8,3.0
+James Howden,James Howden HWP-750,JamesHowdenHWP750,750.0,6.0,13.0,26.0,35.0,45.0,1590.0,3.0
+James Howden,James Howden HWP-1000,JamesHowdenHWP1000,1000.0,3.0,,,45.0,55.0,2376.0,3.0
+Japan Steel Works,Japan Steel Works J82-2.0,JapanSteelWorksJ8220,2000.0,3.5,13.0,25.0,70.0,83.3,5450.0,3.0
+Jernstøberi A/S,Jernstøberi A/S 5-vinget Klapsejler,JernstøberiAS5vingetKlapsejler,,,,,,,,
+Jeumont,Jeumont J 48/750,JeumontJ48750,750.0,3.0,13.5,25.0,46.0,48.0,1810.0,3.0
+K.M. Vindmøller,K.M. Vindmøller KM-T 103,KMVindmøllerKMT103,11.0,,,,,10.0,78.5,3.0
+K.M. Vindmøller,K.M. Vindmøller T202 Swinger,KMVindmøllerT202Swinger,11.0,3.0,12.0,25.0,18.3,13.0,133.0,2.0
+Kähler Maschinenbau,Kähler Maschinenbau KANO Rotor,KählerMaschinenbauKANORotor,30.0,3.0,13.0,22.0,30.5,13.0,132.0,3.0
+Kaman,Kaman 40 kW,Kaman40kW,40.0,,9.0,,23.0,19.5,299.0,2.0
+Karlskronavarvet,Karlskronavarvet WTS-3 Maglarp,KarlskronavarvetWTS3Maglarp,3000.0,6.0,14.0,21.0,80.0,78.0,4778.0,2.0
+Kenersys,Kenersys K82 2.0MW,KenersysK8220MW,2000.0,3.0,14.0,25.0,89.0,82.0,5281.0,3.0
+Kenersys,Kenersys K100 2.5MW,KenersysK10025MW,2500.0,3.0,14.0,25.0,106.66666666666667,100.0,7854.0,3.0
+Kenersys,Kenersys K110 2.4MW,KenersysK11024MW,2400.0,3.0,12.5,20.0,120.0,109.0,9331.0,3.0
+Kenersys,Kenersys K120 2.3MW,KenersysK12023MW,2300.0,3.0,10.0,20.0,117.5,120.0,11310.0,3.0
+Kenetech,Kenetech KVS-33,KenetechKVS33,360.0,4.0,,21.0,27.0,33.0,855.0,3.0
+Kenetech,Kenetech 33 M-VS,Kenetech33MVS,410.0,4.0,14.0,28.5,28.0,33.0,588.0,3.0
+Kenetech,Kenetech KCS-56,KenetechKCS56,100.0,5.0,13.0,20.0,,17.0,,3.0
+Kessler,Kessler SPINWIND,KesslerSPINWIND,10.0,3.0,11.5,16.0,9.7,4.7,40.0,3.0
+Kestrel Ltd.,Kestrel Ltd. e300i,KestrelLtde300i,1.0,2.5,10.5,,-3.0,3.0,7.1,3.0
+Kestrel Ltd.,Kestrel Ltd. e400nb,KestrelLtde400nb,3.5,3.3,11.0,70.0,-3.0,4.0,12.6,3.0
+Keuka Energy,Keuka Energy Rim Drive,KeukaEnergyRimDrive,,4.0,,20.0,,,,
+Kingspan Renewables,Kingspan Renewables KW6,KingspanRenewablesKW6,6.1,3.5,,,13.9,5.6,24.6,3.0
+Komaihaltec,Komaihaltec KWT300,KomaihaltecKWT300,300.0,3.0,11.5,25.0,42.25,33.0,855.0,3.0
+KONČAR,KONČAR KO - VA 57 / 1,KONČARKOVA571,1000.0,2.0,12.0,27.0,60.0,57.0,2588.0,3.0
+KONČAR,KONČAR K80,KONČARK80,2500.0,2.5,12.5,25.0,80.0,91.0,6526.0,3.0
+Kongsted,Kongsted Kongsted Møllen - fiberglass blades,KongstedKongstedMøllenfiberglassblades,22.0,,,,18.0,10.0,85.0,3.0
+Kongsted,Kongsted Kongsted Møllen - nacelle (fiberglass blades),KongstedKongstedMøllennacellefiberglassblades,22.0,,,,,10.4,85.0,3.0
+Kongsted,Kongsted Kongsted Møllen - nacelle (wood blades),KongstedKongstedMøllennacellewoodblades,22.0,,,,,10.4,85.0,3.0
+Kongsted,Kongsted Kongsted Møllen - wood blades,KongstedKongstedMøllenwoodblades,22.0,,,,18.0,10.4,85.0,3.0
+Kongsted,Kongsted Kongsted Møllen 18kW,KongstedKongstedMøllen18kW,18.0,,,,19.0,11.0,95.0,3.0
+Köster,Köster Adler / pumping station Arbshagen,KösterAdlerpumpingstationArbshagen,,,,,14.0,7.5,44.0,6.0
+Köster,Köster Adler / pumping station Kaiser Wilhelm Koog,KösterAdlerpumpingstationKaiserWilhelmKoog,,,,,,,,
+Köster,Köster Adler / pumping station Lobbe,KösterAdlerpumpingstationLobbe,,,,,14.0,9.9,77.0,30.0
+Köster,Köster Adler / pumping station Usedom,KösterAdlerpumpingstationUsedom,,,,,,8.5,56.7,27.0
+Köster,Köster Adler 25,KösterAdler25,165.0,3.4,13.5,20.0,27.35,25.0,491.0,3.0
+Krampitz,Krampitz KK,KrampitzKK,18.0,3.0,10.0,25.0,9.0,9.5,72.0,18.0
+Krasnovsky,Krasnovsky WIME D-30,KrasnovskyWIMED30,100.0,3.0,8.0,20.0,25.0,30.0,707.0,3.0
+Krogmann,Krogmann 15-50,Krogmann1550,50.0,2.5,14.0,25.0,33.5,15.0,177.0,3.0
+Kuriant,Kuriant KE 11K,KuriantKE11K,11.0,4.0,,25.0,15.0,10.0,79.0,3.0
+Kuriant,Kuriant KE 15/4,KuriantKE154,15.0,4.0,,25.0,15.0,10.9,92.0,3.0
+Kuriant,Kuriant KE 18/4EH,KuriantKE184EH,18.0,3.5,23.0,25.0,20.0,10.9,93.0,3.0
+KVA Vind,KVA Vind KVA 6-10,KVAVindKVA610,10.0,3.0,10.5,25.0,21.5,7.1,39.6,3.0
+KVA Vind,KVA Vind KVA Vind 10-15,KVAVindKVAVind1015,15.0,3.0,8.5,25.0,,9.9,77.0,3.0
+Kværner Turbin AB,Kværner Turbin AB Näsudden II,KværnerTurbinABNäsuddenII,3000.0,6.0,14.5,25.0,78.0,80.5,5093.4,2.0
+Kværner Turbin AB,Kværner Turbin AB Näsudden I WTS-75,KværnerTurbinABNäsuddenIWTS75,2000.0,6.0,13.0,21.0,77.0,75.0,4418.0,2.0
+Lagerwey,Lagerwey LW 10/35,LagerweyLW1035,35.0,,,,,10.6,88.3,3.0
+Lagerwey,Lagerwey LW 15/75,LagerweyLW1575,75.0,3.0,12.0,25.0,30.333333333333332,15.8,196.1,2.0
+Lagerwey,Lagerwey LW 18/80,LagerweyLW1880,80.0,2.8,14.0,30.0,41.75,18.0,254.0,2.0
+Lagerwey,Lagerwey LW 27/250,LagerweyLW27250,250.0,3.0,14.0,25.0,42.0,27.0,572.0,2.0
+Lagerwey,Lagerwey LW 30/250,LagerweyLW30250,250.0,3.0,13.0,25.0,45.0,30.0,707.0,2.0
+Lagerwey,Lagerwey LW 50/750,LagerweyLW50750,750.0,3.0,12.0,25.0,62.5,50.5,2003.0,3.0
+Lagerwey,Lagerwey LW 52/750,LagerweyLW52750,750.0,2.5,13.0,25.0,-20.0,51.5,2083.0,3.0
+Lagerwey,Lagerwey LW 58/750,LagerweyLW58750,750.0,1.0,11.0,20.0,75.0,58.0,2642.0,3.0
+Lagerwey,Lagerwey LW 72/2000,LagerweyLW722000,2000.0,2.0,13.0,25.0,72.5,71.2,3984.0,3.0
+Lagerwey,Lagerwey L82 2.0 MW,LagerweyL8220MW,2000.0,2.7,12.5,28.0,100.0,82.5,5350.0,3.0
+Lagerwey,Lagerwey L82 2.3 MW,LagerweyL8223MW,2300.0,2.7,,25.0,79.33333333333333,82.0,5346.0,3.0
+Lagerwey,Lagerwey L93 1.5 MW,LagerweyL9315MW,1500.0,2.3,,28.0,81.75,93.0,6810.0,3.0
+Lagerwey,Lagerwey L93 2.6 MW,LagerweyL9326MW,2600.0,2.3,15.0,28.0,96.66666666666667,93.0,6810.0,3.0
+Lagerwey,Lagerwey L100 1.5 MW,LagerweyL10015MW,1500.0,2.1,10.0,28.0,110.75,100.0,7854.0,3.0
+Lagerwey,Lagerwey L100 2.5 MW,LagerweyL10025MW,2500.0,2.5,13.0,25.0,103.0,100.0,7854.0,3.0
+Lagerwey,Lagerwey L100 3.0 MW,LagerweyL10030MW,3000.0,2.1,16.0,28.0,110.75,100.0,7854.0,3.0
+Lagerwey,Lagerwey L132 3.8 MW,LagerweyL13238MW,3800.0,2.3,,28.0,133.0,132.0,13685.0,3.0
+Lagerwey,Lagerwey L136 4.0 MW,LagerweyL13640MW,4000.0,2.0,,25.0,139.33333333333334,136.0,14655.0,3.0
+Lagerwey,Lagerwey L136 4.5 MW,LagerweyL13645MW,4500.0,2.5,,25.0,140.5,136.0,14584.0,3.0
+Lagerwey,Lagerwey L147 LP4,LagerweyL147LP4,4300.0,2.5,,25.0,140.5,147.0,16972.0,3.0
+Lagerwey,Lagerwey L160 LP4,LagerweyL160LP4,4000.0,2.5,,25.0,143.0,160.0,20106.0,3.0
+Lahmann + Stampa,Lahmann + Stampa HaWi 15,LahmannStampaHaWi15,20.0,4.0,12.0,24.0,20.0,10.0,78.0,3.0
+Lanzhou,Lanzhou LEC-2.0 MW-WD R93,LanzhouLEC20MWWDR93,2000.0,3.0,11.5,25.0,90.0,93.0,6792.9,3.0
+Shriram,Shriram LTW 77,ShriramLTW77,1500.0,2.5,,25.0,65.0,77.0,4657.0,3.0
+Leitwind,Leitwind LTW42 250,LeitwindLTW42250,250.0,3.0,9.0,25.0,29.47,42.0,1385.0,3.0
+Leitwind,Leitwind LTW62 1200,LeitwindLTW621200,1200.0,3.0,12.0,25.0,60.0,62.0,3019.0,3.0
+Leitwind,Leitwind LTW70 2000,LeitwindLTW702000,2000.0,3.0,14.5,25.0,60.0,70.1,3859.0,3.0
+Leitwind,Leitwind LTW77 800,LeitwindLTW77800,800.0,3.0,11.0,25.0,68.83333333333333,76.6,4608.0,3.0
+Leitwind,Leitwind LTW77 850,LeitwindLTW77850,850.0,3.0,11.0,25.0,68.83333333333333,76.6,4608.0,3.0
+Leitwind,Leitwind LTW77 1000,LeitwindLTW771000,1000.0,3.0,11.0,25.0,68.83333333333333,76.6,4608.0,3.0
+Leitwind,Leitwind LTW77 1350,LeitwindLTW771350,1350.0,2.5,12.0,25.0,65.0,76.6,4608.0,3.0
+Leitwind,Leitwind LTW77 1500,LeitwindLTW771500,1500.0,3.0,15.0,25.0,68.83333333333333,76.7,4608.0,3.0
+Leitwind,Leitwind LTW80 800,LeitwindLTW80800,800.0,3.0,10.0,25.0,72.5,80.3,5064.0,3.0
+Leitwind,Leitwind LTW80 850,LeitwindLTW80850,850.0,3.0,10.0,25.0,72.5,80.0,5064.0,3.0
+Leitwind,Leitwind LTW80 1000,LeitwindLTW801000,1000.0,3.0,11.0,25.0,72.5,80.3,5064.0,3.0
+Leitwind,Leitwind LTW80 1500,LeitwindLTW801500,1500.0,3.0,12.0,25.0,76.25,80.3,5064.0,3.0
+Leitwind,Leitwind LTW80 1650,LeitwindLTW801650,1650.0,3.0,13.0,25.0,68.33333333333333,80.3,5064.0,3.0
+Leitwind,Leitwind LTW80 1800,LeitwindLTW801800,1800.0,3.0,13.0,25.0,68.33333333333333,80.3,5064.0,3.0
+Leitwind,Leitwind LTW86 1000,LeitwindLTW861000,1000.0,3.0,11.0,25.0,91.875,86.3,5849.0,3.0
+Leitwind,Leitwind LTW86 1500,LeitwindLTW861500,1500.0,3.0,13.0,20.0,91.875,86.3,5849.0,3.0
+Leitwind,Leitwind LTW90 950,LeitwindLTW90950,950.0,3.0,9.0,25.0,87.5,90.3,6404.0,3.0
+Leitwind,Leitwind LTW90 1000,LeitwindLTW901000,1000.0,3.0,9.0,25.0,87.5,90.3,6404.0,3.0
+Leitwind,Leitwind LTW90 1500,LeitwindLTW901500,1500.0,3.0,11.0,25.0,80.83333333333333,90.3,6404.0,3.0
+Leitwind,Leitwind LTW90 2000,LeitwindLTW902000,2000.0,3.0,13.0,25.0,80.83333333333333,90.3,6404.0,3.0
+Leitwind,Leitwind LTW93 3000,LeitwindLTW933000,3000.0,3.0,14.0,25.0,82.5,92.7,6750.0,3.0
+Leitwind,Leitwind LTW101 2000,LeitwindLTW1012000,2000.0,3.0,11.0,25.0,-6.75,101.0,8012.0,3.0
+Leitwind,Leitwind LTW101 2500,LeitwindLTW1012500,2500.0,3.0,12.0,25.0,-6.75,101.0,8012.0,3.0
+Leitwind,Leitwind LTW101 3000,LeitwindLTW1013000,3000.0,3.0,15.0,25.0,-24.75,101.0,8012.0,3.0
+Leitwind,Leitwind LTW104 2000,LeitwindLTW1042000,2000.0,3.0,10.0,25.0,119.0,104.1,8495.0,3.0
+Leitwind,Leitwind LTW104 2500,LeitwindLTW1042500,2500.0,3.0,11.0,25.0,119.0,104.1,8495.0,3.0
+Lykkegaard,Lykkegaard 4-vingede klapsejler,Lykkegaard4vingedeklapsejler,,,,,,,,
+M.Torres,M.Torres TWT 1.5-70,MTorresTWT1570,1500.0,3.0,11.0,25.0,60.0,70.0,3870.0,3.0
+M.Torres,M.Torres TWT 1.5-72,MTorresTWT1572,1500.0,3.0,11.5,25.0,60.0,72.0,4072.0,3.0
+M.Torres,M.Torres TWT 1.5-77,MTorresTWT1577,1500.0,3.0,10.5,25.0,70.33333333333333,77.0,4630.0,3.0
+M.Torres,M.Torres TWT 1.65-70,MTorresTWT16570,1650.0,3.0,16.0,25.0,71.0,70.0,3870.0,3.0
+M.Torres,M.Torres TWT 1.65-77,MTorresTWT16577,1650.0,3.0,16.0,25.0,76.0,77.0,4630.0,3.0
+M.Torres,M.Torres TWT 1.65-82,MTorresTWT16582,1650.0,3.0,15.0,25.0,76.0,82.0,5365.0,3.0
+M.Torres,M.Torres TWT 2.5-90,MTorresTWT2590,2500.0,3.0,16.0,25.0,103.0,90.0,6362.0,3.0
+M.Torres,M.Torres TWT 2.5-100,MTorresTWT25100,2500.0,3.0,15.0,25.0,103.0,100.0,7854.0,3.0
+M.Torres,M.Torres TWT 2.5-109,MTorresTWT25109,2500.0,3.0,14.0,20.0,103.0,109.0,9314.0,3.0
+Made - Endesa,Made - Endesa AE-20,MadeEndesaAE20,150.0,3.0,14.0,25.0,24.5,20.0,314.0,3.0
+Made - Endesa,Made - Endesa AE-20 Prototype,MadeEndesaAE20Prototype,150.0,3.0,14.0,25.0,21.0,20.0,314.0,3.0
+Made - Endesa,Made - Endesa AE-23,MadeEndesaAE23,180.0,3.5,14.0,28.0,28.0,23.0,415.0,3.0
+Made - Endesa,Made - Endesa AE-30,MadeEndesaAE30,330.0,4.0,14.0,28.0,30.0,30.4,726.0,3.0
+Made - Endesa,Made - Endesa GESA-30,MadeEndesaGESA30,30.0,,,,,,,
+Made - Endesa,Made - Endesa AE-32,MadeEndesaAE32,330.0,3.0,12.5,25.0,30.0,32.0,804.0,3.0
+Made - Endesa,Made - Endesa AE-45,MadeEndesaAE45,600.0,3.0,13.5,25.0,44.0,45.0,1590.0,3.0
+Made - Endesa,Made - Endesa AE-46/I,MadeEndesaAE46I,660.0,3.0,12.5,25.0,43.5,46.0,1662.0,3.0
+Made - Endesa,Made - Endesa AE-52,MadeEndesaAE52,800.0,3.5,12.0,25.0,55.0,52.0,2123.7,3.0
+Made - Endesa,Made - Endesa AE-52 Prototype,MadeEndesaAE52Prototype,800.0,3.5,12.0,25.0,50.0,52.0,2123.0,3.0
+Made - Endesa,Made - Endesa AE-56,MadeEndesaAE56,800.0,3.3,11.5,25.0,55.0,56.0,2463.0,3.0
+Made - Endesa,Made - Endesa AE-59,MadeEndesaAE59,800.0,3.0,11.0,25.0,55.0,59.0,2734.0,3.0
+Made - Endesa,Made - Endesa AE-61,MadeEndesaAE61,1320.0,4.0,15.0,25.0,58.5,61.0,2923.0,3.0
+Made - Endesa,Made - Endesa AE-61/1.100,MadeEndesaAE611100,1100.0,4.0,15.0,25.0,58.0,61.0,2923.0,3.0
+Made - Endesa,Made - Endesa GESA-110,MadeEndesaGESA110,110.0,,,,,,,
+MAN,MAN Aeroman div.,MANAeromandiv,11.0,3.5,8.5,24.0,,11.0,95.0,2.0
+MAN,MAN GROWIAN,MANGROWIAN,3000.0,5.4,12.0,24.0,100.0,100.4,7854.0,2.0
+MAN,MAN Aeroman 11/11,MANAeroman1111,11.0,3.8,8.5,24.0,10.0,11.6,105.7,2.0
+MAN,MAN Aeroman 11/20,MANAeroman1120,20.0,,,,,11.0,95.0,2.0
+MAN,MAN Aeroman 12.5,MANAeroman125,40.0,3.5,11.2,26.8,15.2,12.5,123.0,2.0
+MAN,MAN Aeroman 14.8,MANAeroman148,33.0,3.8,,,22.0,14.8,172.0,2.0
+MAN,MAN WKA-60 (GROWIAN II),MANWKA60GROWIANII,1200.0,4.9,12.2,24.0,50.0,60.0,2827.0,3.0
+Mapna,Mapna 2.5 MW,Mapna25MW,2500.0,3.5,12.0,25.0,85.0,104.0,8495.0,3.0
+Markham,Markham VS 45,MarkhamVS45,600.0,3.5,11.5,35.0,56.5,45.9,1655.0,3.0
+Marlec,Marlec Rutland WG910,MarlecRutlandWG910,0.1,1.8,9.8,25.0,11.5,0.9,0.6,6.0
+Hüllmann,Hüllmann HS 10 S,HüllmannHS10S,10.0,3.0,12.0,,12.0,9.0,64.0,3.0
+Hüllmann,Hüllmann FHW 100,HüllmannFHW100,100.0,,,,24.0,20.0,314.0,3.0
+Meize New Energy,Meize New Energy MZ29,MeizeNewEnergyMZ29,850.0,,,,,,,
+Meize New Energy,Meize New Energy MZ37.5,MeizeNewEnergyMZ375,1500.0,,,,,,,
+Meize New Energy,Meize New Energy MZ40.3,MeizeNewEnergyMZ403,1500.0,,,,,,,
+Mervento,Mervento 3.6-118,Mervento36118,3600.0,4.0,11.5,25.0,107.5,118.0,10936.0,3.0
+MBB Messerschmitt,MBB Messerschmitt Aeolus II,MBBMesserschmittAeolusII,3000.0,3.5,14.0,20.0,92.0,80.5,5093.4,2.0
+MBB Messerschmitt,MBB Messerschmitt Monopteros M20,MBBMesserschmittMonopterosM20,25.0,4.5,15.0,19.0,-1.5,12.5,123.0,1.0
+MBB Messerschmitt,MBB Messerschmitt Monopteros M50,MBBMesserschmittMonopterosM50,640.0,4.5,11.0,20.0,60.0,56.0,2043.0,1.0
+MHI Vestas Offshore,MHI Vestas Offshore V112-3.3 MW,MHIVestasOffshoreV11233MW,3300.0,3.0,12.5,25.0,,112.0,9852.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V117-4.2 MW,MHIVestasOffshoreV11742MW,4200.0,3.0,12.0,25.0,87.75,117.0,10751.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-8.0 MW,MHIVestasOffshoreV16480MW,8000.0,4.0,13.0,25.0,122.5,164.0,21164.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-8.3 MW,MHIVestasOffshoreV16483MW,8300.0,4.0,13.0,25.0,122.5,164.0,21124.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-8.8 MW,MHIVestasOffshoreV16488MW,8800.0,4.0,13.0,25.0,,164.0,21164.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-9.0 MW,MHIVestasOffshoreV16490MW,9000.0,,,,122.5,164.0,21164.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-9.5 MW,MHIVestasOffshoreV16495MW,9500.0,,,,122.5,164.0,21124.0,3.0
+MHI Vestas Offshore,MHI Vestas Offshore V164-10.0MW,MHIVestasOffshoreV164100MW,10000.0,,,,105.0,164.0,21124.0,3.0
+Micon,Micon M 55/11,MiconM5511,55.0,4.0,15.0,25.0,20.5,16.0,200.0,3.0
+Micon,Micon M 65/13/US,MiconM6513US,65.0,3.5,15.0,25.0,25.0,16.0,201.0,3.0
+Micon,Micon 108,Micon108,108.0,4.0,14.0,30.0,23.8,18.9,293.0,3.0
+Micon,Micon 108 US,Micon108US,108.0,4.0,14.0,30.0,24.4,18.9,280.0,3.0
+Micon,Micon M 300-55,MiconM30055,55.0,,,,30.0,19.8,307.9,3.0
+Micon,Micon M 300-55,MiconM30055,55.0,,,,30.0,19.8,307.9,3.0
+Micon,Micon M 450,MiconM450,200.0,5.0,,25.0,30.0,24.0,450.0,3.0
+Micon,Micon M 530,MiconM530,250.0,4.0,14.5,25.0,30.0,26.0,530.0,3.0
+Micon,Micon M 530-175,MiconM530175,175.0,4.0,16.0,26.0,30.0,26.0,531.0,3.0
+Micon,Micon M 570-200,MiconM570200,200.0,,,,,27.0,570.0,3.0
+Micon,Micon M 600/250,MiconM600250,250.0,3.0,16.0,25.0,36.0,27.8,607.0,3.0
+Micon,Micon M 700-225,MiconM700225,225.0,3.0,15.0,25.0,33.0,29.8,697.0,3.0
+Micon,Micon M 750/250,MiconM750250,250.0,4.0,13.0,25.0,36.0,31.0,755.0,3.0
+Micon,Micon M 750/400,MiconM750400,400.0,3.0,15.0,25.0,36.0,31.0,750.0,3.0
+Micon,Micon M 1100-600,MiconM1100600,600.0,3.5,16.0,25.0,45.5,37.0,1075.0,3.0
+Micon,Micon M 1500-500,MiconM1500500,500.0,3.0,13.5,25.0,47.5,43.0,1452.0,3.0
+Micon,Micon M 1500-600,MiconM1500600,600.0,3.0,15.5,25.0,47.5,43.0,1452.0,3.0
+Micon,Micon M 1500-750,MiconM1500750,750.0,3.0,16.0,25.0,48.825,44.0,1521.0,3.0
+Micon,Micon M 1800-600,MiconM1800600,600.0,3.0,13.0,25.0,60.0,48.0,1810.0,3.0
+Micon,Micon M 1800-750,MiconM1800750,750.0,4.0,16.0,25.0,60.0,48.2,1824.0,3.0
+Micon,Micon M 2300-1000,MiconM23001000,1000.0,,,,60.0,54.0,2290.2,3.0
+Ecovent,Ecovent 15kW,Ecovent15kW,15.0,2.5,10.0,25.0,17.6,8.4,55.0,3.0
+Mitsubishi,Mitsubishi MWT-Sea Angel,MitsubishiMWTSeaAngel,7000.0,,,,,167.0,21900.0,3.0
+Mitsubishi,Mitsubishi MWT-40,MitsubishiMWT40,40.0,,,,,,,
+Mitsubishi,Mitsubishi MWT-62/1.0,MitsubishiMWT6210,1000.0,3.0,12.5,25.0,59.666666666666664,61.4,2960.0,3.0
+Mitsubishi,Mitsubishi MWT-92/2.3,MitsubishiMWT9223,2300.0,3.0,12.5,25.0,80.0,92.0,6648.0,3.0
+Mitsubishi,Mitsubishi MWT-92/2.4,MitsubishiMWT9224,2400.0,3.0,12.5,25.0,80.0,92.0,6648.0,3.0
+Mitsubishi,Mitsubishi MWT-95/2.4,MitsubishiMWT9524,2400.0,3.0,12.5,25.0,80.0,95.0,7088.0,3.0
+Mitsubishi,Mitsubishi MWT-100/2.4,MitsubishiMWT10024,2400.0,3.0,12.0,25.0,80.0,100.0,7854.0,3.0
+Mitsubishi,Mitsubishi MWT-102/2.4,MitsubishiMWT10224,2400.0,3.0,11.5,25.0,80.0,102.0,8171.0,3.0
+Mitsubishi,Mitsubishi MWT-250,MitsubishiMWT250,250.0,4.0,13.2,24.0,27.5,25.0,490.9,3.0
+Mitsubishi,Mitsubishi MWT-250C,MitsubishiMWT250C,275.0,5.0,12.9,24.0,30.5,28.0,616.0,3.0
+Mitsubishi,Mitsubishi MWT-250G,MitsubishiMWT250G,300.0,4.5,14.4,24.0,30.0,29.0,661.0,3.0
+Mitsubishi,Mitsubishi MWT-300S,MitsubishiMWT300S,300.0,2.5,14.5,25.0,35.0,30.0,707.0,3.0
+Mitsubishi,Mitsubishi MWT-450,MitsubishiMWT450,450.0,4.5,12.7,24.0,45.0,39.0,1194.6,3.0
+Mitsubishi,Mitsubishi MWT-500,MitsubishiMWT500,500.0,,,,,40.0,1257.0,3.0
+Mitsubishi,Mitsubishi MWT-600,MitsubishiMWT600,600.0,2.5,13.0,25.0,52.5,45.0,1590.0,3.0
+Mitsubishi,Mitsubishi MWT-1000A,MitsubishiMWT1000A,1000.0,3.0,12.5,25.0,59.666666666666664,61.4,2960.0,3.0
+Mitsubishi,Mitsubishi MWT-2000S,MitsubishiMWT2000S,2000.0,2.5,13.0,25.0,60.0,75.0,4418.0,3.0
+ML Vindteknik,ML Vindteknik Smedemester 150 kW,MLVindteknikSmedemester150kW,150.0,,,,30.0,27.0,573.0,3.0
+Moncada,Moncada WPR 750/52,MoncadaWPR75052,750.0,3.0,12.0,25.0,52.0,52.0,2124.0,3.0
+Moncada,Moncada WPR 850/58,MoncadaWPR85058,850.0,3.0,12.0,23.0,60.0,58.0,2614.0,3.0
+MOWEA,MOWEA Camp,MOWEACamp,0.3,3.0,10.0,,,1.5,1.8,2.0
+MOWEA,MOWEA Net,MOWEANet,0.3,3.0,10.0,,,1.5,1.8,2.0
+Møllekilen,Møllekilen Mølle,MøllekilenMølle,,,,,,,,
+Multibrid,Multibrid M5000,MultibridM5000,5000.0,3.5,12.0,25.0,96.0,116.0,10568.0,3.0
+NASA,NASA MOD-0 NASA / Lockheed,NASAMOD0NASALockheed,100.0,4.5,8.0,13.4,30.5,38.1,1140.0,2.0
+NASA,NASA MOD-0A Westinghouse,NASAMOD0AWestinghouse,200.0,4.3,10.0,17.9,30.5,38.1,1140.0,2.0
+NASA,NASA MOD-1 General Electric,NASAMOD1GeneralElectric,2000.0,5.0,11.4,15.9,42.67,61.0,2922.5,2.0
+NASA,NASA MOD-2 Boeing,NASAMOD2Boeing,2500.0,6.3,12.3,20.1,60.96,91.4,6566.9,2.0
+NASA,NASA WTS-4 Hamilton Standard,NASAWTS4HamiltonStandard,4200.0,7.1,,21.0,80.0,79.2,4926.5,2.0
+NASA,NASA MOD-5B Boeing,NASAMOD5BBoeing,3200.0,5.4,12.5,26.8,61.0,97.5,7698.0,2.0
+NPS,NPS Vortex 6000,NPSVortex6000,6.0,3.0,12.0,25.0,7.6,4.6,16.6,2.0
+NedWind,NedWind NW 25/250,NedWindNW25250,250.0,,,,30.0,25.5,511.0,3.0
+NedWind,NedWind NW 35/500,NedWindNW35500,500.0,5.0,15.0,20.0,34.5,35.0,962.0,2.0
+NedWind,NedWind NW 40/500,NedWindNW40500,500.0,4.0,15.0,25.0,51.333333333333336,40.8,1306.0,2.0
+NedWind,NedWind NW 40/500 Offshore,NedWindNW40500Offshore,500.0,4.0,15.0,25.0,40.0,40.8,1305.0,2.0
+NedWind,NedWind NW 43/500,NedWindNW43500,500.0,4.0,14.0,25.0,51.666666666666664,43.8,1506.0,2.0
+NedWind,NedWind NW 44/500,NedWindNW44500,500.0,3.5,13.0,25.0,51.666666666666664,43.8,1505.0,2.0
+NedWind,NedWind NW 46/500,NedWindNW46500,500.0,,,,,46.0,1661.9,3.0
+NedWind,NedWind NW 50/1000,NedWindNW501000,1000.0,5.0,17.0,25.0,62.5,52.6,2173.0,2.0
+NedWind,NedWind NW 53/1000,NedWindNW531000,1000.0,4.0,14.0,20.0,54.333333333333336,52.6,2173.0,2.0
+NedWind,NedWind NW 55/1000,NedWindNW551000,1000.0,4.0,15.0,25.0,62.5,55.0,2376.0,2.0
+NEG Micon,NEG Micon NM 43/600,NEGMiconNM43600,600.0,2.5,15.5,25.0,46.0,43.0,1452.0,3.0
+NEG Micon,NEG Micon NM 44/750,NEGMiconNM44750,750.0,3.0,16.0,25.0,48.5,44.0,1521.0,3.0
+NEG Micon,NEG Micon NM 48/600,NEGMiconNM48600,600.0,3.5,13.0,20.0,56.75,48.0,1810.0,3.0
+NEG Micon,NEG Micon NM 48/750,NEGMiconNM48750,750.0,4.0,16.0,25.0,60.0,48.2,1824.0,3.0
+NEG Micon,NEG Micon NM 52/900,NEGMiconNM52900,900.0,3.5,16.0,25.0,67.0,52.2,2140.0,3.0
+NEG Micon,NEG Micon NM 54/950,NEGMiconNM54950,950.0,3.0,16.0,25.0,55.0,54.0,2291.0,3.0
+NEG Micon,NEG Micon NM 60/1000,NEGMiconNM601000,1000.0,3.0,16.0,20.0,75.0,60.0,2827.0,3.0
+NEG Micon,NEG Micon NM 64/1500,NEGMiconNM641500,1500.0,5.0,15.0,25.0,63.5,64.0,3217.0,3.0
+NEG Micon,NEG Micon NM 64C/1500,NEGMiconNM64C1500,1500.0,4.0,14.0,25.0,74.0,64.0,3217.0,3.0
+NEG Micon,NEG Micon NM 72C/1500,NEGMiconNM72C1500,1500.0,3.0,13.0,20.0,80.66666666666667,72.0,4072.0,3.0
+NEG Micon,NEG Micon NM 72/1650,NEGMiconNM721650,1650.0,4.0,16.0,25.0,82.66666666666667,72.0,4071.0,3.0
+NEG Micon,NEG Micon NM 72/2000,NEGMiconNM722000,2000.0,3.0,15.0,25.0,81.33333333333333,72.0,4072.0,3.0
+NEG Micon,NEG Micon NM 72/2000 Offshore,NEGMiconNM722000Offshore,2000.0,3.0,15.0,25.0,60.0,72.0,4072.0,3.0
+NEG Micon,NEG Micon NM 80/2500,NEGMiconNM802500,2500.0,,,,,80.0,5026.6,3.0
+NEG Micon,NEG Micon NM 80/2750,NEGMiconNM802750,2750.0,4.5,16.0,25.0,60.0,80.0,5026.6,3.0
+NEG Micon,NEG Micon NM 82/1500,NEGMiconNM821500,1500.0,3.0,13.0,25.0,-7.5,82.0,5281.0,3.0
+NEG Micon,NEG Micon NM 82/1650,NEGMiconNM821650,1650.0,4.0,13.0,20.0,71.1,82.0,5281.0,3.0
+NEG Micon,NEG Micon NM 92/2750,NEGMiconNM922750,2750.0,4.0,14.0,25.0,103.6,92.0,6648.0,3.0
+NEG Micon,NEG Micon NM 110/4200,NEGMiconNM1104200,4200.0,4.0,14.0,25.0,124.0,110.0,9625.0,3.0
+NENUPHAR,NENUPHAR Vertiwind Prototype,NENUPHARVertiwindPrototype,2000.0,,,,,,,3.0
+NEPC,NEPC SRC 16.6-55,NEPCSRC16655,55.0,2.0,11.0,25.0,26.0,16.6,216.0,3.0
+NEPC,NEPC SRC 29.8-200,NEPCSRC298200,200.0,4.0,15.0,25.0,40.5,29.8,697.0,3.0
+NEPC,NEPC SRC 29.8-225,NEPCSRC298225,225.0,4.0,14.0,25.0,40.5,29.8,697.0,3.0
+NEPC,NEPC SRC 31-250,NEPCSRC31250,250.0,4.0,13.0,25.0,40.5,31.0,755.0,3.0
+NEPC,NEPC SRC 31-400,NEPCSRC31400,400.0,4.0,15.0,25.0,40.5,31.0,755.0,3.0
+NEW,NEW NEW 250,NEWNEW250,25.0,3.0,13.0,22.0,30.5,13.0,132.0,3.0
+Newinco,Newinco 10 PI 20,Newinco10PI20,20.0,4.0,,25.0,,9.1,65.0,3.0
+Newinco,Newinco 14 PS 50,Newinco14PS50,50.0,4.0,,25.0,,13.8,149.6,3.0
+Newinco,Newinco 14 PI 50/65,Newinco14PI5065,65.0,4.0,,25.0,,13.8,149.6,3.0
+Newinco,Newinco 17 PS 85,Newinco17PS85,85.0,4.0,,25.0,,17.0,227.0,3.0
+Newinco,Newinco 17 PI 85/100,Newinco17PI85100,100.0,4.0,,25.0,,17.0,227.0,3.0
+Newinco,Newinco 19 PI 100,Newinco19PI100,100.0,,,,,19.0,283.5,3.0
+Newinco,Newinco 23 PI 200/250,Newinco23PI200250,250.0,4.0,,25.0,30.0,23.1,419.0,3.0
+Newinco,Newinco 25 PI 250,Newinco25PI250,250.0,4.0,14.0,25.0,29.0,25.0,491.0,3.0
+Newinco,Newinco 25 PI 250 small tower,Newinco25PI250smalltower,250.0,4.0,14.0,25.0,,25.0,491.0,3.0
+Newinco,Newinco 34 PI 500,Newinco34PI500,500.0,5.0,,20.0,39.0,34.0,908.0,3.0
+Nordex,Nordex N17,NordexN17,65.0,,,,24.0,17.0,227.0,3.0
+Nordex,Nordex N26,NordexN26,225.0,,,,,26.0,531.0,3.0
+Nordex,Nordex N27/150,NordexN27150,150.0,3.0,15.5,25.0,39.0,27.0,572.0,3.0
+Nordex,Nordex N27/250,NordexN27250,250.0,3.0,15.5,25.0,39.375,27.0,572.0,3.0
+Nordex,Nordex N29,NordexN29,250.0,3.0,15.0,25.0,42.0,29.7,692.7,3.0
+Nordex,Nordex N43,NordexN43,600.0,2.5,15.0,25.0,57.0,43.0,1452.0,3.0
+Nordex,Nordex N43 Lattice,NordexN43Lattice,600.0,2.5,15.0,25.0,78.0,43.0,1452.0,3.0
+Nordex,Nordex N50,NordexN50,800.0,2.5,15.0,25.0,55.333333333333336,50.0,1964.0,3.0
+Nordex,Nordex N50P,NordexN50P,800.0,3.0,11.6,25.0,74.0,50.5,1999.0,3.0
+Nordex,Nordex N52,NordexN52,800.0,3.0,12.5,25.0,65.0,52.0,2125.0,3.0
+Nordex,Nordex N54,NordexN54,1000.0,3.5,14.0,25.0,65.0,54.0,2290.0,3.0
+Nordex,Nordex N54 MKII,NordexN54MKII,1000.0,3.5,14.0,25.0,60.0,54.0,2290.0,3.0
+Nordex,Nordex N60,NordexN60,1300.0,2.5,15.0,25.0,69.75,60.0,2828.0,3.0
+Nordex,Nordex N62,NordexN62,1300.0,2.5,15.0,25.0,69.5,62.0,3020.0,3.0
+Nordex,Nordex N70,NordexN70,1500.0,3.5,13.0,25.0,90.625,70.0,3848.5,3.0
+Nordex,Nordex N77,NordexN77,1500.0,3.0,11.1,25.0,87.125,77.0,4657.0,3.0
+Nordex,Nordex N80 Alpha,NordexN80Alpha,2500.0,4.0,15.0,25.0,86.25,80.0,5026.0,3.0
+Nordex,Nordex N82,NordexN82,1500.0,3.5,12.0,25.0,80.0,82.0,5280.0,3.0
+Nordex,Nordex N90 Beta,NordexN90Beta,2300.0,3.0,12.0,25.0,94.66666666666667,90.0,6362.0,3.0
+Nordex,Nordex N90 Offshore,NordexN90Offshore,2300.0,3.0,12.0,25.0,94.66666666666667,90.0,6362.0,3.0
+Nordex,Nordex N90/2500,NordexN902500,2500.0,3.0,13.5,25.0,89.0,90.0,6362.0,3.0
+Nordex,Nordex N100 Delta,NordexN100Delta,3300.0,3.5,,25.0,86.66666666666667,99.8,7823.0,3.0
+Nordex,Nordex N100 Gamma,NordexN100Gamma,2500.0,3.0,12.0,20.0,-12.5,99.8,7823.0,3.0
+Nordex,Nordex N117 Delta,NordexN117Delta,3000.0,3.0,,25.0,117.33333333333333,116.8,10715.0,3.0
+Nordex,Nordex N117 Gamma,NordexN117Gamma,2400.0,3.0,11.0,20.0,117.33333333333333,116.8,10715.0,3.0
+Nordex,Nordex N117/3600 Delta,NordexN1173600Delta,3600.0,3.0,,25.0,112.66666666666667,116.8,10715.0,3.0
+Nordex,Nordex N131/3000 Delta,NordexN1313000Delta,3000.0,3.0,,20.0,115.66666666666667,131.0,13478.0,3.0
+Nordex,Nordex N131/3300 Delta,NordexN1313300Delta,3300.0,3.0,,20.0,149.0,131.0,13478.0,3.0
+Nordex,Nordex N131/3600 Delta,NordexN1313600Delta,3600.0,3.0,,20.0,109.0,131.0,13478.0,3.0
+Nordex,Nordex N133/4800 Delta,NordexN1334800Delta,4800.0,3.0,,20.0,90.33333333333333,133.2,13935.0,3.0
+Nordex,Nordex N149/4.0-4.5,NordexN1494045,4500.0,3.0,,20.0,131.33333333333334,149.1,17460.0,3.0
+Nordex,Nordex N149/5.X,NordexN1495X,5000.0,3.0,,20.0,164.0,149.1,17460.0,3.0
+Nordex,Nordex N155/4.5,NordexN15545,4500.0,,,,94.66666666666667,155.0,18870.0,3.0
+Nordic Folkecenter,Nordic Folkecenter Mølle,NordicFolkecenterMølle,,,,,,,,
+Nordic Folkecenter,Nordic Folkecenter Nacelle,NordicFolkecenterNacelle,,,,,,,,
+Nordic Folkecenter,Nordic Folkecenter Folkecenter 13,NordicFolkecenterFolkecenter13,13.0,,,,,8.5,57.0,3.0
+Nordic Folkecenter,Nordic Folkecenter Hanstholm HM17-75,NordicFolkecenterHanstholmHM1775,75.0,,,,22.0,17.5,,3.0
+Nordic Folkecenter,Nordic Folkecenter Forsørgsmølle 22,NordicFolkecenterForsørgsmølle22,22.0,,,,,,,
+Nordic Folkecenter,Nordic Folkecenter DANmark DK 36/525 Prototype,NordicFolkecenterDANmarkDK36525Prototype,525.0,4.0,16.0,25.0,41.0,36.0,1018.0,3.0
+Nordic Folkecenter,Nordic Folkecenter Hanstholm HM-37 525,NordicFolkecenterHanstholmHM37525,525.0,4.0,16.0,25.0,41.0,37.0,1018.0,3.0
+Nordic Folkecenter,Nordic Folkecenter 150 kW,NordicFolkecenter150kW,150.0,,,,,,,
+Nordic Folkecenter,Nordic Folkecenter 150 kW Nacelle,NordicFolkecenter150kWNacelle,150.0,,,,,,,
+Nordic Windpower AB,Nordic Windpower AB Nordic 400,NordicWindpowerABNordic400,400.0,4.0,14.0,25.0,40.0,35.4,984.0,2.0
+Nordic Windpower AB,Nordic Windpower AB Nordic 500,NordicWindpowerABNordic500,500.0,3.5,15.0,25.0,40.0,36.0,1017.9,2.0
+Nordic Windpower AB,Nordic Windpower AB Nordic 1000,NordicWindpowerABNordic1000,1000.0,4.0,16.0,21.0,58.0,53.0,2206.0,2.0
+Nordic Windpower Co.,Nordic Windpower Co. N1000,NordicWindpowerCoN1000,1000.0,4.0,16.0,22.0,65.0,59.0,2734.0,2.0
+Nordtank,Nordtank NTK 10,NordtankNTK10,10.0,,,,,6.0,28.0,3.0
+Nordtank,Nordtank NTK 10 Prototyp,NordtankNTK10Prototyp,10.0,,,,,6.0,28.0,3.0
+Nordtank,Nordtank NTK 22,NordtankNTK22,22.0,,,,18.0,11.0,95.0,3.0
+Nordtank,Nordtank NTK 30,NordtankNTK30,30.0,,,,,11.0,315.8,3.0
+Nordtank,Nordtank NTK 45,NordtankNTK45,45.0,,,,24.0,15.7,194.0,3.0
+Nordtank,Nordtank NTK 55,NordtankNTK55,55.0,,,,20.5,18.0,255.0,3.0
+Nordtank,Nordtank NTK 65,NordtankNTK65,65.0,3.6,13.5,25.0,24.0,16.5,213.0,3.0
+Nordtank,Nordtank NTK 99,NordtankNTK99,99.0,4.0,13.0,27.0,26.0,20.5,330.0,3.0
+Nordtank,Nordtank NTK 130,NordtankNTK130,130.0,3.5,13.5,25.0,25.75,20.5,330.0,3.0
+Nordtank,Nordtank NTK 150,NordtankNTK150,150.0,4.0,13.5,25.0,32.5,24.6,475.0,3.0
+Nordtank,Nordtank NTK 160,NordtankNTK160,160.0,4.0,14.0,25.0,32.5,24.6,475.0,3.0
+Nordtank,Nordtank NTK 200,NordtankNTK200,200.0,4.0,12.5,25.0,30.0,28.0,615.8,3.0
+Nordtank,Nordtank NTK 300,NordtankNTK300,300.0,4.5,13.0,25.0,33.0,31.0,755.0,3.0
+Nordtank,Nordtank NTK 330,NordtankNTK330,330.0,4.0,14.0,25.0,31.0,28.0,615.7,3.0
+Nordtank,Nordtank NTK 400,NordtankNTK400,400.0,4.5,18.0,25.0,35.0,35.0,961.0,3.0
+Nordtank,Nordtank NTK 450,NordtankNTK450,450.0,4.0,13.0,25.0,42.36666666666667,37.0,1075.0,3.0
+Nordtank,Nordtank NTK 500/37,NordtankNTK50037,500.0,4.0,14.9,25.0,42.36666666666667,37.0,1075.0,3.0
+Nordtank,Nordtank NTK 500/41,NordtankNTK50041,500.0,4.0,14.0,25.0,46.05,41.0,1325.0,3.0
+Nordtank,Nordtank NTK 550,NordtankNTK550,550.0,,,,42.3,41.0,1320.3,3.0
+Nordtank,Nordtank NTK 600,NordtankNTK600,600.0,3.0,14.0,25.0,55.0,43.0,1452.0,3.0
+Nordtank,Nordtank NTK 600 Nearshore,NordtankNTK600Nearshore,600.0,3.0,14.0,25.0,57.5,43.0,1452.0,3.0
+Nordtank,Nordtank NTK 1500 60,NordtankNTK150060,1500.0,4.0,15.0,25.0,60.0,60.0,2827.0,3.0
+Nordtank,Nordtank NTK 1500 64,NordtankNTK150064,1500.0,5.0,15.0,25.0,57.0,64.0,3217.0,3.0
+Nordwind,Nordwind NW 40-500,NordwindNW40500,500.0,,,,43.5,40.0,1257.0,2.0
+Nordwind,Nordwind NW 44-750,NordwindNW44750,750.0,,,,68.0,44.0,1521.0,2.0
+Nordwind GmbH,Nordwind GmbH Model 100/15,NordwindGmbHModel10015,18.0,3.0,15.0,,20.0,15.0,176.7,3.0
+NORTHEL,NORTHEL 20,NORTHEL20,20.0,2.8,14.0,25.0,18.333333333333332,9.6,72.0,3.0
+NORTHEL,NORTHEL POYRA P36/300,NORTHELPOYRAP36300,300.0,2.9,11.5,20.0,35.0,36.0,706.0,3.0
+NORTHEL,NORTHEL 50,NORTHEL50,50.0,2.7,14.0,25.0,22.5,15.2,181.0,3.0
+NORTHEL,NORTHEL ORSA DD 65/1200,NORTHELORSADD651200,1200.0,4.0,12.0,45.0,60.0,65.0,3848.0,3.0
+NORTHEL,NORTHEL ORSA DS 75/1200,NORTHELORSADS751200,1200.0,4.0,11.0,45.0,65.0,75.0,4417.9,3.0
+NORTHEL,NORTHEL 100,NORTHEL100,100.0,2.8,14.0,25.0,25.0,18.0,254.0,3.0
+NORTHEL,NORTHEL ORSA DS 104/2600,NORTHELORSADS1042600,2600.0,,,,,104.0,8494.0,3.0
+NORTHEL,NORTHEL 150,NORTHEL150,150.0,2.7,14.0,25.0,30.0,20.0,314.0,3.0
+NORTHEL,NORTHEL 250,NORTHEL250,250.0,2.9,14.0,25.0,35.0,30.0,706.0,3.0
+NPS Northern Power,NPS Northern Power NPS 2.3-93,NPSNorthernPowerNPS2393,2300.0,3.0,12.5,25.0,89.0,93.0,6792.9,3.0
+NPS Northern Power,NPS Northern Power NPS 60-24,NPSNorthernPowerNPS6024,60.0,3.0,11.0,25.0,29.666666666666668,24.4,467.6,3.0
+NPS Northern Power,NPS Northern Power NPS 100C-21,NPSNorthernPowerNPS100C21,100.0,3.0,15.0,25.0,33.0,20.7,336.5,3.0
+NPS Northern Power,NPS Northern Power NPS 100C-24,NPSNorthernPowerNPS100C24,100.0,3.0,12.0,25.0,29.333333333333332,24.4,467.6,3.0
+Norvento,Norvento nED 100-22,NorventonED10022,100.0,3.0,10.0,20.0,24.5,22.0,380.0,3.0
+Norvento,Norvento nED 100-24,NorventonED10024,100.0,3.0,10.0,20.0,32.75,24.0,452.0,3.0
+Norwin,Norwin 24-STALL-150,Norwin24STALL150,150.0,4.0,14.0,25.0,30.0,24.0,,
+Norwin,Norwin 29-STALL-225,Norwin29STALL225,225.0,4.0,14.0,25.0,35.0,29.1,664.0,
+NovaWind,"NovaWind L100-2,5 MW",NovaWindL10025MW,2500.0,2.0,,25.0,103.0,100.0,7845.0,3.0
+Nowomag,Nowomag EW 160,NowomagEW160,160.0,4.0,15.0,25.0,30.0,22.0,380.0,3.0
+NRG PATAGONIA,NRG PATAGONIA NRGP 64,NRGPATAGONIANRGP64,1500.0,4.0,12.0,25.0,70.0,64.0,3217.0,3.0
+NRG PATAGONIA,NRG PATAGONIA NRGP 82,NRGPATAGONIANRGP82,1500.0,4.0,8.0,25.0,80.0,82.0,5281.0,3.0
+Ntech Renewables,Ntech Renewables NTDT WHIRLWIND (VAWT) 1kW,NtechRenewablesNTDTWHIRLWINDVAWT1kW,1.0,2.5,10.0,25.0,8.0,2.5,,5.0
+Oldemarkt,Oldemarkt go-getter,Oldemarktgogetter,60.0,,,,,,,
+Osiris Energy,"Osiris Energy Osiris 1,6",OsirisEnergyOsiris16,1.6,2.4,10.5,16.0,,3.2,8.0,5.0
+Osiris Energy,Osiris Energy Osiris 10,OsirisEnergyOsiris10,10.0,2.5,9.5,20.0,13.5,9.7,73.9,3.0
+PACWIND,PACWIND Aeolian,PACWINDAeolian,5.0,2.2,12.5,45.0,,3.0,,28.0
+Palmtree Power,Palmtree Power 300,PalmtreePower300,300.0,3.0,12.0,20.0,32.0,32.0,804.2,3.0
+Paques,"Paques 17,5",Paques175,17.5,,,,17.5,,,3.0
+PASL,PASL PWS 900i,PASLPWS900i,725.0,3.0,,25.0,71.0,58.0,2642.0,3.0
+PASL,PASL PWS 1250i,PASLPWS1250i,1050.0,3.0,,25.0,74.0,68.0,3631.7,3.0
+PASL,PASL PWS 1800i,PASLPWS1800i,1500.0,3.0,,25.0,80.0,83.6,5494.0,3.0
+PASL,PASL PWS 1800iL,PASLPWS1800iL,1800.0,2.1,,25.0,100.0,100.0,7854.0,3.0
+PENTAWIND,PENTAWIND eolica 10kW,PENTAWINDeolica10kW,10.0,2.7,8.5,16.0,24.0,9.6,72.4,5.0
+Pfleiderer,Pfleiderer PWE 650,PfleidererPWE650,600.0,3.5,11.0,20.0,63.0,50.0,1963.0,3.0
+Pfleiderer,Pfleiderer PWE 1570,PfleidererPWE1570,1500.0,3.5,11.0,25.0,82.33333333333333,70.0,3848.0,3.0
+Pfleiderer,Pfleiderer PWE 1577,PfleidererPWE1577,1500.0,3.0,11.0,20.0,93.6,77.0,4708.0,3.0
+Pintsch Bamag,Pintsch Bamag WR 100/380,PintschBamagWR100380,100.0,4.0,15.0,31.0,14.0,20.0,314.0,3.0
+Pintsch Bamag,Pintsch Bamag WR 120/480,PintschBamagWR120480,120.0,4.0,15.0,31.0,14.0,20.0,314.0,3.0
+Pioneer Wincon,Pioneer Wincon P 250/29,PioneerWinconP25029,250.0,3.0,15.0,25.0,50.0,29.0,660.0,3.0
+Pioneer Wincon,Pioneer Wincon P 750/49,PioneerWinconP75049,750.0,3.0,16.0,25.0,60.0,49.0,1887.0,3.0
+Pionier-WEA Auenberg,Pionier-WEA Auenberg Prototyp,PionierWEAAuenbergPrototyp,95.0,,,,30.0,21.8,,3.0
+PM Wind,PM Wind PM 25,PMWindPM25,25.0,,,,,10.4,85.0,2.0
+Polenko,Polenko WPS 5,PolenkoWPS5,3.5,3.0,9.0,20.0,10.0,5.0,19.6,3.0
+Polenko,Polenko WPS 8,PolenkoWPS8,15.0,3.2,9.5,20.0,25.0,8.5,56.7,3.0
+Polenko,Polenko WPS 10,PolenkoWPS10,15.0,4.0,12.0,27.0,25.0,9.7,73.9,3.0
+Polenko,Polenko WPS 11,PolenkoWPS11,40.0,3.3,11.5,20.0,25.0,11.5,103.9,3.0
+Polenko,Polenko WPS 16,PolenkoWPS16,60.0,3.4,11.2,20.0,24.666666666666668,16.0,201.0,3.0
+Polenko,Polenko WPS 18,PolenkoWPS18,100.0,6.3,13.9,30.0,30.0,18.0,254.5,3.0
+Poul la Cour,Poul la Cour first experimental windmill,PoullaCourfirstexperimentalwindmill,,,,,14.0,13.5,140.0,4.0
+Poulsen,Poulsen MK II,PoulsenMKII,15.0,,,,18.0,10.6,88.3,3.0
+PowerWind,PowerWind PW56,PowerWindPW56,900.0,3.0,12.5,25.0,65.0,56.0,2463.0,
+PowerWind,PowerWind PW90,PowerWindPW90,2500.0,3.0,14.0,25.0,100.0,90.0,6362.0,3.0
+PowerWind Ltd.,PowerWind Ltd. PW56,PowerWindLtdPW56,900.0,3.0,12.5,25.0,65.0,56.0,2436.0,3.0
+PowerWind Ltd.,PowerWind Ltd. PW60,PowerWindLtdPW60,850.0,3.0,12.0,25.0,70.0,60.0,2827.0,3.0
+PowerWind Ltd.,PowerWind Ltd. PW90,PowerWindLtdPW90,2500.0,3.0,14.0,25.0,90.0,90.0,6362.0,3.0
+PowerWind Ltd.,PowerWind Ltd. PW100,PowerWindLtdPW100,2500.0,3.0,13.0,25.0,90.0,100.0,7845.0,3.0
+PowerWind Ltd.,PowerWind Ltd. PW 500,PowerWindLtdPW500,500.0,3.0,10.0,25.0,47.25,56.0,2436.0,3.0
+PowerWorks,PowerWorks KCS56 - 100 kW,PowerWorksKCS56100kW,100.0,5.0,13.0,20.0,25.900000000000002,18.0,229.0,3.0
+PowerWorks,PowerWorks 250 kW WEG MS-2,PowerWorks250kWWEGMS2,250.0,6.0,14.0,25.0,25.0,25.0,491.0,3.0
+PROKON,PROKON P3000/116,PROKONP3000116,3000.0,3.0,11.3,23.0,117.0,116.0,10568.0,3.0
+Proven,Proven Proven 2.5,ProvenProven25,2.5,3.0,12.0,20.0,,1.0,1.3,3.0
+Proven,Proven Proven 15,ProvenProven15,15.0,2.5,12.0,54.0,15.0,9.6,72.4,3.0
+PSW,PSW EN-Drive 2000 3kW,PSWENDrive20003kW,3.0,,,,-2.55,3.0,7.1,3.0
+PSW,PSW EN-Drive 2000 5kW,PSWENDrive20005kW,5.0,,,,-2.55,5.2,21.2,3.0
+PSW,"PSW EN-Drive 2000 7,5kW",PSWENDrive200075kW,7.5,,,,-2.55,7.1,39.6,3.0
+Qreon,Qreon Q82,QreonQ82,2000.0,3.0,13.0,25.0,115.0,82.4,5333.0,3.0
+Rago,Rago Furba 59/23.2,RagoFurba59232,59.0,2.5,9.5,25.0,28.0,23.2,422.7,3.0
+Rago,Rago Freccia 59/23.2,RagoFreccia59232,59.0,2.5,9.5,25.0,30.0,23.2,422.7,3.0
+Rago,Rago Furba 59/28,RagoFurba5928,59.0,2.5,7.4,20.0,28.0,28.0,615.8,3.0
+Ratier-Figeac,Ratier-Figeac Darrieus,RatierFigeacDarrieus,12.0,3.0,6.0,25.0,,20.0,,3.0
+Ratier-Figeac,Ratier-Figeac RF100,RatierFigeacRF100,155.0,,,,30.0,18.0,254.5,2.0
+Raum Energy,Raum Energy 3.5,RaumEnergy35,3.5,2.8,11.0,22.0,14.5,4.0,12.6,5.0
+ReGen Powertech,ReGen Powertech VENSYS 77,ReGenPowertechVENSYS77,1500.0,3.0,13.0,22.0,85.0,77.0,4637.0,3.0
+ReGen Powertech,ReGen Powertech VENSYS 82,ReGenPowertechVENSYS82,1500.0,3.0,12.5,22.0,85.0,82.0,5325.0,3.0
+ReGen Powertech,ReGen Powertech VENSYS 87,ReGenPowertechVENSYS87,1500.0,3.0,12.0,22.0,85.0,87.0,5942.0,3.0
+Renewtech LLC,Renewtech LLC WT-100,RenewtechLLCWT100,99.0,3.5,15.0,25.0,37.0,20.0,314.0,3.0
+REpower,REpower 3.XM,REpower3XM,3300.0,3.5,12.5,25.0,90.0,104.0,8495.0,3.0
+REpower,REpower 3.0M122,REpower30M122,3000.0,3.0,11.5,22.0,139.0,122.0,11690.0,3.0
+REpower,REpower 3.2M114,REpower32M114,3200.0,3.0,12.0,22.0,119.66666666666667,114.0,10207.0,3.0
+REpower,REpower 5M Onshore,REpower5MOnshore,5075.0,3.5,14.0,25.0,117.0,126.0,12469.0,3.0
+REpower,REpower 6.2M126 Offshore,REpower62M126Offshore,6150.0,3.5,14.0,30.0,95.0,126.0,12469.0,3.0
+REpower,REpower 6.2M126 Onshore,REpower62M126Onshore,6150.0,3.5,14.5,25.0,108.5,126.0,12469.0,3.0
+REpower,REpower 6.2M152 Offshore,REpower62M152Offshore,6150.0,3.5,11.5,30.0,-7.5,152.0,18146.0,3.0
+REpower,REpower 6.2M152 Onshore,REpower62M152Onshore,6150.0,3.5,12.0,25.0,122.5,152.0,18146.0,3.0
+REpower,REpower 48/600,REpower48600,600.0,3.0,13.5,20.0,63.333333333333336,48.4,1840.0,3.0
+REpower,REpower 48/750,REpower48750,750.0,3.5,14.0,20.0,63.333333333333336,48.4,1840.0,3.0
+REpower,REpower 57/1000,REpower571000,1050.0,3.0,13.0,25.0,61.666666666666664,57.0,2552.0,3.0
+REpower,REpower MM70,REpowerMM70,2000.0,3.5,14.6,25.0,65.0,70.0,3850.0,3.0
+REpower,REpower MD77,REpowerMD77,1500.0,3.0,11.1,20.0,90.75,77.0,4657.0,3.0
+REpower,REpower MM82,REpowerMM82,2050.0,3.5,14.5,25.0,77.0,82.0,5281.0,3.0
+REpower,REpower MM92,REpowerMM92,2050.0,3.0,12.5,24.0,82.83333333333333,92.5,6720.0,3.0
+REpower,REpower MM100/1.8,REpowerMM10018,1800.0,3.0,10.5,22.0,90.0,100.0,7854.0,3.0
+REpower,REpower MM100/2.0,REpowerMM10020,2000.0,3.0,11.0,22.0,90.0,100.0,7854.0,3.0
+Reymo,"Reymo 3,5",Reymo35,3.5,4.0,,,15.0,4.4,15.2,3.0
+Reymo,Reymo 7/18.5,Reymo7185,18.5,4.0,14.0,25.0,21.0,10.7,90.0,3.0
+Reymo,Reymo 11/55,Reymo1155,55.0,4.0,15.0,25.0,21.0,16.7,218.0,3.0
+Reymo,Reymo 15/65,Reymo1565,65.0,4.0,15.0,30.0,21.0,16.7,218.0,3.0
+Reymo,Reymo 18/75,Reymo1875,75.0,4.0,15.0,25.0,21.0,17.0,226.0,3.0
+Reymo,Reymo 22,Reymo22,22.0,4.0,12.0,30.0,21.0,10.7,90.0,3.0
+RG Wind,RG Wind turbina eolica,RGWindturbinaeolica,60.0,,,,,,,
+Riisager,Riisager 7 kW Prototyp,Riisager7kWPrototyp,7.0,,,,,,,
+Riisager,Riisager 22,Riisager22,22.0,,,,,10.2,,
+Riisager,Riisager 22 kW Boddum,Riisager22kWBoddum,22.0,,,,,,,
+Riisager,Riisager 22 kW Risø,Riisager22kWRisø,22.0,,,,,,,
+Riisager,Riisager 22 kW Sonebjerg,Riisager22kWSonebjerg,22.0,,,,,,,
+Riisager,Riisager 22 kW Vrinners,Riisager22kWVrinners,22.0,,,,,,,
+Riisager,Riisager 30,Riisager30,30.0,,,,,12.5,,
+Riva Calzoni,Riva Calzoni MP5,RivaCalzoniMP5,3.6,4.0,16.0,25.0,9.0,5.3,22.0,1.0
+Riva Calzoni,Riva Calzoni M30 A,RivaCalzoniM30A,200.0,4.0,11.8,25.0,33.0,33.0,855.0,1.0
+Riva Calzoni,Riva Calzoni M30 S1,RivaCalzoniM30S1,250.0,4.2,12.5,25.0,33.0,33.0,855.0,1.0
+Riva Calzoni,Riva Calzoni M30 S2,RivaCalzoniM30S2,350.0,4.5,13.5,25.0,33.0,33.0,855.0,1.0
+Riva Calzoni,Riva Calzoni M55,RivaCalzoniM55,800.0,3.5,13.0,25.0,60.0,55.0,2376.0,1.0
+Ropatec,Ropatec T20 proS,RopatecT20proS,20.0,4.0,,20.0,24.0,11.0,132.0,3.0
+Ropatec,Ropatec T30 proS,RopatecT30proS,30.0,4.0,,20.0,24.0,11.0,132.0,3.0
+Ropatec,Ropatec SA40,RopatecSA40,10.0,4.5,,25.0,15.0,7.0,39.9,3.0
+RRB Energy,RRB Energy V27-225,RRBEnergyV27225,225.0,3.5,14.0,25.0,39.7,27.0,573.0,3.0
+RRB Energy,RRB Energy V39-500,RRBEnergyV39500,500.0,4.0,14.0,25.0,48.1,47.0,1735.0,3.0
+RRB Energy,RRB Energy Pawan Shakthi PS-600,RRBEnergyPawanShakthiPS600,600.0,4.0,14.0,25.0,55.6,47.0,1735.0,3.0
+RRB Energy,RRB Energy Pawan Shakthi PS-1800,RRBEnergyPawanShakthiPS1800,1800.0,3.5,11.8,25.0,88.0,82.0,5283.0,3.0
+FIAT,FIAT ENEL FIAT,FIATENELFIAT,50.0,5.0,11.7,35.0,18.5,13.5,143.0,2.0
+S.J.Wind-Power,S.J.Wind-Power S.J. 10 kW-R,SJWindPowerSJ10kWR,10.0,,,,14.5,6.3,124.7,16.0
+S&G Engineering,S&G Engineering SG60.28,SGEngineeringSG6028,60.0,3.0,7.5,19.0,37.36,28.0,615.8,2.0
+S&G Engineering,S&G Engineering SG500.50,SGEngineeringSG50050,500.0,4.0,11.0,25.0,61.5,50.0,1963.0,3.0
+S&G Engineering,S&G Engineering SG500.54,SGEngineeringSG50054,500.0,3.5,10.0,24.0,61.5,54.0,2290.0,3.0
+S&G Engineering,S&G Engineering SG750.50,SGEngineeringSG75050,750.0,4.0,11.0,25.0,73.0,50.0,1963.0,3.0
+S&G Engineering,S&G Engineering SG750.54,SGEngineeringSG75054,750.0,3.5,10.0,24.0,61.5,54.0,2290.0,3.0
+S&G Engineering,S&G Engineering SG750.66,SGEngineeringSG75066,750.0,3.0,9.0,20.0,73.0,66.0,3421.0,3.0
+S&G Engineering,S&G Engineering SG1700.100,SGEngineeringSG1700100,1700.0,3.0,10.0,20.0,100.0,100.0,7854.0,3.0
+S&G Engineering,S&G Engineering SG1700.80,SGEngineeringSG170080,1700.0,4.0,11.0,25.0,82.0,80.0,5026.0,3.0
+S&G Engineering,S&G Engineering SG1700.84,SGEngineeringSG170084,1700.0,4.0,10.8,24.0,82.0,84.0,5542.0,3.0
+S&G Engineering,S&G Engineering SG2500.131 DD,SGEngineeringSG2500131DD,2500.0,3.0,10.0,20.0,120.0,131.0,13478.0,3.0
+S&G Engineering,S&G Engineering SG2700.100 DD,SGEngineeringSG2700100DD,2700.0,3.0,11.3,25.0,100.0,100.0,7854.0,3.0
+S&G Engineering,S&G Engineering SG2700.116 DD,SGEngineeringSG2700116DD,2700.0,3.0,10.5,24.0,100.0,116.0,10568.0,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 2.5,SWENERGIESYSTEMESW25,2.5,2.5,11.9,28.0,11.5,3.1,7.3,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 5.5,SWENERGIESYSTEMESW55,5.5,2.5,10.8,28.0,18.5,5.5,23.8,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 6.0,SWENERGIESYSTEMESW60,6.0,2.2,10.0,28.0,21.0,6.9,37.5,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 7.5,SWENERGIESYSTEMESW75,7.5,2.2,11.0,28.0,21.0,6.5,33.1,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 15.0,SWENERGIESYSTEMESW150,15.0,2.6,10.3,28.0,24.0,8.9,62.0,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 25.0,SWENERGIESYSTEMESW250,25.0,2.2,11.6,28.0,24.4,11.2,98.2,3.0
+S&W ENERGIESYSTEME,S&W ENERGIESYSTEME S&W 50.0,SWENERGIESYSTEMESW500,50.0,2.0,11.5,28.0,42.0,16.0,199.8,3.0
+Saba Niroo,Saba Niroo S47-660,SabaNirooS47660,660.0,4.0,15.0,25.0,40.0,47.0,1735.0,3.0
+Samsung,Samsung S2.5-120,SamsungS25120,2500.0,3.0,11.0,20.0,90.0,120.0,11310.0,3.0
+Samsung,Samsung S7.0-171,SamsungS70171,7000.0,3.0,11.5,25.0,110.0,171.2,23020.0,3.0
+Samsung,Samsung 25s,Samsung25s,2500.0,2.5,14.0,25.0,80.0,90.0,2362.0,3.0
+Sande,"Sande B.C. 7,5",SandeBC75,7.5,,,,,,,
+SANY,SANY SE7715,SANYSE7715,1500.0,3.0,11.5,25.0,71.66666666666667,77.7,4739.0,3.0
+SANY,SANY SE8215,SANYSE8215,1500.0,3.0,11.0,25.0,71.66666666666667,83.3,5447.0,3.0
+SANY,SANY SE8220,SANYSE8220,2000.0,3.5,12.0,25.0,75.0,82.5,5343.0,3.0
+SANY,SANY SE8715,SANYSE8715,1500.0,3.0,10.5,20.0,80.0,86.7,5890.0,3.0
+SANY,SANY SE8720,SANYSE8720,2000.0,3.5,11.5,25.0,75.0,87.0,6079.0,3.0
+SANY,SANY SE9315,SANYSE9315,1500.0,3.0,10.5,25.0,75.0,93.0,6793.0,3.0
+SANY,SANY SE9320,SANYSE9320,2000.0,3.0,11.0,25.0,75.0,93.0,6789.0,3.0
+SANY,SANY SE10015,SANYSE10015,1500.0,3.0,10.0,22.0,75.0,102.0,8235.0,3.0
+SANY,SANY SE10020,SANYSE10020,2000.0,2.5,10.0,25.0,85.0,102.0,8235.0,3.0
+SANY,SANY SE10520,SANYSE10520,2000.0,3.0,10.0,22.0,85.0,103.0,8231.0,3.0
+SANY,SANY SE11030,SANYSE11030,3000.0,3.0,11.0,25.0,90.0,110.0,9503.0,3.0
+SANY,SANY SE11520,SANYSE11520,2000.0,2.5,9.5,22.0,85.0,115.0,10450.0,3.0
+SANY,SANY SE11525,SANYSE11525,2500.0,2.5,10.0,25.0,105.0,115.0,10387.0,3.0
+SANY,SANY SE12120,SANYSE12120,2000.0,2.5,8.5,22.0,90.0,121.0,11500.0,3.0
+SANY,SANY SE12122,SANYSE12122,2200.0,2.5,,22.0,110.83333333333333,121.5,10590.0,3.0
+SANY,SANY SE12125,SANYSE12125,2500.0,3.0,9.5,25.0,105.0,121.0,11499.0,3.0
+SANY,SANY SE12130,SANYSE12130,3000.0,3.0,10.0,25.0,117.0,121.0,11499.0,3.0
+SANY,SANY SE12520,SANYSE12520,2000.0,2.5,8.5,22.0,90.0,125.0,12272.0,3.0
+SANY,SANY SE12525,SANYSE12525,2500.0,2.5,9.0,28.0,85.0,125.0,12272.0,3.0
+SANY,SANY SE12725,SANYSE12725,2500.0,3.0,9.0,25.0,105.0,127.0,12668.0,3.0
+SANY,SANY SE12730,SANYSE12730,3000.0,3.0,9.5,25.0,117.0,127.0,12668.0,3.0
+SANY,SANY SE13122,SANYSE13122,2200.0,2.5,,22.0,110.83333333333333,129.5,13170.0,3.0
+SANY,SANY SE13125,SANYSE13125,2500.0,3.0,9.1,22.0,103.33333333333333,131.0,13478.2,3.0
+SANY,SANY SE13130,SANYSE13130,3000.0,3.0,9.0,28.0,103.33333333333333,131.0,12272.0,3.0
+SANY,SANY SE13625,SANYSE13625,2500.0,3.0,8.6,22.0,116.0,136.0,14526.7,3.0
+SANY,SANY SE14123,SANYSE14123,2300.0,2.5,,22.0,110.83333333333333,139.5,15280.0,3.0
+SANY,SANY SE14125,SANYSE14125,2500.0,2.5,,22.0,110.83333333333333,139.5,15280.0,3.0
+SANY,SANY SE14130,SANYSE14130,3000.0,3.0,,25.0,110.5,141.0,15615.0,3.0
+SANY,SANY SE14142,SANYSE14142,4200.0,3.0,,22.0,116.0,141.0,15606.0,3.0
+SANY,SANY SE14525,SANYSE14525,2500.0,3.0,8.2,22.0,123.33333333333333,145.0,16512.9,3.0
+SANY,SANY SE14630,SANYSE14630,3000.0,3.0,,25.0,110.5,146.0,16740.0,3.0
+SANY,SANY SE14634,SANYSE14634,3400.0,3.0,,25.0,110.5,146.0,16740.0,3.0
+SANY,SANY SE14842,SANYSE14842,4200.0,3.0,,22.0,116.0,148.0,17195.0,3.0
+SANY,SANY SE15536,SANYSE15536,3600.0,3.0,,22.0,116.0,155.0,18859.0,3.0
+Linksium Owlwind,Linksium Owlwind OWLWIND 2xVAWT,LinksiumOwlwindOWLWIND2xVAWT,5000.0,,,,,,,
+Scandinavian Wind,Scandinavian Wind Odder Mølle 18 SP,ScandinavianWindOdderMølle18SP,18.5,,,,18.0,11.0,95.0,3.0
+Schuler,Schuler SDD 100,SchulerSDD100,2700.0,3.0,11.5,25.0,100.0,100.0,7854.0,3.0
+Schütz,Schütz VT110,SchützVT110,3200.0,,,,135.85000000000002,110.0,9503.0,3.0
+Seaforth Energy,Seaforth Energy AOC15/50,SeaforthEnergyAOC1550,50.0,4.6,12.5,22.4,36.666666666666664,15.0,177.0,3.0
+SEAS / Johannes Juul,SEAS / Johannes Juul Vester Egesborg Møllen,SEASJohannesJuulVesterEgesborgMøllen,10.0,,,,12.0,8.0,50.0,4.0
+Seawind,Seawind 6.2 MW,Seawind62MW,6200.0,3.0,9.0,,,,,2.0
+JONICA IMPIANTI,JONICA IMPIANTI JIMP20,JONICAIMPIANTIJIMP20,20.0,3.5,,26.0,27.0,10.4,84.9,3.0
+JONICA IMPIANTI,JONICA IMPIANTI JIMP25,JONICAIMPIANTIJIMP25,25.0,3.5,,26.0,27.0,10.4,84.9,3.0
+JONICA IMPIANTI,JONICA IMPIANTI JIMP30,JONICAIMPIANTIJIMP30,30.0,3.5,,26.0,27.0,11.6,105.6,3.0
+JONICA IMPIANTI,JONICA IMPIANTI JIMP60,JONICAIMPIANTIJIMP60,60.0,3.0,10.5,26.0,36.0,18.0,254.4,3.0
+Seewind,Seewind S 20 110,SeewindS20110,110.0,2.8,12.5,25.0,28.2,22.0,380.0,3.0
+Seewind,Seewind S 25 132,SeewindS25132,132.0,2.8,13.5,25.0,28.2,22.0,380.0,3.0
+Seewind,Seewind S 52 750,SeewindS52750,750.0,3.5,13.0,20.0,57.875,52.0,2124.0,3.0
+Selvbygger,Selvbygger 7.5 kW,Selvbygger75kW,7.5,,,,15.0,10.0,79.0,3.0
+Sencenbaugh,Sencenbaugh Windharvester 500,SencenbaughWindharvester500,0.5,3.8,9.8,25.0,15.0,2.0,3.1,3.0
+Senvion,Senvion 2.3M120,Senvion23M120,2330.0,3.0,12.0,20.0,105.0,120.0,11310.0,3.0
+Senvion,Senvion 2.3M124,Senvion23M124,2330.0,3.0,12.0,18.0,105.0,124.0,12076.0,3.0
+Senvion,Senvion 2.3M130,Senvion23M130,2300.0,3.0,10.0,20.0,,130.0,13273.0,3.0
+Senvion,Senvion 2.4M110,Senvion24M110,2430.0,3.0,13.0,20.0,107.5,109.0,9331.0,3.0
+Senvion,Senvion 2.4M114,Senvion24M114,2430.0,3.0,13.0,18.0,107.5,113.0,10029.0,3.0
+Senvion,Senvion 3.0M122,Senvion30M122,3000.0,3.0,11.5,22.0,137.5,122.0,11690.0,3.0
+Senvion,Senvion 3.2M114,Senvion32M114,3200.0,3.0,12.0,22.0,119.5,114.0,10207.0,3.0
+Senvion,Senvion 3.2M122,Senvion32M122,3200.0,3.0,12.0,20.0,139.0,122.0,11690.0,3.0
+Senvion,Senvion 3.4M104,Senvion34M104,3400.0,3.5,13.5,25.0,86.5,104.0,8495.0,3.0
+Senvion,Senvion 3.4M114,Senvion34M114,3400.0,3.0,12.0,22.0,119.5,114.0,10207.0,3.0
+Senvion,Senvion 3.4M122,Senvion34M122,3400.0,3.0,12.5,22.0,-1.5,122.0,11690.0,3.0
+Senvion,Senvion 3.4M140,Senvion34M140,3400.0,3.0,11.0,22.0,120.0,140.0,15394.0,3.0
+Senvion,Senvion 3.6M114,Senvion36M114,3600.0,3.0,13.0,22.0,-1.5,114.0,10207.0,3.0
+Senvion,Senvion 3.6M118,Senvion36M118,3600.0,3.0,12.5,26.0,91.0,118.0,10936.0,3.0
+Senvion,Senvion 3.6M140,Senvion36M140,3600.0,3.0,11.5,22.0,133.33333333333334,140.0,15394.0,3.0
+Senvion,Senvion 3.7M144,Senvion37M144,3700.0,3.0,12.0,26.0,136.5,144.0,16286.0,3.0
+Senvion,Senvion 4.2M118,Senvion42M118,4200.0,3.0,12.5,22.0,,118.0,10936.0,3.0
+Senvion,Senvion 4.2M140,Senvion42M140,4200.0,3.0,,22.0,,140.0,15394.0,3.0
+Senvion,Senvion 4.2M148,Senvion42M148,4200.0,3.0,,22.0,,148.0,17203.0,3.0
+Senvion,Senvion 6.2M126 Offshore,Senvion62M126Offshore,6150.0,3.5,14.0,30.0,90.0,126.0,12469.0,3.0
+Senvion,Senvion 6.2M126 Onshore,Senvion62M126Onshore,6150.0,3.5,14.5,25.0,110.75,126.0,12469.0,3.0
+Senvion,Senvion 6.2M152 Offshore,Senvion62M152Offshore,6150.0,3.5,11.5,30.0,102.5,152.0,18146.0,3.0
+Senvion,Senvion 6.2M152 Onshore,Senvion62M152Onshore,6150.0,3.5,12.0,25.0,122.5,152.0,18146.0,3.0
+Senvion,Senvion 6.3M152 Offshore,Senvion63M152Offshore,6330.0,3.5,11.5,30.0,98.5,152.0,18146.0,3.0
+Senvion,Senvion 6.3M152 Onshore,Senvion63M152Onshore,6330.0,3.5,12.0,25.0,123.0,152.0,18146.0,3.0
+Senvion,Senvion MM82,SenvionMM82,2050.0,3.5,14.5,25.0,69.33333333333333,82.0,5281.0,3.0
+Senvion,Senvion MM92,SenvionMM92,2050.0,3.0,12.5,24.0,82.83333333333333,92.5,6720.0,3.0
+Senvion,Senvion MM100,SenvionMM100,2000.0,3.0,11.0,22.0,85.5,100.0,7854.0,3.0
+Serlath,Serlath Unbekannt,SerlathUnbekannt,,,,,,,,
+Swiss Electric,Swiss Electric YZ70/1.5,SwissElectricYZ7015,1500.0,2.5,11.5,25.0,65.0,70.0,3848.0,3.0
+Swiss Electric,Swiss Electric YZ82/1.5,SwissElectricYZ8215,1500.0,2.0,10.2,25.0,75.0,82.0,5281.0,3.0
+Swiss Electric,Swiss Electric YZ82/2.0,SwissElectricYZ8220,2000.0,2.3,12.0,25.0,75.0,82.0,5281.0,3.0
+Swiss Electric,Swiss Electric YZ90/2.5,SwissElectricYZ9025,2500.0,2.0,11.5,25.0,85.0,90.0,6361.7,3.0
+Swiss Electric,Swiss Electric YZ93/1.5,SwissElectricYZ9315,1500.0,1.8,9.8,25.0,85.0,93.0,6793.0,3.0
+Swiss Electric,Swiss Electric YZ93/2.0,SwissElectricYZ9320,2000.0,1.8,10.5,25.0,85.0,93.0,6793.0,3.0
+Swiss Electric,Swiss Electric YZ93/3.0,SwissElectricYZ9330,3000.0,2.3,11.5,25.0,95.0,93.0,6793.0,3.0
+Swiss Electric,Swiss Electric YZ103/1.5,SwissElectricYZ10315,1500.0,1.8,8.7,20.0,95.0,103.0,8332.0,3.0
+Swiss Electric,Swiss Electric YZ103/2.0,SwissElectricYZ10320,2000.0,1.8,9.8,25.0,95.0,103.0,8332.0,3.0
+Swiss Electric,Swiss Electric YZ103/2.5,SwissElectricYZ10325,2500.0,2.0,10.2,25.0,85.0,103.0,8332.0,3.0
+Swiss Electric,Swiss Electric YZ103/3.0,SwissElectricYZ10330,3000.0,2.0,10.0,25.0,105.0,103.0,8332.0,3.0
+Swiss Electric,Swiss Electric YZ115/3.0,SwissElectricYZ11530,3000.0,1.8,10.5,25.0,105.0,115.0,10387.0,3.0
+Swiss Electric,Swiss Electric YZ116/2.0,SwissElectricYZ11620,2000.0,1.8,8.8,20.0,116.66666666666667,116.0,10568.0,3.0
+Swiss Electric,Swiss Electric YZ116/2.5,SwissElectricYZ11625,2500.0,1.8,9.4,25.0,95.0,116.0,10568.0,3.0
+Swiss Electric,Swiss Electric YZ116/3.0,SwissElectricYZ11630,3000.0,1.8,10.5,25.0,116.66666666666667,116.0,10568.0,3.0
+Swiss Electric,Swiss Electric YZ121/2.0,SwissElectricYZ12120,2000.0,1.8,8.6,20.0,116.66666666666667,121.0,11493.0,3.0
+Swiss Electric,Swiss Electric YZ121/2.5,SwissElectricYZ12125,2500.0,1.8,9.1,20.0,116.66666666666667,121.0,11493.0,3.0
+Swiss Electric,Swiss Electric YZ121/3.0,SwissElectricYZ12130,3000.0,1.8,9.7,20.0,116.66666666666667,121.0,11493.0,3.0
+Swiss Electric,Swiss Electric YZ127/6.0,SwissElectricYZ12760,6000.0,2.3,12.5,25.0,125.0,127.0,12668.0,3.0
+Swiss Electric,Swiss Electric YZ130/2.5,SwissElectricYZ13025,2500.0,1.8,8.8,20.0,116.66666666666667,130.0,13273.0,3.0
+Swiss Electric,Swiss Electric YZ133/6.0,SwissElectricYZ13360,6000.0,2.0,11.8,25.0,130.0,133.0,13892.0,3.0
+Swiss Electric,Swiss Electric YZ139/6.0,SwissElectricYZ13960,6000.0,2.0,11.5,25.0,130.0,139.0,15175.0,3.0
+Swiss Electric,Swiss Electric YZ140/6.0,SwissElectricYZ14060,6000.0,2.0,11.3,25.0,130.0,140.0,15386.0,3.0
+Swiss Electric,Swiss Electric YZ150/10.0,SwissElectricYZ150100,10000.0,3.0,13.0,25.0,130.0,150.0,17671.0,3.0
+Swiss Electric,Swiss Electric YZ160/6.0,SwissElectricYZ16060,6000.0,2.0,10.4,25.0,130.0,160.0,20106.0,3.0
+Swiss Electric,Swiss Electric YZ170/10.0,SwissElectricYZ170100,10000.0,2.5,12.0,25.0,130.0,170.0,22698.0,3.0
+Swiss Electric,Swiss Electric YZ190/10.0,SwissElectricYZ190100,10000.0,2.5,11.0,25.0,130.0,190.0,28253.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W1250-62,SewindShanghaiElW125062,1250.0,2.5,12.5,25.0,69.875,62.3,3048.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W1250-64,SewindShanghaiElW125064,1250.0,3.0,12.5,25.0,69.875,64.0,3247.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W1250-70,SewindShanghaiElW125070,1250.0,3.5,11.5,23.0,69.875,70.3,3882.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W2000-87,SewindShanghaiElW200087,2000.0,3.0,12.4,25.0,92.5,87.0,5945.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W2000-93,SewindShanghaiElW200093,2000.0,3.0,12.0,25.0,92.5,93.0,6793.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W2000-99,SewindShanghaiElW200099,2000.0,3.0,11.8,25.0,92.5,99.0,7698.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W2000-105,SewindShanghaiElW2000105,2000.0,3.0,11.5,20.0,92.5,105.0,8659.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W3600-116,SewindShanghaiElW3600116,3600.0,3.5,12.0,25.0,90.0,116.0,10568.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W3600-122,SewindShanghaiElW3600122,3600.0,3.5,11.5,25.0,90.0,122.0,11690.0,3.0
+Sewind Shanghai El.,Sewind Shanghai El. W8000-167,SewindShanghaiElW8000167,8000.0,3.0,12.0,25.0,,167.0,21900.0,3.0
+Ghrepower,Ghrepower FD5-5,GhrepowerFD55,5.0,3.0,10.0,25.0,17.75,5.0,19.6,3.0
+Ghrepower,Ghrepower FD8-9.8,GhrepowerFD898,9.8,3.0,10.0,25.0,16.0,7.8,47.8,3.0
+Ghrepower,Ghrepower FD16-19.8,GhrepowerFD16198,19.8,3.0,9.0,20.0,22.75,15.6,191.0,3.0
+Ghrepower,Ghrepower FD16-30,GhrepowerFD1630,30.0,3.0,10.0,20.0,22.75,15.6,191.0,3.0
+Ghrepower,Ghrepower FD16-50,GhrepowerFD1650,50.0,3.0,13.0,20.0,22.75,15.6,191.0,3.0
+Ghrepower,Ghrepower FD21-50,GhrepowerFD2150,50.0,3.0,9.0,25.0,31.0,21.5,363.0,3.0
+Ghrepower,Ghrepower FD21-60,GhrepowerFD2160,59.9,3.0,10.0,25.0,31.0,21.5,363.0,3.0
+Ghrepower,Ghrepower FD21-100,GhrepowerFD21100,100.0,3.0,13.0,25.0,33.0,21.5,363.0,3.0
+Ghrepower,Ghrepower GHRE100,GhrepowerGHRE100,100.0,3.0,12.0,25.0,36.0,21.5,363.0,3.0
+Shawingan Lavalin,Shawingan Lavalin Cap Chat VAWT,ShawinganLavalinCapChatVAWT,4000.0,4.5,,62.0,96.0,64.0,4000.0,2.0
+CNYD,CNYD YDF-1500-87,CNYDYDF150087,1500.0,3.0,10.3,25.0,70.0,87.0,5944.7,3.0
+CNYD,CNYD YDF-2000-103,CNYDYDF2000103,2000.0,3.0,10.0,25.0,,103.0,8332.3,3.0
+Shriram,Shriram 250 T,Shriram250T,250.0,3.5,14.0,23.0,44.25,28.5,638.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 2.1-114,SiemensGamesaSG21114,2100.0,,,,107.42857142857143,114.0,10207.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 2.1-122,SiemensGamesaSG21122,2100.0,,,,117.5,122.0,11690.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 2.6-114,SiemensGamesaSG26114,2625.0,3.0,9.0,25.0,84.0,114.0,10207.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 2.6-126,SiemensGamesaSG26126,2625.0,,,,119.0,126.0,12469.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 2.7-129,SiemensGamesaSG27129,2750.0,,,,87.0,129.0,13070.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 3.4-132,SiemensGamesaSG34132,3465.0,,,,121.35714285714286,132.0,13685.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 4.2-145,SiemensGamesaSG42145,4200.0,3.0,,,130.83333333333334,145.0,16513.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 4.5-132,SiemensGamesaSG45132,4500.0,3.0,,,,132.0,13685.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 4.5-145,SiemensGamesaSG45145,4500.0,3.0,,,130.83333333333334,145.0,16513.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 4.5-155,SiemensGamesaSG45155,4500.0,3.0,,,,155.0,18869.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 5.8-155,SiemensGamesaSG58155,5800.0,,,,120.0,155.0,18868.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 5.8-170,SiemensGamesaSG58170,5800.0,,,,128.75,170.0,22697.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 6.0-154,SiemensGamesaSG60154,6000.0,4.0,13.0,25.0,,154.0,18600.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 7.0-154,SiemensGamesaSG70154,7000.0,3.0,13.0,25.0,,154.0,18600.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 8.0-167 DD,SiemensGamesaSG80167DD,8000.0,3.0,12.0,25.0,,167.0,21900.0,3.0
+Siemens Gamesa,Siemens Gamesa SG 10.0-193 DD,SiemensGamesaSG100193DD,10000.0,,,,,193.0,29300.0,3.0
+Siemens Gamesa,Siemens Gamesa SWT-DD-120,SiemensGamesaSWTDD120,4300.0,,,,-40.0,120.0,11300.0,3.0
+Siemens Gamesa,Siemens Gamesa SWT-DD-130,SiemensGamesaSWTDD130,4300.0,,,,31.666666666666668,130.0,13300.0,3.0
+Siemens Gamesa,Siemens Gamesa SWT-DD-142,SiemensGamesaSWTDD142,4100.0,,,,137.66666666666666,142.0,15800.0,3.0
+Siemens,Siemens SWT-1.3-62,SiemensSWT1362,1300.0,3.0,14.0,25.0,-11.0,62.0,,3.0
+Siemens,Siemens SWT-2.3-82,SiemensSWT2382,2300.0,4.0,13.5,25.0,80.0,82.4,5300.0,3.0
+Siemens,Siemens SWT-2.3-93,SiemensSWT2393,2300.0,4.0,14.0,25.0,106.5,93.0,6800.0,3.0
+Siemens,Siemens SWT-2.3-93,SiemensSWT2393,2300.0,4.0,14.0,25.0,80.0,93.0,6800.0,3.0
+Siemens,Siemens SWT-2.3-93 Offshore,SiemensSWT2393Offshore,2300.0,4.0,13.0,25.0,80.0,93.0,6793.0,3.0
+Siemens,Siemens SWT-2.3-101,SiemensSWT23101,2300.0,3.5,12.5,25.0,80.0,101.0,8000.0,3.0
+Siemens,Siemens SWT-2.3-108,SiemensSWT23108,2300.0,3.0,11.5,25.0,80.0,108.0,9144.0,3.0
+Siemens,Siemens SWT-2.3-113,SiemensSWT23113,2300.0,3.0,12.5,25.0,99.5,113.0,10000.0,3.0
+Siemens,Siemens SWT-2.3-120,SiemensSWT23120,2300.0,3.0,11.5,22.0,86.2,120.0,11300.0,3.0
+Siemens,Siemens SWT-2.5-120,SiemensSWT25120,2500.0,3.0,12.0,22.0,88.55,120.0,11310.0,3.0
+Siemens,Siemens SWT-3.0-101,SiemensSWT30101,3000.0,3.0,12.5,25.0,112.5,101.0,8000.0,3.0
+Siemens,Siemens SWT-3.0-108,SiemensSWT30108,3000.0,3.0,12.0,25.0,79.5,108.0,9144.0,3.0
+Siemens,Siemens SWT-3.0-113,SiemensSWT30113,3000.0,4.0,12.5,25.0,107.1,113.0,10000.0,3.0
+Siemens,Siemens SWT-3.15-142,SiemensSWT315142,3150.0,4.0,11.0,22.5,134.33333333333334,142.0,15829.0,3.0
+Siemens,Siemens SWT-3.2-101,SiemensSWT32101,3200.0,3.0,12.5,25.0,87.4,101.0,8000.0,3.0
+Siemens,Siemens SWT-3.2-108,SiemensSWT32108,3200.0,3.0,11.5,25.0,79.5,108.0,9144.0,3.0
+Siemens,Siemens SWT-3.2-113,SiemensSWT32113,3200.0,3.0,12.5,25.0,107.1,113.0,10000.0,3.0
+Siemens,Siemens SWT-3.3-130,SiemensSWT33130,3300.0,4.0,12.5,30.0,112.5,130.0,13300.0,3.0
+Siemens,Siemens SWT-3.3-130 LN,SiemensSWT33130LN,3300.0,4.0,11.4,25.0,128.33333333333334,130.0,13300.0,3.0
+Siemens,Siemens SWT-3.6-107 Offshore,SiemensSWT36107Offshore,3600.0,4.0,13.5,25.0,80.0,107.0,9000.0,3.0
+Siemens,Siemens SWT-3.6-107 Onshore,SiemensSWT36107Onshore,3600.0,3.0,13.0,25.0,80.0,107.0,9000.0,3.0
+Siemens,Siemens SWT-3.6-120 DD,SiemensSWT36120DD,3600.0,,,,,120.0,11300.0,3.0
+Siemens,Siemens SWT-3.6-120 Offshore,SiemensSWT36120Offshore,3600.0,3.5,12.0,25.0,89.0,120.0,11300.0,3.0
+Siemens,Siemens SWT-3.6-120 Onshore,SiemensSWT36120Onshore,3600.0,3.0,12.5,25.0,90.0,120.0,11300.0,3.0
+Siemens,Siemens SWT-3.6-130,SiemensSWT36130,3600.0,4.0,12.2,25.0,125.0,130.0,13300.0,3.0
+Siemens,Siemens SWT-4.0-120,SiemensSWT40120,4000.0,4.0,13.5,32.0,90.0,120.0,11300.0,3.0
+Siemens,Siemens SWT-4.0-130,SiemensSWT40130,4000.0,5.0,12.0,25.0,89.5,130.0,13273.0,3.0
+Siemens,Siemens SWT-6.0-120,SiemensSWT60120,6000.0,3.0,12.0,25.0,,120.0,11500.0,3.0
+Siemens,Siemens SWT-6.0-154,SiemensSWT60154,6000.0,4.0,13.0,25.0,,154.0,18600.0,3.0
+Siemens,Siemens SWT-7.0-154,SiemensSWT70154,7000.0,3.0,13.0,25.0,,154.0,18600.0,3.0
+Siemens,Siemens SWT-8.0-154,SiemensSWT80154,8000.0,,,25.0,,154.0,18600.0,3.0
+Sinovel,Sinovel SL1500/70,SinovelSL150070,1500.0,3.0,11.5,25.0,67.5,70.0,3879.0,3.0
+Sinovel,Sinovel SL1500/77,SinovelSL150077,1500.0,3.0,11.0,25.0,67.5,77.0,4705.0,3.0
+Sinovel,Sinovel SL1500/82,SinovelSL150082,1500.0,3.0,10.5,25.0,78.75,82.0,5398.0,3.0
+Sinovel,Sinovel SL1500/89,SinovelSL150089,1500.0,3.0,10.0,25.0,75.0,89.4,6280.0,3.0
+Sinovel,Sinovel SL1500/90,SinovelSL150090,1500.0,3.0,10.0,22.0,83.33333333333333,90.0,6421.0,3.0
+Sinovel,Sinovel SL1500/93,SinovelSL150093,1500.0,3.0,9.5,20.0,83.33333333333333,93.0,6793.0,3.0
+Sinovel,Sinovel SL2000/100,SinovelSL2000100,2000.0,3.0,10.5,25.0,90.0,100.0,7885.0,3.0
+Sinovel,Sinovel SL2000/110,SinovelSL2000110,2000.0,3.0,9.5,25.0,90.0,110.0,9400.0,3.0
+Sinovel,Sinovel SL2000/116,SinovelSL2000116,2000.0,3.0,9.0,25.0,90.0,116.0,10477.0,3.0
+Sinovel,Sinovel SL2000/121,SinovelSL2000121,2000.0,3.0,8.7,22.0,90.0,121.0,11518.0,3.0
+Sinovel,Sinovel SL3000/90,SinovelSL300090,3000.0,3.0,13.0,25.0,85.0,90.0,6358.0,3.0
+Sinovel,Sinovel SL3000/105,SinovelSL3000105,3000.0,3.0,12.0,25.0,95.0,105.0,8654.0,3.0
+Sinovel,Sinovel SL3000/113,SinovelSL3000113,3000.0,3.0,11.0,25.0,100.0,113.0,10023.0,3.0
+Sinovel,Sinovel SL3000/121,SinovelSL3000121,3000.0,3.0,10.5,10.5,100.0,121.0,11493.0,3.0
+Sinovel,Sinovel SL5000/128,SinovelSL5000128,5000.0,3.5,12.5,25.0,100.0,128.0,12861.0,3.0
+Sinovel,Sinovel SL5000/155,SinovelSL5000155,5000.0,3.5,10.0,25.0,110.0,155.0,18617.0,3.0
+Sinovel,Sinovel SL6000/128,SinovelSL6000128,6000.0,3.5,13.0,25.0,100.0,128.0,12861.0,3.0
+Sinovel,Sinovel SL6000/155,SinovelSL6000155,6000.0,3.5,11.0,25.0,110.0,155.0,18617.0,3.0
+Siva,Siva 250/50,Siva25050,250.0,4.0,14.0,25.0,39.2,30.0,707.0,3.0
+SkySails,SkySails 55 kW Functional Model,SkySails55kWFunctionalModel,55.0,,5.0,,350.0,7.0,20.0,1.0
+SkyWind,SkyWind 3.4,SkyWind34,3400.0,,,,133.5,107.0,8992.0,2.0
+SkyWolf,SkyWolf Wind Solar Hybrid,SkyWolfWindSolarHybrid,3.5,2.2,10.0,,7.6,2.4,7.7,6.0
+Smedemester Mølle,Smedemester Mølle Birkum,SmedemesterMølleBirkum,22.0,,,,18.5,10.0,,
+Smedemester Mølle,Smedemester Mølle Borbjerg,SmedemesterMølleBorbjerg,22.0,,,,18.0,11.0,95.0,3.0
+Smedemester Mølle,Smedemester Mølle Hurup Thy Mølle,SmedemesterMølleHurupThyMølle,,,,,,,,
+Smedemester Mølle,Smedemester Mølle Mølle,SmedemesterMølleMølle,,,,,,,,
+Smedemester Mølle,Smedemester Mølle Møn´s Energiservice I/S,SmedemesterMølleMønsEnergiserviceIS,150.0,,,,24.0,21.8,,
+Smedemester Mølle,Smedemester Mølle Pedholt Mølle,SmedemesterMøllePedholtMølle,,,,,,,,
+Smedemester Mølle,Smedemester Mølle Smedemestermolle,SmedemesterMølleSmedemestermolle,22.0,,,,,10.0,,
+Smedemester Mølle,Smedemester Mølle Søgren Maskinfabrik A/S,SmedemesterMølleSøgrenMaskinfabrikAS,18.0,,,,18.0,11.0,95.0,3.0
+Smedemester Mølle,Smedemester Mølle Sønderhå,SmedemesterMølleSønderhå,22.0,,,,18.5,10.7,,
+Smedemester Mølle,Smedemester Mølle Tjele Mølle,SmedemesterMølleTjeleMølle,11.0,,,,10.0,10.0,78.5,3.0
+Smedemester Mølle,Smedemester Mølle Ydby,SmedemesterMølleYdby,22.0,,,,18.5,10.7,,
+Smedemester Mølle,Smedemester Mølle Øster Vrøgum Mølle,SmedemesterMølleØsterVrøgumMølle,22.0,,,,,,,3.0
+Smedemester Mølle,Smedemester Mølle Hørby 18,SmedemesterMølleHørby18,18.0,,,,,,,
+Smith Putnam,Smith Putnam Prototyp,SmithPutnamPrototyp,1250.0,8.5,13.5,26.5,35.6,53.0,2206.2,2.0
+Solacity,Solacity Eoltec Scirocco,SolacityEoltecScirocco,6.0,2.7,11.5,,,5.6,24.6,2.0
+Solid Wind,Solid Wind SWP-19.8,SolidWindSWP198,19.8,3.0,10.0,25.0,18.0,14.0,154.0,3.0
+Solid Wind,Solid Wind SWP-20,SolidWindSWP20,20.0,3.0,10.0,25.0,24.0,14.0,154.0,3.0
+Solid Wind,Solid Wind SWP-25,SolidWindSWP25,25.0,3.0,11.0,25.0,18.0,14.0,154.0,3.0
+Sonebjerg,Sonebjerg Sonebjerg Master,SonebjergSonebjergMaster,30.0,,,,18.0,10.0,78.5,3.0
+SWL,SWL GWL 225/40,SWLGWL22540,225.0,4.0,15.0,25.0,43.7,29.8,698.0,3.0
+Soyut,Soyut Soyut Wind 1,SoyutSoyutWind1,1.0,3.0,12.0,40.0,9.0,2.6,5.3,3.0
+Soyut,Soyut Soyut Wind 3,SoyutSoyutWind3,3.0,3.0,12.0,40.0,9.0,4.5,16.0,3.0
+Soyut,Soyut Soyut Wind 5,SoyutSoyutWind5,5.0,3.0,12.0,25.0,11.0,5.8,26.6,3.0
+Soyut,Soyut Soyut Wind 10,SoyutSoyutWind10,10.0,3.0,12.0,25.0,13.5,8.2,53.2,3.0
+Soyut,Soyut Soyut Wind 20,SoyutSoyutWind20,20.0,3.0,12.0,25.0,19.0,11.6,106.4,3.0
+Soyut,Soyut Soyut Wind 30,SoyutSoyutWind30,30.0,3.0,12.5,25.0,19.0,11.6,106.4,3.0
+Soyut,Soyut Soyut Wind 50,SoyutSoyutWind50,50.0,3.0,12.0,25.0,22.5,15.0,156.0,3.0
+Soyut,Soyut Soyut Wind 100,SoyutSoyutWind100,100.0,3.0,12.0,25.0,40.0,26.0,532.0,3.0
+Soyut,Soyut Soyut Wind 200,SoyutSoyutWind200,200.0,3.0,12.0,25.0,45.0,36.8,1064.0,3.0
+Soyut,Soyut Soyut Wind 250,SoyutSoyutWind250,250.0,3.0,12.0,25.0,45.0,41.2,1330.0,3.0
+Soyut,Soyut Soyut Wind 500,SoyutSoyutWind500,500.0,3.0,12.0,25.0,50.0,39.2,1208.0,3.0
+Soyut,Soyut Soyut Wind 1000,SoyutSoyutWind1000,1000.0,3.0,12.0,25.0,65.0,55.5,2415.0,3.0
+Soyut,Soyut Soyut Wind 1650,SoyutSoyutWind1650,1650.0,4.0,12.0,25.0,65.0,65.5,3365.0,3.0
+Søgren Maskinfabrik,Søgren Maskinfabrik Søgren,SøgrenMaskinfabrikSøgren,18.0,,,,18.0,11.0,95.0,3.0
+SRC Green Power,SRC Green Power SRC 31-250,SRCGreenPowerSRC31250,250.0,4.0,13.0,25.0,40.5,31.0,755.0,3.0
+Stokmøllen,Stokmøllen Savmøllen,StokmøllenSavmøllen,,,,,,,,6.0
+Stoma,Stoma ST-K60/D22,StomaSTK60D22,60.0,2.5,9.8,25.0,33.5,21.8,373.0,3.0
+Stoma,Stoma ST-K100/D22,StomaSTK100D22,100.0,2.5,8.5,25.0,35.0,22.0,380.0,3.0
+Stoma,Stoma ST-K200/D32,StomaSTK200D32,200.0,2.5,9.3,25.0,47.0,32.0,804.0,3.0
+STORK,STORK NEWECS-25,STORKNEWECS25,300.0,,,,28.5,26.5,552.0,2.0
+STORK,STORK HAT-25 experimental machine,STORKHAT25experimentalmachine,300.0,6.0,,18.0,22.0,25.0,490.9,2.0
+STORK,STORK NEWECS-45,STORKNEWECS45,1000.0,,,,60.0,45.0,1590.0,2.0
+Storm Master,Storm Master Storm Master Model 12,StormMasterStormMasterModel12,40.0,,,,,12.0,113.0,3.0
+stx Windpower,stx Windpower STX 72 1.5 MW,StxWindpowerSTX7215MW,1500.0,3.0,13.0,25.0,72.5,70.7,3920.0,3.0
+stx Windpower,stx Windpower STX 72 2 MW,StxWindpowerSTX722MW,2000.0,3.0,13.0,25.0,72.5,70.7,3920.0,3.0
+stx Windpower,stx Windpower STX 93 2 MW,StxWindpowerSTX932MW,2000.0,3.0,11.0,20.0,80.0,93.0,6792.9,3.0
+Südwind,Südwind THG 5,SüdwindTHG5,5.0,,,,,,,
+Südwind,Südwind S-46,SüdwindS46,750.0,3.0,15.5,25.0,61.833333333333336,46.0,1662.0,3.0
+Südwind,Südwind S-46,SüdwindS46,600.0,3.0,11.0,25.0,61.833333333333336,46.0,1662.0,3.0
+Südwind,Südwind S-50 P,SüdwindS50P,800.0,2.5,15.0,25.0,55.333333333333336,50.0,1964.0,3.0
+Südwind,Südwind S-70,SüdwindS70,1500.0,3.0,11.6,25.0,91.125,70.0,3848.0,3.0
+Südwind,Südwind S-70 (special nacelle),SüdwindS70specialnacelle,1500.0,3.0,13.0,25.0,90.6,70.0,3848.0,3.0
+Südwind,Südwind S-77,SüdwindS77,1500.0,3.0,11.1,25.0,90.3,77.0,4657.0,3.0
+Südwind,Südwind N 710,SüdwindN710,10.0,,,,,7.0,38.5,3.0
+Südwind,Südwind N 715,SüdwindN715,15.0,3.0,,,18.0,7.0,38.0,3.0
+Südwind,Südwind N 1230,SüdwindN1230,30.0,3.0,12.0,30.0,28.5,12.5,123.0,3.0
+Südwind,Südwind N 1237,SüdwindN1237,37.0,3.0,12.0,30.0,28.5,12.5,122.7,3.0
+Südwind,Südwind N 1245,SüdwindN1245,45.0,3.0,12.0,30.0,28.5,12.5,122.7,3.0
+Südwind,Südwind N 3127,SüdwindN3127,270.0,3.0,13.0,25.0,45.85,31.4,774.0,3.0
+Südwind,Südwind N 3330,SüdwindN3330,300.0,3.0,13.0,25.0,43.9,33.4,876.0,3.0
+Südwind,Südwind N 3335,SüdwindN3335,350.0,4.0,14.0,25.0,45.85,33.4,876.0,3.0
+Südwind,Südwind N 4660,SüdwindN4660,600.0,3.5,12.0,35.0,55.75,45.8,1647.0,3.0
+superwind,superwind 1250,Superwind1250,1.3,3.0,11.5,,,2.4,4.5,3.0
+Suzlon,Suzlon S.111-2100,SuzlonS1112100,2100.0,3.0,12.5,21.0,116.66666666666667,111.8,9852.0,3.0
+Suzlon,Suzlon S.120,SuzlonS120,2100.0,3.0,9.5,18.0,113.75,120.0,11225.0,3.0
+Suzlon,Suzlon S.128-2600,SuzlonS1282600,2600.0,,,,116.66666666666667,128.0,12868.0,3.0
+Suzlon,Suzlon S.128-2700,SuzlonS1282700,2700.0,3.0,9.5,20.0,140.0,129.0,13070.0,3.0
+Suzlon,Suzlon S.128-2800,SuzlonS1282800,2800.0,,,,116.66666666666667,128.0,12868.0,3.0
+Suzlon,Suzlon S.33-350,SuzlonS33350,350.0,3.5,14.0,25.0,60.0,33.4,876.1,3.0
+Suzlon,Suzlon S.52-600,SuzlonS52600,600.0,4.0,13.0,25.0,75.0,52.0,2124.0,3.0
+Suzlon,Suzlon S.60-1000,SuzlonS601000,1000.0,3.0,13.0,25.0,65.0,60.0,2826.0,3.0
+Suzlon,Suzlon S.60-1250,SuzlonS601250,1250.0,3.0,14.0,25.0,65.0,60.0,2828.0,3.0
+Suzlon,Suzlon S.62-1000,SuzlonS621000,1000.0,3.0,13.0,25.0,65.0,62.0,3019.0,3.0
+Suzlon,Suzlon S.64-950,SuzlonS64950,950.0,3.0,11.0,25.0,65.0,64.0,3218.0,3.0
+Suzlon,Suzlon S.64-1000,SuzlonS641000,1000.0,3.0,11.0,25.0,65.0,64.0,3217.0,3.0
+Suzlon,Suzlon S.64-1250,SuzlonS641250,1250.0,4.0,12.0,25.0,74.5,64.0,3217.0,3.0
+Suzlon,Suzlon S.66-1250,SuzlonS661250,1250.0,4.0,12.0,20.0,74.5,66.0,3421.0,3.0
+Suzlon,Suzlon S.82-1500,SuzlonS821500,1500.0,4.0,12.0,20.0,78.5,82.0,5281.0,3.0
+Suzlon,Suzlon S.88-2000,SuzlonS882000,2000.0,4.0,14.0,25.0,90.0,88.0,6082.0,3.0
+Suzlon,Suzlon S.88-2100,SuzlonS882100,2100.0,4.0,14.0,25.0,80.0,88.0,6082.0,3.0
+Suzlon,Suzlon S.95-2100,SuzlonS952100,2100.0,3.5,11.0,25.0,90.0,95.0,7085.0,3.0
+Suzlon,Suzlon S.97-2100,SuzlonS972100,2100.0,3.5,11.0,20.0,90.0,97.0,7386.0,3.0
+Svecom,Svecom SVECOM WIND 60-18,SvecomSVECOMWIND6018,59.0,3.0,10.5,25.0,29.900000000000002,18.0,255.0,3.0
+Svecom,Svecom SVECOM WIND 60-23,SvecomSVECOMWIND6023,59.0,2.5,9.5,25.0,29.900000000000002,23.0,415.0,3.0
+Svecom,Svecom SVECOM WIND 100-23,SvecomSVECOMWIND10023,100.0,3.0,12.0,25.0,32.85,23.0,415.0,3.0
+United Energies,United Energies UE 1.65,UnitedEnergiesUE165,1650.0,3.0,15.0,25.0,76.0,82.0,5365.0,3.0
+Tacke,Tacke TW 1.5i,TackeTW15i,1500.0,4.0,13.0,25.0,67.0,65.0,3318.0,3.0
+Tacke,Tacke TW 2.0,TackeTW20,2000.0,4.0,13.0,25.0,65.0,70.5,3904.0,
+Tacke,Tacke TW 45,TackeTW45,45.0,3.0,12.5,20.0,24.0,12.5,122.7,3.0
+Tacke,Tacke TW 60,TackeTW60,60.0,2.5,12.0,25.0,30.0,17.5,240.5,3.0
+Tacke,Tacke TW 80,TackeTW80,80.0,3.0,11.5,25.0,40.0,21.0,346.0,3.0
+Tacke,Tacke WR 150,TackeWR150,150.0,,,,,21.0,346.4,3.0
+Tacke,Tacke TW 150,TackeTW150,150.0,,,,27.0,21.0,346.4,3.0
+Tacke,Tacke TW 250,TackeTW250,250.0,3.0,14.0,25.0,42.5,24.7,531.0,3.0
+Tacke,Tacke TW 300,TackeTW300,300.0,3.0,14.0,25.0,45.0,33.0,855.0,3.0
+Tacke,Tacke TW 500,TackeTW500,500.0,3.0,13.0,25.0,41.5,36.0,1015.0,3.0
+Tacke,Tacke TW 600,TackeTW600,600.0,3.0,14.5,25.0,50.0,43.0,1452.0,3.0
+Tacke,Tacke TW 600a,TackeTW600a,600.0,3.0,13.0,20.0,64.225,46.0,1662.0,3.0
+Tacke,Tacke TW 600e,TackeTW600e,600.0,3.0,13.5,20.0,60.0,46.0,1661.0,3.0
+Tacke,Tacke TZ 750,TackeTZ750,750.0,4.0,11.3,25.0,55.0,50.0,1963.0,3.0
+TYHI - Taiyuan,TYHI - Taiyuan TZ3000/104,TYHITaiyuanTZ3000104,3000.0,,,,,104.0,8495.0,3.0
+TYHI - Taiyuan,TYHI - Taiyuan TZ3000/113,TYHITaiyuanTZ3000113,3000.0,,,,,113.0,10029.0,3.0
+TYHI - Taiyuan,TYHI - Taiyuan TZ3000/120,TYHITaiyuanTZ3000120,3000.0,,,,,120.0,11310.0,3.0
+TYHI - Taiyuan,TYHI - Taiyuan TZ5000/128,TYHITaiyuanTZ5000128,5000.0,,,,,128.0,12867.0,3.0
+TYHI - Taiyuan,TYHI - Taiyuan TZ5000/154,TYHITaiyuanTZ5000154,5000.0,,,,,154.0,18627.0,3.0
+TECO,TECO TFC2000,TECOTFC2000,2000.0,3.5,12.5,25.0,70.0,80.0,,3.0
+Tellus,Tellus T-1780,TellusT1780,80.0,3.0,14.0,28.0,32.099999999999994,17.0,227.0,3.0
+Tellus,Tellus T-1995,TellusT1995,95.0,,,,28.0,19.0,238.5,3.0
+The Wind Factory,The Wind Factory TWF 15,TheWindFactoryTWF15,80.0,3.0,12.0,25.0,15.0,15.0,255.0,2.0
+The Wind Factory,The Wind Factory TWF 18,TheWindFactoryTWF18,80.0,3.0,12.0,25.0,29.75,18.0,255.0,2.0
+THYmøllen,THYmøllen TWP 6kW,THYmøllenTWP6kW,6.0,4.0,8.0,25.0,21.4,7.1,38.5,3.0
+Tornado Wind Ltd.,Tornado Wind Ltd. Tornado 500,TornadoWindLtdTornado500,0.5,3.6,11.0,30.0,10.0,2.1,3.5,2.0
+Tozzi Green,Tozzi Green Victory 16-20,TozziGreenVictory1620,19.9,2.5,7.4,20.0,24.0,16.0,201.0,3.0
+Tozzi Green,Tozzi Green Victory 19-20,TozziGreenVictory1920,19.9,2.5,6.6,16.0,24.0,19.0,283.5,3.0
+Tozzi Green,Tozzi Green Victory 24-60,TozziGreenVictory2460,59.9,2.5,8.1,20.0,30.0,24.0,452.5,3.0
+Tozzi Green,Tozzi Green Victory 26-60,TozziGreenVictory2660,59.9,2.5,7.6,16.0,30.0,26.0,530.9,3.0
+Tozzi Green,Tozzi Green TN 535,TozziGreenTN535,9.9,2.5,6.7,16.0,18.6,13.2,136.7,3.0
+TREVI Energy,TREVI Energy WM3100,TREVIEnergyWM3100,3100.0,,,,,84.0,5541.8,3.0
+TUGE,TUGE 10 kW,TUGE10kW,10.0,3.0,11.0,25.0,20.0,10.2,82.0,3.0
+TURBOWINDS,TURBOWINDS V8 VAWT prototype,TURBOWINDSV8VAWTprototype,13.0,3.5,12.0,50.0,3.5,8.0,48.0,3.0
+TURBOWINDS,TURBOWINDS TML25,TURBOWINDSTML25,25.0,2.5,10.0,25.0,18.0,11.7,108.4,2.0
+TURBOWINDS,TURBOWINDS T100-10,TURBOWINDST10010,100.0,,,,15.0,10.0,78.5,3.0
+TURBOWINDS,TURBOWINDS T300-28,TURBOWINDST30028,300.0,4.0,14.0,25.0,30.0,28.0,616.0,3.0
+TURBOWINDS,TURBOWINDS T400-34,TURBOWINDST40034,400.0,3.0,14.0,25.0,38.0,34.0,908.0,3.0
+TURBOWINDS,TURBOWINDS T500-48,TURBOWINDST50048,500.0,3.0,12.0,25.0,55.0,48.0,1810.0,3.0
+TURBOWINDS,TURBOWINDS T600-48,TURBOWINDST60048,600.0,3.0,12.5,25.0,55.0,48.0,1810.0,3.0
+Tvind,Tvind Prototype,TvindPrototype,2000.0,5.0,14.8,20.0,53.0,54.0,2290.0,3.0
+Tyer Wind,Tyer Wind TW2 Himilce,TyerWindTW2Himilce,1.0,3.8,10.0,,,3.5,3.6,2.0
+UGE,UGE VisionAIR5,UGEVisionAIR5,3.2,3.5,11.0,20.0,5.2,3.2,16.6,3.0
+Unbekannt,Unbekannt Unbekannt,UnbekanntUnbekannt,,,,,,,,
+Unbekannt,Unbekannt Unbekannt 2,UnbekanntUnbekannt2,1.0,,,,,3.0,7.0,4.0
+Unbekannt,Unbekannt Unbekannt 3,UnbekanntUnbekannt3,,,,,,,,
+Uni Wind,Uni Wind UW30,UniWindUW30,30.0,2.0,12.0,15.0,26.75,12.3,119.0,3.0
+U.E. Fenosa,U.E. Fenosa AWEC-60,UEFenosaAWEC60,1200.0,4.9,12.2,24.0,50.0,60.0,2827.0,3.0
+Unison,Unison U50,UnisonU50,750.0,3.0,125.0,25.0,50.0,50.0,1963.0,3.0
+Unison,Unison U54,UnisonU54,750.0,3.0,11.5,25.0,60.0,54.0,2290.0,3.0
+Unison,Unison U57,UnisonU57,750.0,3.0,115.0,25.0,68.0,57.0,2551.7,3.0
+Unison,Unison U88,UnisonU88,2000.0,3.0,12.0,25.0,80.0,88.0,6079.0,3.0
+Unison,Unison U93,UnisonU93,2000.0,3.0,115.0,25.0,90.0,93.0,6792.9,3.0
+Unison,Unison U93E,UnisonU93E,2000.0,3.0,115.0,25.0,90.0,93.0,6792.9,3.0
+Unison,Unison U113,UnisonU113,2300.0,3.0,10.5,20.0,106.66666666666667,112.8,9993.3,3.0
+Unison,Unison U136,UnisonU136,4200.0,3.0,12.5,22.0,95.0,135.7,14470.0,3.0
+Unison,Unison U146,UnisonU146,4200.0,3.0,10.0,22.0,95.0,146.3,16812.0,3.0
+Unitron,Unitron UE-6,UnitronUE6,0.7,2.7,10.5,,,2.2,3.7,3.0
+Unitron,Unitron UE-15,UnitronUE15,1.5,2.7,10.5,,,3.2,9.2,3.0
+Unitron,Unitron UE15 plus,UnitronUE15plus,1.8,2.7,10.5,,,3.4,9.4,3.0
+Unitron,Unitron UE 33,UnitronUE33,3.3,2.7,10.5,,,4.7,16.4,3.0
+Unitron,Unitron UE42,UnitronUE42,4.2,2.7,11.0,,,4.9,19.0,3.0
+Unitron,Unitron UE42 plus,UnitronUE42plus,5.1,2.7,11.0,,,5.2,21.4,3.0
+unknown,unknown unidentified,Unknownunidentified,,,,,,,,
+USW U.S. Windpower,USW U.S. Windpower 33M-VS,USWUSWindpower33MVS,360.0,4.0,13.5,28.5,30.53333333333333,33.0,855.0,3.0
+USW U.S. Windpower,USW U.S. Windpower 56-50,USWUSWindpower5650,50.0,,,,,17.0,,3.0
+USW U.S. Windpower,USW U.S. Windpower 56-100,USWUSWindpower56100,100.0,5.0,13.0,22.0,18.0,17.0,227.0,3.0
+UTRC,UTRC UTRC 108,UTRCUTRC108,15.0,,,,,9.8,75.0,2.0
+Vensys,Vensys 62/1200,Vensys621200,1200.0,3.0,12.5,25.0,77.0,62.0,3000.0,3.0
+Vensys,Vensys 70/1500,Vensys701500,1500.0,3.5,15.0,25.0,75.0,70.0,3886.0,3.0
+Vensys,Vensys 77/1500,Vensys771500,1500.0,3.0,13.0,22.0,82.16666666666667,76.8,4637.0,3.0
+Vensys,Vensys 77/1500- Timber Tower,Vensys771500TimberTower,1500.0,3.0,13.0,22.0,100.0,76.8,4637.0,3.0
+Vensys,Vensys 82/1500,Vensys821500,1500.0,3.0,12.5,22.0,92.5,82.3,5325.0,3.0
+Vensys,Vensys 87/1500,Vensys871500,1500.0,3.0,12.0,22.0,92.5,87.0,5890.0,3.0
+Vensys,Vensys 90/2500,Vensys902500,2500.0,3.0,15.0,25.0,80.0,90.0,6361.7,3.0
+Vensys,Vensys 100/2500,Vensys1002500,2500.0,3.0,11.0,25.0,100.0,99.8,7823.0,3.0
+Vensys,Vensys 109/2500,Vensys1092500,2500.0,3.0,12.5,25.0,120.0,108.9,9314.0,3.0
+Vensys,Vensys 112/2500,Vensys1122500,2500.0,3.0,11.5,25.0,118.5,112.5,9940.0,3.0
+Vensys,Vensys 112/3000,Vensys1123000,3000.0,3.0,11.5,25.0,116.75,112.0,9940.0,3.0
+Vensys,Vensys 115/4100,Vensys1154100,4100.0,3.0,13.5,25.0,82.5,115.0,10378.0,3.0
+Vensys,Vensys 120/3000,Vensys1203000,3000.0,3.0,11.5,22.0,109.43333333333334,120.0,11291.0,3.0
+Vensys,Vensys 126/3800,Vensys1263800,3800.0,3.0,12.5,25.0,91.0,126.2,12499.0,3.0
+Vensys,Vensys 136/3000,Vensys1363000,3000.0,3.0,11.0,22.0,104.66666666666667,136.0,14527.0,3.0
+Vensys,Vensys 136/3500,Vensys1363500,3500.0,3.0,,22.0,104.66666666666667,136.6,14655.0,3.0
+Ventis,Ventis 04-05,Ventis0405,5.0,3.5,12.0,50.0,15.0,5.0,20.0,2.0
+Ventis,Ventis V12 500 Prototype,VentisV12500Prototype,500.0,4.0,13.0,25.0,49.25,40.0,1257.0,2.0
+Ventis,Ventis V20 100,VentisV20100,100.0,3.3,13.0,25.0,36.5,20.0,314.0,2.0
+Venturicon,Venturicon 3.ZERO,Venturicon3ZERO,3.2,3.0,18.0,18.0,,1.3,1.4,5.0
+Windturbinenwerke,Windturbinenwerke Herkules- Stahlwindturbine,WindturbinenwerkeHerkulesStahlwindturbine,3.0,3.0,,,15.0,7.5,44.0,27.0
+Vergnet,Vergnet GEV HP 1000/62,VergnetGEVHP100062,1000.0,3.0,15.0,25.0,70.0,62.0,3019.0,2.0
+Vergnet,Vergnet GEV 5/5,VergnetGEV55,5.0,4.5,15.0,20.0,15.0,5.0,19.7,2.0
+Vergnet,Vergnet GEV 10/20,VergnetGEV1020,20.0,4.5,16.0,20.0,24.0,10.0,78.5,2.0
+Vergnet,Vergnet GEV 15/60,VergnetGEV1560,60.0,5.0,15.0,20.0,35.0,15.0,177.0,2.0
+Vergnet,Vergnet GEV 220/26,VergnetGEV22026,220.0,5.0,13.0,29.0,55.0,26.0,531.0,2.0
+Vergnet,Vergnet GEV MP R 200/30,VergnetGEVMPR20030,200.0,3.5,,25.0,32.0,30.0,706.0,2.0
+Vergnet,Vergnet GEV MP C 200/30,VergnetGEVMPC20030,200.0,3.5,12.0,25.0,57.5,30.0,706.0,2.0
+Vergnet,Vergnet GEV MP R 200/32,VergnetGEVMPR20032,200.0,3.5,,25.0,32.0,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP C 200/32,VergnetGEVMPC20032,200.0,3.5,,25.0,57.5,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP R 225/30,VergnetGEVMPR22530,225.0,3.5,,25.0,32.0,30.0,706.0,2.0
+Vergnet,Vergnet GEV MP R 225/32,VergnetGEVMPR22532,225.0,3.5,,25.0,32.0,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP C 225/32,VergnetGEVMPC22532,225.0,3.5,,25.0,57.5,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP R 250/30,VergnetGEVMPR25030,250.0,3.5,,25.0,32.0,30.0,706.0,2.0
+Vergnet,Vergnet GEV MP R 250/32,VergnetGEVMPR25032,250.0,3.5,,25.0,32.0,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP C 250/32,VergnetGEVMPC25032,250.0,3.5,,25.0,57.5,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP R 275/32,VergnetGEVMPR27532,275.0,3.5,12.0,25.0,32.0,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP C 275/32,VergnetGEVMPC27532,275.0,3.5,12.0,25.0,57.5,32.0,804.0,2.0
+Vergnet,Vergnet GEV MP R 275/28,VergnetGEVMPR27528,275.0,3.5,,25.0,32.0,28.0,615.0,2.0
+Vergnet,Vergnet GEV MP R 275/30,VergnetGEVMPR27530,275.0,3.5,,25.0,32.0,30.0,706.0,2.0
+Vergnet,Vergnet GEV MP C 275/30,VergnetGEVMPC27530,275.0,3.5,12.0,25.0,57.5,30.0,706.0,2.0
+Vergnet,Vergnet GEV HP 1000/55,VergnetGEVHP100055,1000.0,3.0,15.0,25.0,60.0,55.0,3019.0,2.0
+Vergnet,Vergnet GEV HP 1000/58,VergnetGEVHP100058,1000.0,3.0,15.0,25.0,70.0,58.0,3019.0,2.0
+Vestas,Vestas multi-rotor concept,Vestasmultirotorconcept,900.0,3.5,14.0,25.0,22.875,116.0,2644.0,12.0
+Vestas,Vestas HVK V10,VestasHVKV10,22.0,,,,18.5,10.0,78.5,3.0
+Vestas,Vestas HVK V10,VestasHVKV10,30.0,,,,18.0,10.0,79.0,3.0
+Vestas,Vestas V12,VestasV12,22.0,,,,19.0,12.0,113.0,3.0
+Vestas,Vestas V15,VestasV15,55.0,4.0,12.5,25.0,-2.0,15.0,176.0,
+Vestas,Vestas V15,VestasV15,55.0,4.0,16.0,25.0,18.0,15.0,177.0,3.0
+Vestas,Vestas HVK V15,VestasHVKV15,55.0,,,,18.0,15.0,177.0,3.0
+Vestas,Vestas V15,VestasV15,55.0,,,,,15.0,177.0,3.0
+Vestas,Vestas V15 - 55 Nacelle,VestasV1555Nacelle,55.0,4.0,16.0,26.0,,15.3,177.0,3.0
+Vestas,Vestas V16 - 55,VestasV1655,65.0,,,,24.0,16.0,201.0,3.0
+Vestas,Vestas V16 - 55 Gittermast,VestasV1655Gittermast,65.0,,,,18.0,16.0,201.0,3.0
+Vestas,Vestas V17 - 75,VestasV1775,75.0,,,,22.0,17.0,227.0,
+Vestas,Vestas V17 - 75 Gittermast,VestasV1775Gittermast,90.0,,,,24.0,17.0,227.0,3.0
+Vestas,Vestas V17 - 75 Rørtårn,VestasV1775Rørtårn,90.0,,,,22.0,17.0,227.0,3.0
+Vestas,Vestas V19-90,VestasV1990,90.0,3.5,18.0,23.0,23.2,18.8,,3.0
+Vestas,Vestas V20,VestasV20,100.0,4.5,13.0,25.0,24.0,20.0,314.0,3.0
+Vestas,Vestas V25,VestasV25,200.0,3.5,11.5,25.0,34.25,25.0,491.0,3.0
+Vestas,Vestas V27,VestasV27,225.0,3.0,,25.0,110.0,27.0,573.0,3.0
+Vestas,Vestas V27 Rørtårn,VestasV27Rørtårn,225.0,3.5,14.0,25.0,30.0,27.0,573.0,3.0
+Vestas,Vestas V27 WindWorld Tårn,VestasV27WindWorldTårn,225.0,,,,,27.0,573.0,3.0
+Vestas,Vestas V29,VestasV29,225.0,3.5,14.0,25.0,41.5,29.0,661.0,3.0
+Vestas,Vestas V39,VestasV39,500.0,4.0,15.0,25.0,46.75,39.0,1195.0,3.0
+Vestas,Vestas V39-600,VestasV39600,600.0,4.0,16.5,25.0,46.75,39.0,1195.0,3.0
+Vestas,Vestas V42,VestasV42,600.0,4.0,16.0,25.0,46.75,42.0,1357.0,3.0
+Vestas,Vestas V42-500,VestasV42500,500.0,3.0,14.5,25.0,46.75,42.0,1357.0,3.0
+Vestas,Vestas V44,VestasV44,600.0,4.0,16.0,20.0,52.166666666666664,44.0,1521.0,3.0
+Vestas,Vestas V47,VestasV47,660.0,4.0,15.0,25.0,47.5,47.0,1735.0,3.0
+Vestas,Vestas V47-700,VestasV47700,700.0,4.0,16.0,25.0,47.5,47.0,1735.0,3.0
+Vestas,Vestas V52,VestasV52,850.0,4.0,14.0,25.0,57.95,52.0,2124.0,3.0
+Vestas,Vestas V52 (NM),VestasV52NM,900.0,3.5,13.0,25.0,-6.149999999999999,52.2,2140.0,
+Vestas,Vestas V63,VestasV63,1500.0,4.0,16.0,25.0,60.0,63.6,3176.9,3.0
+Vestas,Vestas V66-1.65,VestasV66165,1650.0,4.0,15.0,25.0,69.0,66.0,3421.0,3.0
+Vestas,Vestas V66-1.75,VestasV66175,1750.0,4.0,16.0,25.0,68.33333333333333,66.0,3421.0,3.0
+Vestas,Vestas V66-2.0,VestasV6620,2000.0,4.0,17.0,25.0,68.33333333333333,66.0,3421.0,3.0
+Vestas,Vestas V80-2.0 Nearshore,VestasV8020Nearshore,2000.0,4.0,15.0,25.0,76.25,80.0,5027.0,3.0
+Vestas,Vestas V80 Offshore,VestasV80Offshore,2000.0,4.0,16.0,25.0,80.0,80.0,5027.0,3.0
+Vestas,Vestas V80-2.0,VestasV8020,2000.0,4.0,15.0,25.0,76.25,80.0,5027.0,3.0
+Vestas,Vestas V80-1.8,VestasV8018,1800.0,4.0,15.0,25.0,68.33333333333333,80.0,5027.0,3.0
+Vestas,Vestas V80-2.0 VCS,VestasV8020VCS,2000.0,4.0,16.0,25.0,77.0,80.0,5027.0,3.0
+Vestas,Vestas V82-1.65,VestasV82165,1650.0,2.5,13.0,32.0,-24.5,82.0,5281.0,
+Vestas,Vestas V90,VestasV90,2000.0,4.0,13.0,25.0,93.33333333333333,90.0,6362.0,3.0
+Vestas,Vestas V90-1.8,VestasV9018,1800.0,3.5,12.0,25.0,93.33333333333333,90.0,6362.0,3.0
+Vestas,Vestas V90-3.0,VestasV9030,3000.0,4.0,15.0,25.0,92.5,90.0,6362.0,3.0
+Vestas,Vestas V100-1.8,VestasV10018,1800.0,3.0,12.0,20.0,98.33333333333333,100.0,7854.0,3.0
+Vestas,Vestas V100-2.0,VestasV10020,2000.0,3.0,12.0,22.0,98.33333333333333,100.0,7854.0,3.0
+Vestas,Vestas V100-2.2,VestasV10022,2200.0,3.0,,22.0,87.5,100.0,7854.0,3.0
+Vestas,Vestas V100-2.6,VestasV10026,2600.0,3.0,12.5,23.0,,100.0,7854.0,3.0
+Vestas,Vestas V100-2.75,VestasV100275,2750.0,4.0,15.0,25.0,100.0,100.0,7850.0,3.0
+Vestas,Vestas V105-3.3,VestasV10533,3300.0,3.0,13.0,25.0,,105.0,8659.0,3.0
+Vestas,Vestas V105-3.45,VestasV105345,3450.0,3.0,13.0,25.0,,105.0,8659.0,3.0
+Vestas,Vestas V110,VestasV110,2000.0,3.0,11.5,20.0,100.0,110.0,9503.0,3.0
+Vestas,Vestas V112 Offshore,VestasV112Offshore,3000.0,3.0,12.0,25.0,,112.0,9852.0,3.0
+Vestas,Vestas V112 Onshore,VestasV112Onshore,3075.0,3.0,12.0,25.0,99.0,112.0,9852.0,3.0
+Vestas,Vestas V112-3.3,VestasV11233,3300.0,3.0,13.0,25.0,109.25,112.0,9852.0,3.0
+Vestas,Vestas V112-3.45,VestasV112345,3450.0,3.0,13.0,25.0,84.0,112.0,9852.0,3.0
+Vestas,Vestas V116-2.0,VestasV11620,2000.0,3.0,,20.0,,116.0,10568.0,3.0
+Vestas,Vestas V116-2.1,VestasV11621,2100.0,3.0,18.0,20.0,87.0,116.0,10568.0,3.0
+Vestas,Vestas V117-3.3,VestasV11733,3300.0,3.0,13.0,25.0,104.0,117.0,10751.0,3.0
+Vestas,Vestas V117-3.45,VestasV117345,3450.0,3.0,12.5,25.0,116.5,117.0,10751.0,3.0
+Vestas,Vestas V117-4.0,VestasV11740,4000.0,3.0,,25.0,87.75,117.0,10751.0,3.0
+Vestas,Vestas V117-4.2,VestasV11742,4200.0,3.0,,25.0,87.75,117.0,10751.0,3.0
+Vestas,Vestas V120-2.0,VestasV12020,2000.0,3.0,,18.0,,120.0,11310.0,3.0
+Vestas,Vestas V120-2.2,VestasV12022,2200.0,3.0,18.0,20.0,109.8,120.0,11310.0,3.0
+Vestas,Vestas V120-4.5,VestasV12045,4500.0,4.0,12.0,25.0,90.0,120.0,11310.0,3.0
+Vestas,Vestas V126-3.0,VestasV12630,3000.0,3.0,12.0,22.5,119.0,126.0,12469.0,3.0
+Vestas,Vestas V126-3.3,VestasV12633,3300.0,3.0,12.0,22.5,127.0,126.0,12469.0,3.0
+Vestas,Vestas V126-3.45,VestasV126345,3450.0,3.0,12.0,22.5,137.5,126.0,12469.0,3.0
+Vestas,Vestas V136-3.45,VestasV136345,3450.0,3.0,,22.5,118.75,136.0,14527.0,3.0
+Vestas,Vestas V136-4.0,VestasV13640,4000.0,3.0,,25.0,,136.0,14527.0,3.0
+Vestas,Vestas V136-4.2,VestasV13642,4200.0,3.0,,25.0,,136.0,14527.0,3.0
+Vestas,Vestas V138-3.0 EnVentus,VestasV13830EnVentus,3000.0,3.0,,24.0,89.5,138.0,14957.0,3.0
+Vestas,Vestas V150-4.0,VestasV15040,4000.0,3.0,,22.5,,150.0,17671.0,3.0
+Vestas,Vestas V150-4.2,VestasV15042,4200.0,3.0,,22.5,,150.0,17671.0,3.0
+Vestas,Vestas V150-5.6 EnVentus,VestasV15056EnVentus,5600.0,3.0,,25.0,139.8,150.0,17671.0,3.0
+Vestas,Vestas V162-5.6 EnVentus,VestasV16256EnVentus,5600.0,3.0,,25.0,141.4,162.0,20612.0,3.0
+Vestas,Vestas V164-8.0,VestasV16480,8000.0,4.0,13.0,25.0,,164.0,21124.0,3.0
+Victor Energy,Victor Energy Victor 5kW,VictorEnergyVictor5kW,5.0,,,,,,,
+Vind Teknik,Vind Teknik 520,VindTeknik520,,,,,,,,
+Vind-Syssel,Vind-Syssel VS130/22,VindSysselVS13022,130.0,4.0,12.0,23.0,26.0,22.2,387.0,
+Vind-Syssel,Vind-Syssel VS150/22,VindSysselVS15022,150.0,4.0,14.0,23.0,28.0,22.0,380.0,3.0
+Vind-Syssel,Vind-Syssel VS270/26,VindSysselVS27026,270.0,,,,31.0,26.0,531.0,3.0
+Vind-Syssel,Vind-Syssel VS270/26,VindSysselVS27026,270.0,,,,32.0,26.0,531.0,3.0
+Vindby,Vindby V1A-G9,VindbyV1AG9,1.0,2.5,,,5.666666666666667,1.8,2.5,5.0
+Voith,Voith DFVLR 10kW,VoithDFVLR10kW,10.0,,8.5,,10.0,11.3,100.0,2.0
+VWT Power,VWT Power qr5,VWTPowerqr5,6.5,5.0,16.0,26.0,5.0,3.1,16.0,3.0
+VWT Power,VWT Power hy5,VWTPowerhy5,5.0,3.0,11.0,25.0,13.833333333333334,5.6,24.6,3.0
+W2E Wind to Energy,W2E Wind to Energy Harvester 2.0 MW,W2EWindtoEnergyHarvester20MW,2000.0,3.0,10.0,20.0,120.0,116.0,10568.3,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-93/2.0,W2EWindtoEnergyW2E9320,2050.0,3.0,12.0,25.0,102.6,93.2,6822.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-100/2.5,W2EWindtoEnergyW2E10025,2500.0,3.5,12.5,25.0,118.0,100.0,7854.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-100/2.0,W2EWindtoEnergyW2E10020,2000.0,3.5,11.5,25.0,102.6,100.0,7854.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-103/2.5,W2EWindtoEnergyW2E10325,2500.0,3.5,12.5,25.0,118.0,103.0,8332.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-110/2.5,W2EWindtoEnergyW2E11025,2500.0,3.5,12.5,25.0,92.5,110.0,9503.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-120/3.3fc,W2EWindtoEnergyW2E12033fc,3300.0,,,,,120.0,11309.7,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-120/3.5fc,W2EWindtoEnergyW2E12035fc,3500.0,3.0,13.0,25.0,110.0,120.0,11309.7,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-120/3.2fc,W2EWindtoEnergyW2E12032fc,3200.0,3.0,13.0,25.0,110.0,120.0,11309.7,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-120/3fc,W2EWindtoEnergyW2E1203fc,3000.0,3.0,13.0,25.0,110.0,120.0,11309.7,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-133/3fc,W2EWindtoEnergyW2E1333fc,3000.0,,,,,133.0,13892.9,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-138/3.0fc,W2EWindtoEnergyW2E13830fc,3000.0,3.0,12.0,20.0,120.0,138.0,14957.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-145/3.0fc,W2EWindtoEnergyW2E14530fc,3000.0,3.0,10.5,22.0,95.0,145.0,16513.0,3.0
+W2E Wind to Energy,W2E Wind to Energy W2E-151/4.5,W2EWindtoEnergyW2E15145,4500.0,3.0,12.0,20.0,123.33333333333333,151.0,17908.0,3.0
+W2E Wind to Energy,W2E Wind to Energy Harvester 3.3 MW,W2EWindtoEnergyHarvester33MW,3300.0,3.0,10.0,20.0,120.0,130.0,13273.3,3.0
+Schönball Energie,Schönball Energie NOAH 10/45 kW,SchönballEnergieNOAH1045kW,45.0,3.0,16.0,25.0,12.0,12.0,113.0,3.0
+WECS-TECH,WECS-TECH Wecs-Tech 1558,WECSTECHWecsTech1558,150.0,,,,,17.7,246.0,3.0
+WES,WES WES50,WESWES50,50.0,3.0,9.5,25.0,28.333333333333332,20.0,314.0,2.0
+WES,WES WES80,WESWES80,80.0,3.0,13.0,25.0,28.4,18.0,255.0,2.0
+WES,WES WES100,WESWES100,100.0,3.0,13.0,25.0,25.75,18.0,255.0,2.0
+WES,WES WES250,WESWES250,250.0,3.5,13.0,25.0,39.0,30.0,707.0,2.0
+West,West Gamma 2,WestGamma2,2000.0,3.8,11.3,20.6,66.0,60.0,2827.0,2.0
+West,West Gamma 60,WestGamma60,1500.0,4.0,14.0,27.0,61.0,60.0,2827.0,2.0
+West,West Medit 320,WestMedit320,320.0,4.2,11.5,17.5,26.0,33.0,855.0,2.0
+WestWind,WestWind WestWind,WestWindWestWind,,,,,,,,
+Wikov,Wikov W2000-93,WikovW200093,2000.0,3.0,11.0,20.0,90.0,93.0,6793.0,3.0
+Wincon,Wincon W99 XT,WinconW99XT,100.0,4.5,16.0,25.0,24.5,21.0,346.0,3.0
+Wincon,Wincon W99/21,WinconW9921,99.0,,,,22.0,21.0,346.0,3.0
+Wincon,Wincon W200/25,WinconW20025,200.0,4.5,12.0,25.0,29.5,25.0,491.0,3.0
+Wincon,Wincon W200/26,WinconW20026,200.0,4.5,13.0,25.0,30.0,26.0,530.0,3.0
+Wincon,Wincon W200/26 Gedser,WinconW20026Gedser,200.0,4.5,13.0,25.0,27.5,26.0,530.0,3.0
+Wincon,Wincon W250/29,WinconW25029,250.0,3.0,15.0,25.0,30.0,29.0,660.0,3.0
+Wincon,Wincon W600/45,WinconW60045,600.0,,,,45.0,45.0,1590.0,3.0
+Wincon,Wincon W755/48,WinconW75548,755.0,4.0,14.0,25.0,-14.0,48.0,1810.0,3.0
+WEG Wind EnergyGroup,WEG Wind EnergyGroup prototypes,WEGWindEnergyGroupprototypes,,,,,,,,
+WEG Wind EnergyGroup,WEG Wind EnergyGroup WEG MS-1,WEGWindEnergyGroupWEGMS1,250.0,7.5,17.0,27.0,16.3,20.0,314.0,2.0
+WEG Wind EnergyGroup,WEG Wind EnergyGroup LS1,WEGWindEnergyGroupLS1,3000.0,7.0,17.0,27.0,45.0,60.0,2827.0,2.0
+WEG Wind EnergyGroup,WEG Wind EnergyGroup WEG MS-2,WEGWindEnergyGroupWEGMS2,250.0,6.0,14.0,24.0,25.0,25.0,491.0,3.0
+WEG Wind EnergyGroup,WEG Wind EnergyGroup WEG MS-3,WEGWindEnergyGroupWEGMS3,300.0,5.0,11.5,25.0,27.5,33.0,855.0,2.0
+WEG Wind EnergyGroup,WEG Wind EnergyGroup WEG MS-4,WEGWindEnergyGroupWEGMS4,600.0,4.0,14.0,25.0,40.0,41.0,1320.0,3.0
+WESPA,WESPA 200/29,WESPA20029,200.0,4.0,14.0,25.0,44.0,29.8,698.0,3.0
+WESPA,WESPA 200/31,WESPA20031,200.0,4.0,13.5,25.0,44.0,31.0,755.0,3.0
+WESPA,WESPA 500/47,WESPA50047,500.0,4.0,14.5,25.0,53.75,47.0,1735.0,3.0
+WESPA,WESPA 750/47,WESPA75047,750.0,4.0,14.5,25.0,53.75,47.0,1735.0,3.0
+Windmatic,Windmatic WM 10s-22,WindmaticWM10s22,22.0,3.0,15.0,25.0,12.0,10.2,81.7,3.0
+Windmatic,Windmatic WM 12s-30,WindmaticWM12s30,30.0,,,,,12.5,122.7,3.0
+Windmatic,Windmatic WM 14-55,WindmaticWM1455,55.0,,,,18.0,14.0,154.0,3.0
+Windmatic,Windmatic WM 14s-65,WindmaticWM14s65,65.0,,,,18.0,14.0,154.0,3.0
+Windmatic,Windmatic WM 15s-55,WindmaticWM15s55,55.0,3.5,15.0,25.0,21.5,14.5,189.0,3.0
+Windmatic,Windmatic WM 15s-66,WindmaticWM15s66,66.0,3.5,15.0,25.0,21.5,15.5,189.0,3.0
+Windmatic,Windmatic WM 17-75,WindmaticWM1775,75.0,3.5,15.0,25.0,21.333333333333332,17.0,225.0,3.0
+Windmatic,Windmatic WM 17s-75,WindmaticWM17s75,75.0,3.5,15.0,25.0,21.333333333333332,17.0,227.0,3.0
+Windmatic,Windmatic WM 17s-95,WindmaticWM17s95,95.0,3.5,15.0,25.0,21.333333333333332,17.0,227.0,3.0
+Windmatic,Windmatic WM 19-99,WindmaticWM1999,99.0,,,,30.5,19.0,284.0,3.0
+Windmatic,Windmatic WM 19-105,WindmaticWM19105,105.0,,,,30.0,19.0,284.0,3.0
+Windmatic,Windmatic WM 20s,WindmaticWM20s,130.0,,,,31.0,20.0,314.0,2.0
+Windmatic,Windmatic WM 23-200,WindmaticWM23200,200.0,,,,30.0,23.0,416.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 200/26,WTNWindTechnikNordWTN20026,200.0,4.0,13.0,25.0,35.0,26.0,531.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 250/30,WTNWindTechnikNordWTN25030,250.0,4.0,14.0,25.0,41.5,30.0,707.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 500/37,WTNWindTechnikNordWTN50037,500.0,4.0,14.0,25.0,45.0,37.0,1075.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 500/48,WTNWindTechnikNordWTN50048,500.0,3.0,12.0,25.0,57.5,48.0,1810.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 643,WTNWindTechnikNordWTN643,600.0,4.0,12.0,25.0,45.0,43.0,1452.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 646,WTNWindTechnikNordWTN646,600.0,3.0,12.0,25.0,57.5,46.0,1662.0,3.0
+WTN Wind TechnikNord,WTN Wind TechnikNord WTN 648,WTNWindTechnikNordWTN648,600.0,3.0,12.0,25.0,57.5,48.0,1810.0,3.0
+Wind World (India),Wind World (India) ww-53,WindWorldIndiaww53,800.0,3.0,11.5,28.0,74.0,52.9,2007.0,3.0
+Wind World,Wind World WW 750/52,WindWorldWW75052,750.0,3.5,13.0,20.0,57.875,52.0,2123.7,3.0
+Wind World,Wind World W2080,WindWorldW2080,120.0,4.0,14.0,25.0,24.0,20.8,340.0,
+Wind World,Wind World W2320/150,WindWorldW2320150,150.0,4.0,13.0,25.0,29.7,23.2,423.0,
+Wind World,Wind World W2320/160,WindWorldW2320160,160.0,4.0,13.0,25.0,29.7,23.2,423.0,
+Wind World,Wind World W2460/100,WindWorldW2460100,100.0,,,,30.0,24.6,475.0,3.0
+Wind World,Wind World W2500,WindWorldW2500,220.0,2.0,13.5,25.0,31.0,25.0,491.0,3.0
+Wind World,Wind World W2700,WindWorldW2700,150.0,2.0,11.0,25.0,36.0,27.0,573.0,3.0
+Wind World,Wind World W2800/150,WindWorldW2800150,150.0,,,,30.0,28.0,616.0,3.0
+Wind World,Wind World W3000/250,WindWorldW3000250,250.0,2.0,12.0,25.0,40.666666666666664,29.2,670.0,3.0
+Wind World,Wind World W3700,WindWorldW3700,500.0,2.0,13.0,25.0,37.25,37.0,1075.0,3.0
+Wind World,Wind World W4100,WindWorldW4100,500.0,2.0,15.0,20.0,45.5,40.1,1263.0,3.0
+Wind World,Wind World W4200,WindWorldW4200,600.0,4.5,14.0,20.0,53.5,42.0,1385.0,3.0
+Wind World,Wind World W4800/750,WindWorldW4800750,750.0,2.0,12.5,25.0,52.166666666666664,48.0,1810.0,3.0
+Windflow,Windflow 45-500,Windflow45500,500.0,4.5,11.5,25.0,38.833333333333336,45.0,1590.0,2.0
+Windflow,Windflow 33-500,Windflow33500,500.0,5.5,13.7,30.0,39.0,33.2,866.0,2.0
+Windflower,Windflower W3,WindflowerW3,3.0,3.5,19.0,,9.0,3.7,10.7,12.0
+Windharvester,Windharvester WH 15,WindharvesterWH15,15.0,,,,9.0,,,
+Windharvester,Windharvester WH 45,WindharvesterWH45,45.0,4.0,11.2,20.2,15.5,17.0,227.0,3.0
+Windkraft Zürcher,Windkraft Zürcher 300 kW,WindkraftZürcher300kW,300.0,1.2,10.0,30.0,22.0,22.0,216.0,3.0
+Windkraft-Zentrale,Windkraft-Zentrale elektrOmat 10kW,WindkraftZentraleelektrOmat10kW,10.0,,,,,4.0,12.6,16.0
+Windkraft-Zentrale,Windkraft-Zentrale elektrOmat 12kW,WindkraftZentraleelektrOmat12kW,12.0,,,,,,,
+Windkraft-Zentrale,Windkraft-Zentrale elektrOmat 20kW,WindkraftZentraleelektrOmat20kW,20.0,3.0,11.0,30.0,14.0,10.0,86.0,3.0
+Windkraft-Zentrale,Windkraft-Zentrale elektrOmat 25kW,WindkraftZentraleelektrOmat25kW,25.0,4.0,11.0,48.0,16.25,10.4,85.0,3.0
+WindMaster / HMZ,WindMaster / HMZ WM 100,WindMasterHMZWM100,100.0,,,,,21.8,,
+WindMaster / HMZ,WindMaster / HMZ WM 300/28,WindMasterHMZWM30028,300.0,4.0,13.0,25.0,41.0,28.0,615.0,3.0
+WindMaster / HMZ,WindMaster / HMZ WM 300/30,WindMasterHMZWM30030,300.0,4.0,13.0,25.0,41.0,30.0,707.0,3.0
+WindMaster / HMZ,WindMaster / HMZ WM 750,WindMasterHMZWM750,750.0,4.5,13.0,26.0,48.0,43.4,1479.0,2.0
+WindMaster / HMZ,WindMaster / HMZ WM 1300,WindMasterHMZWM1300,1300.0,5.0,15.0,25.0,57.4,45.0,1590.0,2.0
+Windspot,Windspot 7.5Kw,Windspot75Kw,7.5,3.0,12.0,20.0,14.666666666666666,6.3,31.2,3.0
+Windtec,Windtec WT646,WindtecWT646,600.0,3.5,11.5,30.0,56.0,45.8,1647.0,3.0
+Windtec,Windtec WT650,WindtecWT650,600.0,3.5,11.0,20.0,56.0,50.0,1963.0,3.0
+Windtec,Windtec WT1566,WindtecWT1566,1500.0,3.0,12.0,25.0,,66.0,3421.0,3.0
+Windtec,Windtec WT1570,WindtecWT1570,1500.0,3.5,11.0,20.0,75.0,70.0,3848.0,3.0
+Windtec,Windtec WT1577,WindtecWT1577,1500.0,3.0,11.0,20.0,93.6,77.0,4708.0,3.0
+Windworks,Windworks Windworker 10,WindworksWindworker10,9.0,,,,,10.0,79.0,3.0
+WinWinD,WinWinD WWD-1 D56,WinWinDWWD1D56,1000.0,3.6,12.5,20.0,60.0,56.0,2463.0,3.0
+WinWinD,WinWinD WWD-1 D60,WinWinDWWD1D60,1000.0,3.6,12.5,20.0,60.0,60.0,2827.0,3.0
+WinWinD,WinWinD WWD-1 D64,WinWinDWWD1D64,1000.0,3.6,12.5,25.0,60.0,64.0,3217.0,3.0
+WinWinD,WinWinD WWD-3 D90,WinWinDWWD3D90,3000.0,4.0,12.5,25.0,84.0,90.0,6475.0,3.0
+WinWinD,WinWinD WWD-3 D100,WinWinDWWD3D100,3000.0,4.0,11.5,25.0,84.0,100.0,7917.0,3.0
+WinWinD,WinWinD WWD-3 D103,WinWinDWWD3D103,3000.0,4.0,11.5,25.0,84.0,103.0,8332.0,3.0
+WinWinD,WinWinD WWD-3 D109,WinWinDWWD3D109,3000.0,4.0,11.0,25.0,84.0,109.0,9348.0,3.0
+WinWinD,WinWinD WWD-3 D120,WinWinDWWD3D120,3000.0,3.0,11.0,25.0,105.0,120.0,11366.0,3.0
+WIPO,WIPO AIRJet 5,WIPOAIRJet5,5.0,3.5,10.0,25.0,12.0,6.0,28.0,3.0
+WIPO,WIPO WINForce 10kW,WIPOWINForce10kW,10.0,3.5,9.0,25.0,16.0,9.8,75.4,3.0
+Wobbelkow,Wobbelkow Eigenbau,WobbelkowEigenbau,,,,,,,,8.0
+Wienpahl,Wienpahl Prototype,WienpahlPrototype,0.5,3.5,6.0,25.0,11.0,3.6,10.0,3.0
+WWA,WWA Falcon 40,WWAFalcon40,10.0,3.5,11.0,,18.0,7.1,39.9,3.0
+XANT,XANT XANT M-21,XANTXANTM21,100.0,3.0,11.0,20.0,30.666666666666668,21.0,,3.0
+XANT,XANT XANT M-24,XANTXANTM24,95.0,3.0,10.0,16.0,30.833333333333332,24.0,452.0,3.0
+XEMC Ltd,XEMC Ltd XE72,XEMCLtdXE72,2000.0,3.0,13.0,25.0,65.0,70.7,3920.0,3.0
+XEMC Ltd,XEMC Ltd XE82,XEMCLtdXE82,2000.0,3.5,12.0,25.0,75.0,82.8,5385.0,3.0
+XEMC Ltd,XEMC Ltd XE87,XEMCLtdXE87,2000.0,3.0,11.0,25.0,75.0,87.7,6046.0,3.0
+XEMC Ltd,XEMC Ltd XE93,XEMCLtdXE93,2000.0,3.0,11.0,25.0,90.0,93.4,6852.0,3.0
+XEMC Ltd,XEMC Ltd XE/DD115,XEMCLtdXEDD115,5000.0,4.0,12.0,25.0,97.5,115.0,10387.0,3.0
+XEMC Ltd,XEMC Ltd XE/DD126,XEMCLtdXEDD126,5000.0,3.0,11.5,25.0,100.0,126.0,,3.0
+Goldwind,Goldwind S43/600,GoldwindS43600,600.0,3.0,14.0,25.0,50.0,43.0,1452.0,3.0
+Goldwind,Goldwind S43/750,GoldwindS43750,750.0,3.0,12.0,25.0,45.0,43.0,1452.0,3.0
+Goldwind,Goldwind S48/750,GoldwindS48750,750.0,3.5,14.5,25.0,50.0,48.0,1810.0,3.0
+Goldwind,Goldwind S50/750,GoldwindS50750,750.0,3.5,14.5,25.0,60.0,50.0,1964.0,3.0
+Goldwind,Goldwind GW 62/1200,GoldwindGW621200,1200.0,3.0,12.5,25.0,77.0,62.0,3000.0,3.0
+Goldwind,Goldwind GW 70/1500,GoldwindGW701500,1500.0,3.0,11.8,25.0,65.0,70.3,3886.0,3.0
+Goldwind,Goldwind GW 77/1500,GoldwindGW771500,1500.0,3.0,11.0,22.0,75.0,76.9,4649.0,3.0
+Goldwind,Goldwind GW 82/1500,GoldwindGW821500,1500.0,3.0,10.3,22.0,85.0,82.3,5325.0,3.0
+Goldwind,Goldwind GW 87/1500,GoldwindGW871500,1500.0,3.0,9.9,22.0,80.0,87.0,5890.0,3.0
+Goldwind,Goldwind GW 90/2500,GoldwindGW902500,2500.0,3.0,12.0,25.0,75.0,90.0,6362.0,3.0
+Goldwind,Goldwind GW 93/1500,GoldwindGW931500,1500.0,,,,,93.0,6793.0,3.0
+Goldwind,Goldwind GW 100/2500,GoldwindGW1002500,2500.0,3.0,11.1,25.0,90.0,100.0,7823.0,3.0
+Goldwind,Goldwind GW 103/2500,GoldwindGW1032500,2500.0,3.0,10.6,25.0,85.0,103.0,8332.0,3.0
+Goldwind,Goldwind GW 106/2500,GoldwindGW1062500,2500.0,3.0,10.3,25.0,90.0,106.0,8825.0,3.0
+Goldwind,Goldwind GW 108/2000,GoldwindGW1082000,2000.0,,,,,108.0,9161.0,3.0
+Goldwind,Goldwind GW 109/2500,GoldwindGW1092500,2500.0,3.0,10.5,25.0,103.33333333333333,109.0,9516.0,3.0
+Goldwind,Goldwind GW 115/2000,GoldwindGW1152000,2000.0,,,,,115.0,10434.4,3.0
+Goldwind,Goldwind GW 121/2500,GoldwindGW1212500,2500.0,2.8,9.3,22.0,105.0,121.0,11595.0,3.0
+Goldwind,Goldwind GW 136/4000,GoldwindGW1364000,4000.0,2.5,11.0,25.0,105.0,136.0,14711.0,3.0
+Goldwind,Goldwind GW 136/4200,GoldwindGW1364200,4200.0,2.5,11.0,25.0,105.0,136.0,14711.0,3.0
+Goldwind,Goldwind GW 140/3000,GoldwindGW1403000,3000.0,2.5,10.5,20.0,110.0,140.0,15474.0,3.0
+Goldwind,Goldwind GW 140/3400,GoldwindGW1403400,3400.0,2.5,11.0,20.0,110.0,140.0,15474.0,3.0
+Goldwind,Goldwind GW 154/6700,GoldwindGW1546700,6700.0,3.0,12.0,25.0,103.0,154.0,18617.0,3.0
+Goldwind,Goldwind GW 164/6450,GoldwindGW1646450,6450.0,3.0,11.5,25.0,104.0,164.0,21124.0,3.0
+Goldwind,Goldwind GW 171/6450,GoldwindGW1716450,6450.0,3.0,10.5,25.0,108.0,171.0,22960.0,3.0
+Xyron,Xyron EX-55,XyronEX55,1000.0,3.0,12.0,24.0,60.0,55.0,2375.8,3.0
+XZERES Wind,XZERES Wind Skystream 3.7,XZERESWindSkystream37,2.1,3.2,11.0,25.0,,3.7,10.9,3.0
+XZERES Wind,XZERES Wind 50,XZERESWind50,51.0,3.0,11.0,25.0,,16.5,213.8,3.0
+XZERES Wind,XZERES Wind 442SR,XZERESWind442SR,10.4,2.5,11.0,25.0,,7.2,41.0,3.0
+Yinhe,Yinhe GX93-2.5MW,YinheGX9325MW,2500.0,3.0,8.5,25.0,80.0,93.1,6764.0,3.0
+Yinhe,Yinhe GX103-2.5MW,YinheGX10325MW,2500.0,3.0,7.5,25.0,80.0,103.2,8329.0,3.0
+Yinhe,Yinhe GX113-2.5MW,YinheGX11325MW,2500.0,3.0,7.0,20.0,88.3,112.6,10024.0,3.0
+Yinhe,Yinhe GX153-6MW,YinheGX1536MW,6000.0,3.0,7.5,25.0,100.0,153.0,18350.0,3.0
+Zenia Energy,"Zenia Energy 7,5kW",ZeniaEnergy75kW,7.5,3.0,,30.0,18.0,7.1,40.0,3.0
+Zenia Energy,Zenia Energy 10kW,ZeniaEnergy10kW,10.0,3.0,,30.0,18.0,7.1,40.0,3.0
+Zenia Energy,Zenia Energy 30kW,ZeniaEnergy30kW,30.0,3.0,,25.0,18.0,13.8,150.0,3.0
+Zephyr,Zephyr WTS 28.250,ZephyrWTS28250,250.0,3.0,12.0,28.0,32.8,28.0,615.0,2.0
+Zephyros,Zephyros Z72,ZephyrosZ72,2000.0,3.0,13.0,25.0,72.5,70.7,3920.0,3.0
+Windey,Windey WD25-250,WindeyWD25250,250.0,4.0,14.0,23.0,28.5,25.0,491.0,3.0
+Windey,Windey WD49-750,WindeyWD49750,750.0,3.5,14.0,25.0,57.5,49.0,1886.0,3.0
+Windey,Windey WD50-750,WindeyWD50750,750.0,3.5,14.0,25.0,57.5,50.0,1963.0,3.0
+Windey,Windey WD52-800,WindeyWD52800,800.0,3.5,14.0,25.0,57.5,52.0,2123.0,3.0
+Windey,Windey WD70-1500,WindeyWD701500,1500.0,3.0,11.5,25.0,71.66666666666667,70.0,3847.0,3.0
+Windey,Windey WD77-1500,WindeyWD771500,1500.0,3.0,11.0,25.0,71.66666666666667,77.0,4654.0,3.0
+Windey,Windey WD82-1500,WindeyWD821500,1500.0,3.0,10.5,25.0,71.66666666666667,82.0,5278.0,3.0
+Windey,Windey WD88-1500,WindeyWD881500,1500.0,3.0,10.0,20.0,75.0,88.0,6079.0,3.0
+Windey,Windey WD93-1500,WindeyWD931500,1500.0,3.0,10.1,20.0,75.0,93.0,6793.0,3.0
+Windey,Windey WD103-2000,WindeyWD1032000,2000.0,3.0,9.9,25.0,90.0,103.0,8430.0,3.0
+Windey,Windey WD103-2500,WindeyWD1032500,2500.0,3.0,10.7,25.0,90.0,103.0,8430.0,3.0
+Windey,Windey WD107-2000,WindeyWD1072000,2000.0,3.0,9.5,25.0,90.0,107.0,8992.0,3.0
+Windey,Windey WD107-2500,WindeyWD1072500,2500.0,3.0,10.1,25.0,90.0,107.0,8992.0,3.0
+Windey,Windey WD110-2000,WindeyWD1102000,2000.0,2.5,9.4,20.0,90.0,110.0,9520.0,3.0
+Windey,Windey WD110-2500,WindeyWD1102500,2500.0,3.0,10.5,25.0,90.0,110.0,9521.0,3.0
+Windey,Windey WD115-2000,WindeyWD1152000,2000.0,2.5,9.2,20.0,90.0,115.0,10388.0,3.0
+Windey,Windey WD121-2000,WindeyWD1212000,2000.0,,,,,121.0,11499.0,3.0
+Windey,Windey WD139-5000,WindeyWD1395000,5000.0,3.0,,25.0,,139.0,,3.0
+Zond,Zond Z-40-FS,ZondZ40FS,550.0,4.0,13.0,29.1,44.6,40.0,1257.0,3.0
+Zond,Zond Z-48,ZondZ48,750.0,4.0,11.6,29.1,53.5,48.0,1810.0,3.0
+Zond,Zond Z-50,ZondZ50,750.0,4.0,11.3,29.0,60.0,50.0,1963.0,3.0
+eno energy,eno energy eno 114 4.8,Enoenergyeno11448,4800.0,3.0,,25.0,127.0,114.9,10369.0,3.0
+eno energy,eno energy eno 126 4.8,Enoenergyeno12648,4800.0,3.0,,25.0,127.0,126.0,12468.0,3.0
+General Electric,General Electric GE 3.2s,GeneralElectricGE32s,3200.0,3.0,14.3,25.0,120.0,104.0,8495.0,3.0
+Nordex,Nordex N131/3900 Delta,NordexN1313900Delta,3900.0,,,,109.0,131.0,13478.0,3.0
+Norwin,Norwin 47-ASR-500,Norwin47ASR500,500.0,4.0,13.0,25.0,52.5,47.0,1735.0,
+PSW,PSW EN-Drive 2000 10kW,PSWENDrive200010kW,10.0,,,,15.25,7.1,39.6,3.0
+PSW,PSW EN-Drive 2000 12kW,PSWENDrive200012kW,12.0,,,,15.25,8.5,56.7,3.0
+PSW,PSW EN-Drive 2000 15kW,PSWENDrive200015kW,15.0,2.3,11.8,20.0,15.25,8.5,56.7,3.0
+PSW,PSW EN-Drive 2000 20kW,PSWENDrive200020kW,20.0,,,,15.25,10.0,78.5,3.0
+REpower,REpower 3.4M104,REpower34M104,3400.0,3.5,13.5,25.0,104.0,104.0,8495.0,
+REpower,REpower 5M jacket tower,REpower5Mjackettower,5075.0,3.5,14.0,25.0,90.0,126.0,12469.0,3.0
+REpower,REpower 5M Offshore,REpower5MOffshore,5075.0,3.5,14.0,30.0,106.0,126.5,12469.0,
+REpower,REpower MD70,REpowerMD70,1500.0,3.5,12.5,25.0,89.75,70.0,3850.0,
+Suzlon,Suzlon S.146,SuzlonS146,4200.0,3.0,9.0,20.0,132.5,146.0,16742.0,3.0
+Suzlon,Suzlon S.154,SuzlonS154,4200.0,3.0,9.5,20.0,132.5,154.0,18627.0,3.0
+Tacke,Tacke TW 1.5s,TackeTW15s,1500.0,3.0,12.0,25.0,82.35,70.5,3902.0,
+Vestas,Vestas V82-1.5,VestasV8215,1500.0,3.0,13.0,25.0,101.5,82.0,5281.0,3.0
+Vestas,Vestas V90 Gridstreamer,VestasV90Gridstreamer,2000.0,4.0,13.5,25.0,102.5,90.0,6362.0,
+Vestas,Vestas V90 Offshore,VestasV90Offshore,3000.0,3.5,15.0,25.0,85.0,90.0,6362.0,
+XEMC DARWIND,XEMC DARWIND XV90,XEMCDARWINDXV90,2000.0,3.0,12.0,25.0,110.0,90.0,6362.0,3.0
+XEMC DARWIND,XEMC DARWIND XE93,XEMCDARWINDXE93,2000.0,3.0,11.0,25.0,110.0,93.0,6792.9,3.0
+XEMC DARWIND,XEMC DARWIND XD115 4.5,XEMCDARWINDXD11545,4500.0,4.0,12.5,25.0,110.0,115.0,10386.9,3.0
+XEMC DARWIND,XEMC DARWIND XD115 5.0,XEMCDARWINDXD11550,5000.0,4.0,14.0,25.0,110.0,115.0,10386.9,3.0
+XEMC DARWIND,XEMC DARWIND XE128,XEMCDARWINDXE128,5000.0,3.0,12.0,25.0,120.0,128.0,12868.0,3.0
+XEMC DARWIND,XEMC DARWIND XD137,XEMCDARWINDXD137,4000.0,3.0,10.5,25.0,120.0,137.0,14741.0,3.0
