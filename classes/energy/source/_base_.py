@@ -59,11 +59,14 @@ class EnergySource(Location, Producible):
 		"""
 		return self.nominal_power * (self.get_efficiency()/100) * 24 * 365.25
 
+	def get_yearly_co2_intensity(self):
+		return self.get_co2_intensity()*self.get_yearly_energy_return()
+
 	# ------------- Prints -------------
 	
 	def print_yearly_co2_intensity(self):
 		return print_weight(
-			self.get_co2_intensity()*self.get_yearly_energy_return()
+			self.get_yearly_co2_intensity()
 		)+' CO2'
 	
 	def print_yearly_energy_return(self):

@@ -41,8 +41,13 @@ def print_money(euro):
 
 
 def print_weight(gramm):
-	if gramm > (1000*1000*1000):
+	if gramm > (1000*1000*1000*1000):
 		return "{} Mio. t".format(
+			round(gramm/(1000*1000*1000*1000), 2)
+		)
+
+	if gramm > (1000*1000*1000):
+		return "{} Tsd. t".format(
 			round(gramm/(1000*1000*1000), 2)
 		)
   

@@ -25,7 +25,7 @@ class LithiumBattery(Producible):
 # -------------- Automobiles --------------
 
 class Automobile(Producible):
-	km_per_year			= 30000 # wieviele Km fährt das Auto pro Jahr?
+	km_per_year			= 13257 # wieviele Km fährt das Auto pro Jahr?
 	
 	def get_energy_operation(self):
 		"""
@@ -39,9 +39,17 @@ class Automobile(Producible):
 	def get_kwh_per_km(self):
 		return 0
 
+	def get_yearly_emissions(self):
+		return self.get_emission_per_km()*self.km_per_year
+
 	def print_emission_per_km(self):
 		return print_weight(
 			self.get_emission_per_km()
+		)
+	
+	def print_yearly_emissions(self):
+		return print_weight(
+			self.get_yearly_emissions()
 		)
 
 

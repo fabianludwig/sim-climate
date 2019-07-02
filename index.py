@@ -1,148 +1,188 @@
 # -*- coding: utf-8 -*-
 
+import os, csv
+
+from functions.print import *
 from classes import energy, geography, mobility, resources
 
-from crawler.windenergy import WindenergyCrawler
 
 
-"""
-class Olfen(Stadt):
-	einwohner 			= 12674 # Wikipedia
 
-	flaeche_sqm			= 52.43 # Wikipedia
-	location_altitude	= 48 	# Wikipedia
+def get_location_by_plz(plz, country='germany'):
+	# https://launix.de/launix/launix-gibt-plz-datenbank-frei/
+	file_path = './data/countries/'+country+'/plz.csv'
+	if os.path.isfile(file_path):
+		with open(file_path, 'r') as file:
+			reader = csv.reader(file, delimiter =';', quotechar ='"')
+			for row in reader:
+				if int(row[0]) == int(plz):
+					location = {
+						'longitude': row[2],
+						'latitude': row[3],
+					}
+					return location
+	return {'longitude': None,'latitude': None,}
 
+def get_plants(country='germany', filter={}):
+	output_list = []
+	file_path = './data/countries/'+country+'/plants_100MW+.csv'
+	if os.path.isfile(file_path):
+		with open(file_path, 'r') as file:
+			reader = csv.reader(file, delimiter =';')
+			for row in reader:
+				if not filter or filter in row[9]:
+					output_list.append({
+						'name': row[0],
+						'betreiber': row[1],
+						#'bundesland': row[2],
+						'plz': row[3],
+						'location': get_location_by_plz(row[3]) if row[3] else {'longitude': None,'latitude': None,},
+						#'city': row[4],
+						'brutto_power': float(row[5].replace(',', '.'))*1000,
+						#'fernwarme_leistung': row[6],
+						#'inbetriebnahme': row[7],
+						#'anlagenart': row[8],
+						'type': row[9],
+					})
+	return output_list
+
+
+
+class Scenario:
+	mobility = {}
+	energy_sources = {}
+
+	_energy_sources = []
+	_automobiles = []
+	_round_automobiles	= 10000
+
+	def __init__(self, *args, **kwargs):
+		self.__dict__.update(kwargs)
+		self.set_mobility()
+		self.set_energy()
 	
-class Germany(Country):
-	einwohner 				= 83000000 	# Wikipedia
-	haushalte_einzel		= 17263000 	# Statista
+	# ------------- Setters -------------
 
-	flaeche_sqm				= 357578.17 # Wikipedia
+	def set_mobility(self):
+		for type, num in self.mobility.items():
+			for i in range(int(num/self._round_automobiles)):
+				self._automobiles.append(
+					getattr(mobility, type)()
+				)
 
-	wind_nennleistung_kw 	= 53000000
-	solar_nennleistung_kw	= 46000000
+	def set_energy(self):
+		for type, num in self.energy_sources.items():
+			for i in range(num):
+				self._energy_sources.append(
+					getattr(energy.source, type)()
+				)
+	
+	# ------------- Getters -------------
 
-	erzeugung_twh_2018		= {
-		'Braunkohle': 146,		# (001_Umweltbundesamt_Stromerzeugung)
-		'Kernenergie': 76,		# (001_Umweltbundesamt_Stromerzeugung)
-		'Steinkohle': 83,		# (001_Umweltbundesamt_Stromerzeugung)
-		'Erdgas': 83,			# (001_Umweltbundesamt_Stromerzeugung)
-		'Mineraloele': 5,		# (001_Umweltbundesamt_Stromerzeugung)
-		'Photovoltaik': 46.2,	
-		'Windenergie': 111.6,
-		'Biomasse': 51.3,
-		'Wasserkraft': 16.5,
-	}
+	def get_mobility_co2(self):
+		co2 = 0
+		for automobile in self._automobiles:
+			co2 += automobile.get_yearly_emissions()
+		return co2*self._round_automobiles
+	
+	def get_energy_co2(self):
+		co2 = 0
+		for source in self._energy_sources:
+			co2 += source.get_yearly_co2_intensity()
+		return co2
 
+	def get_total_co2(self):
+		return self.get_energy_co2()+self.get_mobility_co2()
 
-to_check = Germany()
-to_check.print_results()
-"""
+	def get_total_energy_return(self):
+		kwh = 0
+		for source in self._energy_sources:
+			kwh += source.get_yearly_energy_return()
+		return kwh
 
-"""
-energysources = [
-	'Braunkohle',
-	'Kernenergie',
-	'Steinkohle',
-	'Erdgas',
-	'Mineraloele',
-	'Photovoltaik',
-	'Windenergie',
-	'Biomasse',
-	'Wasserkraft',
-]
+	# ------------- Prints -------------
 
-energystorages = [
-	'Pumpspeicherkraftwerke',
-	'PowerToGas',
-	'Batteriespeicher',
-]
-
-
-for energysource in energysources:
-	nennleistung = 3000
-	instance = energy[energysource](nominal_power=nennleistung)
-	print(energysource + ' (' + str(nennleistung) + ' kW Nennleistung)')
-	print(instance.print_expense() + ' Anschaffungskosten')
-	print(instance.print_expense_operation() + ' jährliche Kosten')
-	print(instance.print_energy_construction() + ' bei Errichtung')
-	print(instance.print_yearly_energy_return() + ' erzeugter Strom')
-	print(instance.print_yearly_co2_intensity() + ' im Betrieb')
-	print(str(round(instance.get_efficiency(), 2))+" % Effizienz")
-	print('Energie-Rücklaufzeit: ' + instance.print_energy_payback_time())
-	print('Kosten-Rücklaufzeit: ' + instance.print_expense_payback_time())
-	print('')
-
-for energystorage in energystorages:
-	instance = energy[energystorage]()
-
-"""
+	def print_mobility_co2(self):
+		return print_weight(
+			self.get_mobility_co2()
+		)
+	
+	def print_energy_co2(self):
+		return print_weight(
+			self.get_energy_co2()
+		)
+	
+	def print_total_co2(self):
+		return print_weight(
+			self.get_total_co2()
+		)
+	
+	def print_total_energy_return(self):
+		return print_watt(
+			self.get_total_energy_return()
+		)
 
 
+scenario = Scenario(
+	mobility = {
+		'AutomobilePetrol': 30451268,
+		'AutomobileDiesel': 15225296,
+		'AutomobileElectro': 83175,
+	},
+	_energy_sources = [
+		*[getattr(energy.source, 'Braunkohle')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Braunkohle')],
 
-"""
-mobilities = [
-	'AutomobileElectro',
-	'AutomobileDiesel',
-	'AutomobilePetrol',
-]
+		*[getattr(energy.source, 'Steinkohle')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Steinkohle')],
+		
+		*[getattr(energy.source, 'Erdgas')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Erdgas')],
 
-for mobility in mobilities:
-	instance = mobility[mobility]()
-	print(mobility)
-	print(instance.print_emission_per_km() + ' / 100km')
-	instance.get_kwh_per_km()
-	print('')
-"""
+		*[getattr(energy.source, 'Windenergie')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Wind')],
 
-nennleistung = 3000
-energysource = energy.Windenergie(nominal_power=nennleistung)
-print('')
-print('Windenergie (' + str(nennleistung) + ' kW Nennleistung)')
-print(energysource.print_expense() + ' Anschaffungskosten')
-print(energysource.print_expense_operation() + ' jährliche Kosten')
-print(energysource.print_energy_construction() + ' bei Errichtung')
-print(energysource.print_yearly_energy_return() + ' erzeugter Strom')
-print(energysource.print_yearly_co2_intensity() + ' im Betrieb')
-print(str(round(energysource.get_efficiency(), 2))+" % Effizienz")
-print('Energie-Rücklaufzeit: ' + energysource.print_energy_payback_time())
-print('Kosten-Rücklaufzeit: ' + energysource.print_expense_payback_time())
+		*[getattr(energy.source, 'Wasserkraft')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Wasser')],
 
-print('')
+		*[getattr(energy.source, 'Kernenergie')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Uran')],
 
-print('Diesel: '+resources.Diesel().print_co2_per_kwh())
-print('Biodiesel: '+resources.Biodiesel().print_co2_per_kwh())
-print('Benzin: '+resources.Benzin().print_co2_per_kwh())
-print('Autogas: '+resources.Autogas().print_co2_per_kwh())
-print('Erdgas: '+resources.Erdgas().print_co2_per_kwh())
-print('Kerosin: '+resources.Kerosin().print_co2_per_kwh())
-print('Heizoel: '+resources.Heizoel().print_co2_per_kwh())
-print('Braunkohle: '+resources.Braunkohle().print_co2_per_kwh())
-print('Steinkohle: '+resources.Steinkohle().print_co2_per_kwh())
+		*[getattr(energy.source, 'Photovoltaik')(
+			nominal_power=source['brutto_power'],
+			longitude=source['location']['longitude'],
+			latitude=source['location']['latitude'],
+		) for source in get_plants(filter='Licht')],
 
-print('')
+	]
+)
 
-print('Holz: '+resources.Holz().print_co2_per_kwh())
-print('Torf: '+resources.Torf().print_co2_per_kwh())
-print('Rohoel: '+resources.Rohoel().print_co2_per_kwh())
-print('Raffineriegas: '+resources.Raffineriegas().print_co2_per_kwh())
-print('Fluessiggas: '+resources.Fluessiggas().print_co2_per_kwh())
-print('Haushaltsmuell: '+resources.Haushaltsmuell().print_co2_per_kwh())
-
-print('')
-
-print('Benziner: '+mobility.AutomobilePetrol().print_emission_per_km())
-print('Diesel: '+mobility.AutomobileDiesel().print_emission_per_km())
-print('Elektro: '+mobility.AutomobileElectro().print_emission_per_km())
-
+print(scenario.print_mobility_co2())
+print(scenario.print_energy_co2())
+print(scenario.print_total_co2())
+print(scenario.print_total_energy_return())
 
 """
-crawler = WindenergyCrawler()
-crawler.crawl_items()
+https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/b_jahresbilanz.html
+https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Jahresbilanz/2018/2018_b_barometer.html?nn=2176778
+https://www.umweltbundesamt.de/dokument/datenbank-kraftwerke-in-deutschland
 """
 
-"""
-Quellen:
-001_Umweltbundesamt_Stromerzeugung: https://www.umweltbundesamt.de/sites/default/files/medien/384/bilder/dateien/3_datentabelle-zur-abb_bruttostromerzeugung-et_2019-02-26.pdf
-
-"""
