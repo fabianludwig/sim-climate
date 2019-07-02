@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from functions.print import *
+from classes.resources import *
 
 
 class Producible:
@@ -14,10 +15,17 @@ class Producible:
 	used_resources		= {}	# Dict of resources in g, key: named by class of type Resource (excluding components)
 
 	def __init__(self, *args, **kwargs):
+		self.__dict__.update(kwargs)
 		self.set_components()
 
 	def set_components(self):
 		pass
+
+	def set_used_resources(self):
+		pass
+
+	def get_lifespan(self):
+		return self.lifespan
 
 	def get_expense(self):
 		"""
@@ -62,6 +70,12 @@ class Producible:
 		for component in self.components:
 			energy_construction += component.get_energy_construction()
 		return energy_construction
+	
+	def get_energy_operation(self):
+		"""
+		Jährlicher Energieaufwand für die Wartung
+		"""
+		return 0
 
 	# ------------- Prints -------------
 

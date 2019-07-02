@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 from globals import *
 
-from .energy.energysources import *
-from .energy.solarenergy import *
-from .energy.windenergy import *
+from .energy.source import *
 
 
 class Person:

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from .energysources import EnergySource
+from ._base_ import EnergySource
 from helpers.abstract import Producible
 
 
@@ -64,7 +64,7 @@ class Photovoltaik(EnergySource):
 		return self.nominal_power*self.m2_per_kwp
 
 	def get_expense_operation(self):
-		return self.get_expense()*0.015/self.lifespan
+		return self.get_expense()*0.015/self.get_lifespan()
 
 	def get_flaechenfaktor(self):
 		"""

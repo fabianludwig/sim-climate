@@ -15,11 +15,11 @@ class EnergySource(Location, Producible):
 
 	price_per_kwh				= 25	# in cents
 
-	def __init__(self, **kwargs):
+	def __init__(self, *args, **kwargs):
+		super().__init__(*args, **kwargs)
 		if 'nominal_power' in kwargs and 'energy_construction' not in kwargs:
 			multiplicator = kwargs.get("nominal_power") / self.nominal_power
 			self.energy_construction = self.get_energy_construction()*multiplicator
-		self.__dict__.update(kwargs)
 
 	def get_efficiency(self):
 		"""
@@ -86,51 +86,3 @@ class EnergySource(Location, Producible):
 			)
 		else:
 			return 'Nie'
-
-
-
-
-# -------------------- Spezifische Energieträger -------------
-
-
-class Braunkohle(EnergySource):
-	co2_intensity				= 979.5 	# 729-1230 (001_Bundestag_Bilanzen)
-
-
-class Kernenergie(EnergySource):
-	# https://de.wikipedia.org/wiki/Liste_der_Kernreaktoren_in_Deutschland
-	co2_intensity				= 32 	# (001_Bundestag_Bilanzen)
-
-
-class Steinkohle(EnergySource):
-	co2_intensity				= 850 	# 622-1080 (001_Bundestag_Bilanzen)
-
-
-class Erdgas(EnergySource):
-	co2_intensity				= 54 	# 428,148,49,-409 (001_Bundestag_Bilanzen)
-
-
-class Mineraloele(EnergySource):
-	co2_intensity				= 890	# (001_Bundestag_Bilanzen)
-	
-
-class Biomasse(EnergySource):
-	# https://de.wikipedia.org/wiki/Liste_von_Biomassekraftwerken_in_Deutschland
-	co2_intensity				= 0
-
-
-class Wasserkraft(EnergySource):
-	# https://de.wikipedia.org/wiki/Liste_von_Wasserkraftwerken_in_Deutschland
-	co2_intensity				= 22 	# 4-40 (001_Bundestag_Bilanzen)
-	lifespan					= 100 	# (001_Bundestag_Bilanzen)
-
-
-
-
-"""
-Quellen:
-001_Bundestag_Bilanzen: https://www.bundestag.de/resource/blob/406432/70f77c4c170d9048d88dcc3071b7721c/wd-8-056-07-pdf-data.pdf
-002_Umweltbundesamt_Emissionsbilanz_EE: https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-10-22_climate-change_23-2018_emissionsbilanz_erneuerbarer_energien_2017_fin.pdf
-
-https://de.wikipedia.org/wiki/Liste_von_fossil-thermischen_Kraftwerken_in_Deutschland
-"""

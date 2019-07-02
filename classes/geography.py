@@ -4,8 +4,9 @@ import math
 
 from globals import *
 from functions.print import *
+from helpers.location import Location
 
-from .energy.energysources import *
+from .energy.source import *
 from .consumers import *
 
 

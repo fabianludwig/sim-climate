@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from .energysources import EnergySource
+from ._base_ import EnergySource
 from helpers.abstract import Producible
 
 

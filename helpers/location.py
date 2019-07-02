@@ -21,8 +21,6 @@ class Location:
 			day_of_year = date.timetuple().tm_yday
 			bogenmass 	= 0.4095*math.sin(0.016906*(day_of_year-80.086))
 			deklination = bogenmass*57.29578
-
-			print(day_of_year, deklination)
 		return 90-(self.latitude-deklination)
 
 	def get_altitude(self):

@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from classes.energy.energysources import *
-from classes.energy.solarenergy import *
-from classes.energy.windenergy import *
-from classes.geography import *
-from classes.energy.energystorage import *
+from classes import energy, geography, mobility
 
 from crawler.windenergy import WindenergyCrawler
 
+
+"""
 class Olfen(Stadt):
 	einwohner 			= 12674 # Wikipedia
 
@@ -37,9 +35,6 @@ class Germany(Country):
 	}
 
 
-
-
-"""
 to_check = Germany()
 to_check.print_results()
 """
@@ -63,9 +58,10 @@ energystorages = [
 	'Batteriespeicher',
 ]
 
+
 for energysource in energysources:
 	nennleistung = 3000
-	instance = globals()[energysource](nominal_power=nennleistung)
+	instance = energy[energysource](nominal_power=nennleistung)
 	print(energysource + ' (' + str(nennleistung) + ' kW Nennleistung)')
 	print(instance.print_expense() + ' Anschaffungskosten')
 	print(instance.print_expense_operation() + ' jährliche Kosten')
@@ -78,12 +74,45 @@ for energysource in energysources:
 	print('')
 
 for energystorage in energystorages:
-	instance = globals()[energystorage]()
+	instance = energy[energystorage]()
+
 """
 
+
+
+"""
+mobilities = [
+	'AutomobileElectro',
+	'AutomobileDiesel',
+	'AutomobilePetrol',
+]
+
+for mobility in mobilities:
+	instance = mobility[mobility]()
+	print(mobility)
+	print(instance.print_emission_per_km() + ' / 100km')
+	instance.get_kwh_per_km()
+	print('')
+"""
+
+nennleistung = 3000
+energysource = energy.Windenergie(nominal_power=nennleistung)
+print('')
+print('Windenergie (' + str(nennleistung) + ' kW Nennleistung)')
+print(energysource.print_expense() + ' Anschaffungskosten')
+print(energysource.print_expense_operation() + ' jährliche Kosten')
+print(energysource.print_energy_construction() + ' bei Errichtung')
+print(energysource.print_yearly_energy_return() + ' erzeugter Strom')
+print(energysource.print_yearly_co2_intensity() + ' im Betrieb')
+print(str(round(energysource.get_efficiency(), 2))+" % Effizienz")
+print('Energie-Rücklaufzeit: ' + energysource.print_energy_payback_time())
+print('Kosten-Rücklaufzeit: ' + energysource.print_expense_payback_time())
+print('')
+
+"""
 crawler = WindenergyCrawler()
 crawler.crawl_items()
-
+"""
 
 """
 Quellen:

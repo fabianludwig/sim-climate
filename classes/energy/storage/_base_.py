@@ -2,6 +2,7 @@
 from helpers.location import Location
 from helpers.abstract import Producible
 
+
 class EnergyStorage(Location, Producible):
 	efficiency 				= 0 # in % (Wirkungsgrad)
 	capacity				= 0 # in kWh

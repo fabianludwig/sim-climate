@@ -1,16 +1,16 @@
 def print_watt(menge_in_kw):
 	if menge_in_kw > (1000*1000*1000):
-		return "{} tWh".format(
+		return "{} TWh".format(
 			round(menge_in_kw/(1000*1000*1000), 2)
 		)
 	
 	if menge_in_kw > (1000*1000):
-		return "{} gWh".format(
+		return "{} GWh".format(
 			round(menge_in_kw/(1000*1000), 2)
 		)
 
 	if menge_in_kw > 1000:
-		return "{} mWh".format(
+		return "{} MWh".format(
 			round(menge_in_kw/1000, 2)
 		)
 	
