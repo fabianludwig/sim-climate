@@ -5,28 +5,20 @@ from ._base_ import *
 
 # ------------ Kraftstoffe ------------
 
+class Diesel(CombustibleFluid):
+	dichte					= 830		# (https://www.chemie.de/lexikon/Dieselkraftstoff.html)
+	combustion_co2_per_l	= 2650		# (https://www.chemie.de/lexikon/Dieselkraftstoff.html)
+	brennwert_per_l			= 9.8		# (https://www.chemie.de/lexikon/Dieselkraftstoff.html)
 
-class Diesel(Combustible, Fluid):
-	dichte		= 830   # (009_Chemie_Diesel)
-
-	def get_brennwert(self):
-		return 10.4*self.get_dichte()  # (007_Wikipedia_Diesel)
+	expense_per_l			= 1.25
 
 	def get_production_kwh_per_g(self):
-		return 7/self.get_dichte()  # (001_Springer)
+		return 7/self.get_dichte()/1000	# (001_Springer)
 	
-	def get_combustion_co2_per_g(self):
-		return 2.64*self.get_dichte()  # (009_Chemie_Diesel)
-	
-	def get_expense(self):
-		return 1.25*self.get_dichte()   # Preis pro Liter ca. 1.25€
-
 
 class Biodiesel(Diesel):
-	dichte		= 880   # (006_Wikipedia_Biodiesel)
-
-	def get_brennwert(self):
-		return 11.1*self.get_dichte()  # (006_Wikipedia_Biodiesel)
+	dichte					= 880   	# (006_Wikipedia_Biodiesel)
+	brennwert_per_l			= 11.1
 
 	def get_expense(self):
 		return super().get_expense()-0.09 # (004_Spritmonitor_Biodiesel)
@@ -35,38 +27,103 @@ class Biodiesel(Diesel):
 		return super().get_combustion_co2_per_g()*0.25 # (004_Spritmonitor_Biodiesel)
 
 
-class Benzin(Combustible, Fluid):
-	dichte		= 750   # (002_Helpster)
-
-	def get_brennwert(self):
-		return 9.7*self.get_dichte()  # (008_ErdgasInfo)
-
-	def get_combustion_co2_per_g(self):
-		return 2.36*self.get_dichte()  # (003_Spritmonitor)
+class Benzin(CombustibleFluid):
+	dichte					= 750   	# (002_Helpster)
+	brennwert_per_l			= 9.7		# (008_ErdgasInfo)
+	combustion_co2_per_l	= 2360		# (003_Spritmonitor)
 	
-	def get_expense(self):
-		return 1.50*self.get_dichte()   # Preis pro Liter ca. 1.50€
+	expense_per_l			= 1.5		# Preis pro Liter ca. 1.50€
 
 
-class Autogas(Combustible, Fluid):
-	dichte		= 570   	# (005_Wikipedia_Autogas)
-	brennwert 	= 12.8		# (005_Wikipedia_Autogas)
-
-	def get_combustion_co2_per_g(self):
-		return 1.64*self.get_dichte()  # (003_Spritmonitor)
+class Autogas(CombustibleFluid):
+	brennwert 				= 12.8		# (005_Wikipedia_Autogas)
 	
-	def get_expense(self):
-		return 0.67*self.get_dichte()   # Preis pro Liter ca. 60c
+	dichte					= 570   	# (005_Wikipedia_Autogas)
+	combustion_co2_per_l	= 1640		# (003_Spritmonitor)
+	
+	expense_per_l			= 0.67
 
 
 class Erdgas(Combustible):
-	brennwert		= 0.0119
+	brennwert				= 10.83		# (010_Biobrennstoffhof)
+	combustion_co2_per_g	= 2.79		# (003_Spritmonitor)
 
-	def get_combustion_co2_per_g(self):
-		return 2.79/1000	# (003_Spritmonitor)
+	expense					= 0.7
+
+
+class Kerosin(CombustibleFluid):
+	brennwert_per_l			= 9.5		# (008_ErdgasInfo)
+	combustion_co2_per_g	= 2.76		# (https://www.chemie.de/lexikon/Kerosin.html)
+	dichte					= 800   	# (https://de.wikipedia.org/wiki/Kerosin)
+
+
+# ------------ Brennstoffe ------------
+
+
+class Heizoel(CombustibleFluid):
+	brennwert				= 11.86		# (010_Biobrennstoffhof)
+	combustion_co2_per_l	= 2650		# (https://de.wikipedia.org/wiki/Heiz%C3%B6l)
 	
-	def get_expense(self):
-		return 0.7/1000   	# Preis pro Kilogramm ca. 70c
+	dichte					= 840		
+
+
+
+class Braunkohle(Combustible):
+	brennwert				= 5.3		# (010_Biobrennstoffhof)
+	combustion_co2_per_g	= 2.12		# (010_Quaschning_C02_Brennstoffe)
+
+
+class Steinkohle(Combustible):
+	brennwert				= 7.0		# (010_Biobrennstoffhof)
+	combustion_co2_per_g	= 2.38		# (010_Quaschning_C02_Brennstoffe)
+
+
+
+
+
+class Holz(Combustible):
+	brennwert				= 4.9		# (010_Biobrennstoffhof)
+
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.39*1000	
+
+
+class Torf(Combustible):
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.38*1000	
+
+
+class Rohoel(CombustibleFluid):
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.26*1000	
+
+
+class Raffineriegas(CombustibleFluid):
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.24*1000	
+
+
+class Fluessiggas(CombustibleFluid):
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.23*1000	
+
+
+class Naturgas(CombustibleFluid):
+	def get_co2_per_kwh(self):
+		# (010_Quaschning_C02_Brennstoffe)
+		return 0.20*1000	
+
+
+class Haushaltsmuell(Combustible):
+	brennwert				= 2.5		# (010_Biobrennstoffhof)
+
+
+
 
 
 """
@@ -79,74 +136,6 @@ class Erdgas(Combustible):
 007_Wikipedia_Diesel: https://de.wikipedia.org/wiki/Diesel
 008_ErdgasInfo: https://www.erdgas.info/erdgas-mobil/erdgas-als-kraftstoff/reichweite-von-gas-autos/
 009_Chemie_Diesel: https://www.chemie.de/lexikon/Dieselkraftstoff.html
-"""
-
-
-
-# ------------ Brennstoffe ------------
-
-
-class Holz(Combustible):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.39*1000	
-
-
-class Torf(Combustible):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.38*1000	
-
-
-class Braunkohle(Combustible):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.41*1000	
-
-
-class Steinkohle(Combustible):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.34*1000	
-
-
-class Heizoel(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.28*1000
-
-
-class Rohoel(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.26*1000	
-
-
-class Kerosin(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.26*1000	
-
-
-class Raffineriegas(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.24*1000	
-
-
-class Fluessiggas(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.23*1000	
-
-
-class Naturgas(Combustible, Fluid):
-	def get_co2_per_kwh(self):
-		# (010_Quaschning_C02_Brennstoffe)
-		return 0.20*1000	
-
-
-
-"""
 010_Quaschning_C02_Brennstoffe: https://www.volker-quaschning.de/datserv/CO2-spez/index.php
+010_Biobrennstoffhof: http://www.biobrennstoffhof.de/leistung.htm
 """

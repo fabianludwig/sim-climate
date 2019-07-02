@@ -50,7 +50,7 @@ class AutomobileFuel(Automobile):
 	fuel_type			= Benzin()
 
 	def get_emission_per_km(self):
-		return (self.l_per_100km/100)/(self.fuel_type.get_dichte()) * self.fuel_type.get_combustion_co2_per_g() * 1000
+		return (self.l_per_100km/100)*self.fuel_type.get_combustion_co2_per_l()
 
 	def get_kwh_per_km(self):
 		return (self.l_per_100km/100)*self.fuel_type.get_brennwert()/self.fuel_type.get_dichte()

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from classes import energy, geography, mobility
+from classes import energy, geography, mobility, resources
 
 from crawler.windenergy import WindenergyCrawler
 
@@ -107,7 +107,34 @@ print(energysource.print_yearly_co2_intensity() + ' im Betrieb')
 print(str(round(energysource.get_efficiency(), 2))+" % Effizienz")
 print('Energie-Rücklaufzeit: ' + energysource.print_energy_payback_time())
 print('Kosten-Rücklaufzeit: ' + energysource.print_expense_payback_time())
+
 print('')
+
+print('Diesel: '+resources.Diesel().print_co2_per_kwh())
+print('Biodiesel: '+resources.Biodiesel().print_co2_per_kwh())
+print('Benzin: '+resources.Benzin().print_co2_per_kwh())
+print('Autogas: '+resources.Autogas().print_co2_per_kwh())
+print('Erdgas: '+resources.Erdgas().print_co2_per_kwh())
+print('Kerosin: '+resources.Kerosin().print_co2_per_kwh())
+print('Heizoel: '+resources.Heizoel().print_co2_per_kwh())
+print('Braunkohle: '+resources.Braunkohle().print_co2_per_kwh())
+print('Steinkohle: '+resources.Steinkohle().print_co2_per_kwh())
+
+print('')
+
+print('Holz: '+resources.Holz().print_co2_per_kwh())
+print('Torf: '+resources.Torf().print_co2_per_kwh())
+print('Rohoel: '+resources.Rohoel().print_co2_per_kwh())
+print('Raffineriegas: '+resources.Raffineriegas().print_co2_per_kwh())
+print('Fluessiggas: '+resources.Fluessiggas().print_co2_per_kwh())
+print('Haushaltsmuell: '+resources.Haushaltsmuell().print_co2_per_kwh())
+
+print('')
+
+print('Benziner: '+mobility.AutomobilePetrol().print_emission_per_km())
+print('Diesel: '+mobility.AutomobileDiesel().print_emission_per_km())
+print('Elektro: '+mobility.AutomobileElectro().print_emission_per_km())
+
 
 """
 crawler = WindenergyCrawler()
