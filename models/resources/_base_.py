@@ -25,10 +25,17 @@ class Resource:
 	def get_production_co2_per_g(self):
 		return self.production_co2_per_g
 	
+	# ------------- Prints -------------
 
-class Fluid(Resource):
-	def get_dichte(self):
-		return self.dichte/1000
+	def print_production_kwh_per_g(self):
+		return print_watt(
+			self.get_production_kwh_per_g()
+		)
+
+	def print_production_co2_per_g(self):
+		return print_weight(
+			self.get_production_co2_per_g()
+		)
 
 
 class Combustible(Resource):
@@ -44,22 +51,37 @@ class Combustible(Resource):
 	def get_combustion_co2_per_g(self):
 		return self.combustion_co2_per_g
 
-	def get_co2_per_kwh(self):
+	def get_combustion_co2_per_kwh(self):
 		return (1/self.get_brennwert())*self.get_combustion_co2_per_g()*1000
 	
-	def print_co2_per_kwh(self):
+	# ------------- Prints -------------
+
+	def print_combustion_co2_per_g(self):
 		return print_weight(
-			self.get_co2_per_kwh()
+			self.get_combustion_co2_per_g()
 		)
 
-class CombustibleFluid(Combustible, Fluid):
+	def print_combustion_co2_per_kwh(self):
+		return print_weight(
+			self.get_combustion_co2_per_kwh()
+		)
+
+
+class CombustibleFluid(Combustible):
 	combustion_co2_per_l	= None
 	brennwert_per_l			= None
 	expense_per_l			= None
+	production_kwh_per_l	= None
 	
+	def get_production_kwh_per_g(self):
+		if self.production_kwh_per_l:
+			return self.production_kwh_per_l/self.get_dichte()
+		else:
+			return super().get_production_kwh_per_g()
+
 	def get_combustion_co2_per_g(self):
 		if self.combustion_co2_per_l:
-			return self.combustion_co2_per_l/self.get_dichte()/1000
+			return self.combustion_co2_per_l/self.get_dichte()
 		else:
 			return super().get_combustion_co2_per_g()
 	
@@ -77,6 +99,13 @@ class CombustibleFluid(Combustible, Fluid):
 	
 	def get_expense(self):
 		if self.expense_per_l:
-			return self.expense_per_l*self.get_dichte()/1000
+			return self.expense_per_l/self.get_dichte()
 		else:
 			return super().get_expense()
+	
+	# ------------- Prints -------------
+
+	def print_combustion_co2_per_l(self):
+		return print_weight(
+			self.get_combustion_co2_per_l()
+		)

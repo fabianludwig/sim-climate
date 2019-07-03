@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from globals import *
 from functions.print import *
 
-from helpers.location import Location
-from helpers.abstract import Producible
+from ..._base_ import Producible, Locatable
 
 
-class EnergySource(Location, Producible):
+class EnergySource(Locatable, Producible):
 	co2_intensity				= 0 	# in g CO2 per kWh
 
 	nominal_power				= 1		# (Nennleistung in kWh)
@@ -64,11 +62,21 @@ class EnergySource(Location, Producible):
 
 	# ------------- Prints -------------
 	
+	def print_co2_intensity(self):
+		return print_weight(
+			self.get_co2_intensity()
+		)+' CO2/kWh'
+
 	def print_yearly_co2_intensity(self):
 		return print_weight(
 			self.get_yearly_co2_intensity()
 		)+' CO2'
 	
+	def print_yearly_return(self):
+		return print_money(
+			self.get_yearly_return()
+		)
+
 	def print_yearly_energy_return(self):
 		return print_watt(
 			self.get_yearly_energy_return()

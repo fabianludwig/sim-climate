@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-from helpers.location import Location
-from helpers.abstract import Producible
+from ..._base_ import Producible, Locatable
 
 
-class EnergyStorage(Location, Producible):
+class EnergyStorage(Locatable, Producible):
 	efficiency 				= 0 # in % (Wirkungsgrad)
 	capacity				= 0 # in kWh
 

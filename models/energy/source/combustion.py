@@ -1,30 +1,31 @@
 # -*- coding: utf-8 -*-
 
 from ._base_ import EnergySource
-from helpers.abstract import Producible
 
 
 class Braunkohle(EnergySource):
 	co2_intensity				= 979.5 	# 729-1230 (001_Bundestag_Bilanzen)
 	nominal_power 				= 1300000
-	efficiency					= 35	# (https://de.wikipedia.org/wiki/Kohlekraftwerk)
+	efficiency					= 44	# (https://de.wikipedia.org/wiki/Kraftwerk#Wirkungsgrad)
 
 
 class Kernenergie(EnergySource):
 	# https://de.wikipedia.org/wiki/Liste_der_Kernreaktoren_in_Deutschland
 	co2_intensity				= 32 	# (001_Bundestag_Bilanzen)
 	nominal_power 				= 1400000
+	efficiency					= 35	# (https://de.wikipedia.org/wiki/Kraftwerk#Wirkungsgrad)
 
 
 class Steinkohle(EnergySource):
 	co2_intensity				= 850 	# 622-1080 (001_Bundestag_Bilanzen)
 	nominal_power 				= 1300000
-	efficiency					= 38	# (https://de.wikipedia.org/wiki/Kohlekraftwerk)
+	efficiency					= 46	# (https://de.wikipedia.org/wiki/Kraftwerk#Wirkungsgrad)
 
 
 class Erdgas(EnergySource):
 	co2_intensity				= 54 	# 428,148,49,-409 (001_Bundestag_Bilanzen)
 	nominal_power 				= 1300000
+	efficiency					= 35.5	# (https://de.wikipedia.org/wiki/Kraftwerk#Wirkungsgrad)
 
 
 class Mineraloele(EnergySource):

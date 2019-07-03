@@ -2,16 +2,15 @@
 
 import math
 
-from globals import *
 from functions.print import *
-from helpers.location import Location
+from ._base_ import Locatable
 
 from .energy.source import *
 from .consumers import *
 
 
-
-class Area(Location):
+"""
+class Area(Locatable):
 	einwohner				= 10000
 	energysources			= []
 
@@ -190,3 +189,5 @@ class Country(Geography):
 
 	einspeiseverguetung_cent_windenergie	= 4.38
 	einspeiseverguetung_cent_solarenergie	= 10.64
+
+"""

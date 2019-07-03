@@ -2,8 +2,10 @@
 
 from functions.print import *
 
-from helpers.abstract import Producible
-from classes.resources import *
+from .._base_ import Producible
+from ..resources.combustibles import *
+
+from ._base_ import *
 
 
 # -------------- Komponenten --------------
@@ -24,33 +26,9 @@ class LithiumBattery(Producible):
 
 # -------------- Automobiles --------------
 
-class Automobile(Producible):
-	km_per_year			= 13257 # wieviele Km fährt das Auto pro Jahr?
-	
-	def get_energy_operation(self):
-		"""
-		Zu bedenken: Ersatzteile, Ölwechsel
-		"""
-		return 0
-	
-	def get_emission_per_km(self):
-		return 100
 
-	def get_kwh_per_km(self):
-		return 0
-
-	def get_yearly_emissions(self):
-		return self.get_emission_per_km()*self.km_per_year
-
-	def print_emission_per_km(self):
-		return print_weight(
-			self.get_emission_per_km()
-		)
-	
-	def print_yearly_emissions(self):
-		return print_weight(
-			self.get_yearly_emissions()
-		)
+class Automobile(Vehicle):
+	km_per_year			= 13257
 
 
 class AutomobileFuel(Automobile):
@@ -81,12 +59,8 @@ class AutomobileElectro(Automobile):
 	def get_emission_per_km(self):
 		"""
 		Abhängig von der Stromquelle 
-		Kohlestrom: 165g
-		Strommix DE: 80g 
-		EE: 0g
-		(001_Quaschning_Elektroauto)
 		"""
-		return 80
+		return self.get_kwh_per_km()*474	# ((https://de.statista.com/statistik/daten/studie/38897/umfrage/co2-emissionsfaktor-fuer-den-strommix-in-deutschland-seit-1990/))
 	
 	def get_kwh_per_km(self):
 		return self.kwh_per_100km/100
@@ -96,9 +70,15 @@ class AutomobileDiesel(AutomobileFuel):
 	fuel_type			= Diesel()
 	l_per_100km			= 7		# (003_Statista)
 
+
 class AutomobilePetrol(AutomobileFuel):
 	fuel_type			= Benzin()
 	l_per_100km			= 7.8 	# (003_Statista)
+
+
+class AutomobileTruck(AutomobileDiesel):
+	l_per_100km			= 30
+	km_per_year			= 100000
 
 
 """

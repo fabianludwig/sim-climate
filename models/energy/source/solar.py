@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from ._base_ import EnergySource
-from helpers.abstract import Producible
+from ..._base_ import Producible
 
 
 # -------------- Komponenten --------------

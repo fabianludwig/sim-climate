@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-from globals import *
 
 from .energy.source import *
+
+"""
+EURO_PRO_KWH = 0.275
 
 
 class Person:
@@ -48,3 +50,4 @@ class Gewerbe:
 	
 	def jahreskosten_in_eur(self):
 		return self.verbrauch_jahr_kwh() * EURO_PRO_KWH
+"""
